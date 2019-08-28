@@ -8,13 +8,12 @@ export default class NotesPage extends Component {
     }
 
     componentDidMount() {
-        fetch(this.props.link)
+        fetch("https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data" + this.props.location.pathname)
             .then(res => res.text())
             .then(text => this.setState({ markdown: text }));
     }
 
     render() {
-        console.log('hello')
         const { markdown } = this.state;
         return <ReactMarkdown source={markdown} />;
     }
