@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react'
 import ReactMarkdown from 'react-markdown';
 
 import Header from './header'
 import Footer from './footer'
 
-export default class NotesPage extends Component {
+export default class AboutPage extends React.Component {
     constructor() {
         super();
         this.state = { markdown: '' };
     }
 
     componentDidMount() {
-        fetch("https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data" + this.props.location.pathname)
+        fetch("https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/about/about.md")
             .then(res => res.text())
             .then(text => this.setState({ markdown: text }));
     }
@@ -19,7 +19,7 @@ export default class NotesPage extends Component {
     render() {
         const { markdown } = this.state;
         return (
-            <div className="notes-wrapper">
+            <div className="about-wrapper">
                 <ReactMarkdown source={markdown} />
             </div>
         )

@@ -6,11 +6,13 @@ import * as serviceWorker from './serviceWorker';
 import './index.css';
 import App from './App';
 import NotesPage from './components/notes'
+import AboutPage from './components/about'
 
 const routing = (
     <Router>
         <div>
             <Route exact path="/" component={App} />
+            <Route path="/about" component={AboutPage} />
             <Route path="/notes" component={NotesPage} />
         </div>
     </Router>

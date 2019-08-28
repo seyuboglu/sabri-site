@@ -1,21 +1,115 @@
 [
     {
         "title": "Functions",
-        "description": "woohoo functions",
+        "description": "This week we'll introduce you to Python. We will present to you to PyBot, the orange-loving robot, and the functions that control it. By the end of class, you will be writing your first programs.",
+        "links": [
+            "https://google.com",
+            "https://cs106r.com"
+        ],
+        "objectives": [
+            "Familiarity with Python",
+            "Function calling",
+            "Function Implementation"
+        ],
         "notes": [
             {
-                "name": "square dance",
-                "link": "notes/intro.md"
+                "name": "Introduction to Computer Science",
+                "link": "notes/intro_cs.md"
+            },
+            {
+                "name": "Introduction to Python",
+                "link": "notes/intro_python.md"
+            },
+            {
+                "name": "PyBot",
+                "link": "notes/intro_pybot.md"
+            },
+            {
+                "name": "Simple Functions",
+                "link": "notes/functions_1.md"
+            }
+        ],
+        "exercises": [
+            {
+                "name": "Print Name",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            },
+            {
+                "name": "Harvest Your First Fruit",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            },
+            {
+                "name": "Turn Left Function",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            }
+        ],
+        "projects": [
+            {
+                "name": "Introducing You",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            },
+            {
+                "name": "Pick Corners",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
             }
         ]
     },
     {
-        "title": "lists",
-        "description": "asdf lists",
+        "title": "Loops and Conditional Statements",
+        "description": "This week we'll introduce you to loops and conditional statements- essential components of computer science that allow us to write truly powerful programs. This week, PyBot's world is going to become a lot more interesting.",
+        "links": [
+            "https://google.com",
+            "https://cs106r.com"
+        ],
+        "objectives": [
+            "Conditional Statements",
+            "\"For\" Loops",
+            "\"While\" Loops"
+        ],
         "notes": [
             {
-                "name": "square dance",
-                "link": "notes/functions.md"
+                "name": "Conditional Statements",
+                "link": "notes/conditionals.md"
+            },
+            {
+                "name": "Loops",
+                "link": "notes/loops.md"
+            }
+        ],
+        "exercises": [
+            {
+                "name": "Warmup: Stairs",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            },
+            {
+                "name": "Big Field",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            },
+            {
+                "name": "Square Dance (Formerly Dança do Quadrado)",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            },
+            {
+                "name": "Rogue Fruit",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            },
+            {
+                "name": "Two Rows",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            },
+            {
+                "name": "Land's End",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            },
+            {
+                "name": "Face North",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            }
+        ],
+        "projects": [
+            {
+                "name": "Pick Up All The Fruits!",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
             }
         ]
     }
