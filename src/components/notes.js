@@ -14,6 +14,7 @@ export default class NotesPage extends Component {
     }
 
     render() {
+        console.log('hello')
         const { markdown } = this.state;
         return <ReactMarkdown source={markdown} />;
     }

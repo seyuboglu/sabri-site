@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default class ConceptCard extends React.Component {
   render() {
@@ -19,7 +20,7 @@ export default class ConceptCard extends React.Component {
         <ul>
           {description}
         </ul>
-        <a href={notes[0]['link']} target="_blank">{notes[0]['name']}</a>
+        <Link to={notes[0]['link']} target="_blank">{notes[0]['name']}</Link>
       </div>
     );
   }
