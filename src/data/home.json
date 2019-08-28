@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Functions",
+        "description": "woohoo functions",
+        "notes": [
+            {
+                "name": "square dance",
+                "link": "public/notes/intro.md"
+            }
+        ]
+    },
+    {
+        "title": "lists",
+        "description": "asdf lists",
+        "notes": [
+            {
+                "name": "square dance",
+                "link": "https://www.google.com"
+            }
+        ]
+    }
+]
