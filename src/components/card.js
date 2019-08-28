@@ -12,7 +12,6 @@ export default class ConceptCard extends React.Component {
       exercises,
       projects,
       challenges,
-      location
     } = this.props
 
     notes = notes.map(note => <div><Link to={note['link']}>{note['name']}</Link></div>)
@@ -23,7 +22,7 @@ export default class ConceptCard extends React.Component {
       <div className="concept-card">
         <div className="card-preview">
           <div className="card-preview-image">
-            <img src={"https://raw.githubusercontent.com/geoffreyangus/md-ml/master/res" + location.pathname}/>
+            <img src={"https://raw.githubusercontent.com/geoffreyangus/md-ml/master/" + image}/>
           </div>
           <div>
             {description}

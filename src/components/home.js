@@ -24,6 +24,7 @@ export default class HomePage extends Component {
         let cards = []
         if (data != null) {
             for (let i = 0; i < data.length; i++) {
+                console.log(data[i])
                 cards.push(
                     <ConceptCard
                         title={data[i]['title']}
