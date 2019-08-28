@@ -1,6 +1,7 @@
 [
     {
         "title": "Functions",
+        "image": "res/week1_preview.png",
         "description": "This week we'll introduce you to Python. We will present to you to PyBot, the orange-loving robot, and the functions that control it. By the end of class, you will be writing your first programs.",
         "links": [
             "https://google.com",
@@ -56,6 +57,7 @@
     },
     {
         "title": "Loops and Conditional Statements",
+        "image": "res/week2_preview.png",
         "description": "This week we'll introduce you to loops and conditional statements- essential components of computer science that allow us to write truly powerful programs. This week, PyBot's world is going to become a lot more interesting.",
         "links": [
             "https://google.com",

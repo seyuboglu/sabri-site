@@ -23,7 +23,7 @@ export default class HomePage extends Component {
 
         let cards = []
         if (data != null) {
-            for (let i = 0; i < 2; i++) {
+            for (let i = 0; i < data.length; i++) {
                 cards.push(
                     <ConceptCard
                         title={data[i]['title']}
@@ -40,7 +40,7 @@ export default class HomePage extends Component {
         }
 
         return (
-            <div>
+            <div id="home-page">
                 <Header/>
                 <div id="navbar-wrapper">
                     <NavBar />

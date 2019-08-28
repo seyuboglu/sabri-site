@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#home-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(95deg, #155799, #159957);
+    min-height: 100vh;
+}
+
+.concept-card {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px;
+    box-shadow: 3px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border-style: solid;
+    padding: 30px;
+    background-color: white;
+}
+
+.card-preview {
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    border-radius: 0;
+    border-width: 0px 0px 0px 2px;
+    border-color: #819197;
+    padding-left: 30px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-preview-image {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body-title {
+    font-size: 24px;
+}
+
+.card-materials {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-materials a {
+    padding: 8px 0px 5px 4px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #606c70;
+    font-weight: 800;
+    font-size: 18px;
+    transition: background-color 0.23s, color 0.23s;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+
+.card-materials a:hover {
+    background-color: #EFEFEF;
+    cursor: pointer;
+}
+
+.card-materials a:active {
+    background-color: #DDDDDD;
+}
+
+.card-materials title {
+    font-size: 20px;
+}
+
+.card-materials-notes a {
+    border-color: #20955b;
+}
+
+.card-materials-notes a:hover {
+    color: #20955b;
+}
+
+.card-materials-notes a:active {
+    color: #20955b;
+}
+
+.card-materials-assignments {
+    border-color: #1b5995;
+}
+
+.card-materials-assignments a:hover {
+    color: #1b5995;
+}
+
+.card-materials-assignments a:active {
+    color: #1b5995;
+}

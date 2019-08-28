@@ -7,10 +7,10 @@ export default class NavBar extends Component {
 
     render() {
         return (
-            <div id="nav-bar" class="nav-bar home-nav-bar">
-                <a class="main-link" href="/#" class="btn"><div>MD + ML</div></a>
-                <a href="/about" class="btn">About</a>
-                <a target="_blank" href="https://repl.it/logout" class="btn">Login</a>
+            <div id="nav-bar" className="nav-bar home-nav-bar">
+                <a className="main-link" href="/#" className="btn"><div>MD + ML</div></a>
+                <a href="/about" className="btn">About</a>
+                <a target="_blank" href="https://repl.it/logout" className="btn">Login</a>
             </div>
         )
     }
