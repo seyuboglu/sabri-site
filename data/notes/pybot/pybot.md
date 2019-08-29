@@ -90,6 +90,6 @@ def main():
 
 _Result_
 
-[fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_simple_pybot.gif "PyBot example")
+![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_simple_pybot.gif "PyBot example")
 
 **NOTE**: Although PyBot is simple, programming her is not. It can be very challenging, and don't be discouraged if your programs don't work at first. PyBot is almost identical to _Karel the Robot_ used in Stanford's Introductory CS course (CS 106A), and students often say it is the hardest part of the course.
