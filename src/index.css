@@ -236,6 +236,13 @@ a {
     color: #42516e
 }
 
+.notes-wrapper img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
 .notes-wrapper h1 {
     color: #333996;
 }

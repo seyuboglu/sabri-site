@@ -15,6 +15,7 @@ Each field has 25 **cells** arranged in a 5x5 grid. In each cell there is:
 
 The four sides of a PyCountry field are labeled with the cardinal directions: _north, east, south_ and _west_.
 
+![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_pycountry.png "PyBot example")
 
 # PyBot Capabilities
 
@@ -52,7 +53,9 @@ Below we outline the functions that PyBot understands and give a simple example 
 ## Actions
 As we discussed above, PyBot is capable of performing a few simple actions. By writing the following Python functions in our code, we can tell PyBot to perform those actions. In code, the functions look like: `move()`, `turn_right()`, and `pick_fruit()`.
 
-
+![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_move.png "PyBot example")
+![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_turn_right.png "PyBot example")
+![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_pick_fruit.png "PyBot example")
 
 
 ## Conditions
@@ -87,5 +90,6 @@ def main():
 
 _Result_
 
+[fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_simple_pybot.gif "PyBot example")
 
 **NOTE**: Although PyBot is simple, programming her is not. It can be very challenging, and don't be discouraged if your programs don't work at first. PyBot is almost identical to _Karel the Robot_ used in Stanford's Introductory CS course (CS 106A), and students often say it is the hardest part of the course.
