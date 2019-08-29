@@ -11,7 +11,6 @@ Functions are the foundation of computer programming. Not only do they make it e
 
 A program with good style typically has descriptive names and short, readable functions. We will go more into this later.
 
-<a class="anchor-offset" id="syntax-breakdown" href="#syntax-breakdown"></a>
 ### Syntax Breakdown
 
 In order to understand the way functions work, we are going to break them down to their simplest components. Let's use a PyBot function as an example:
