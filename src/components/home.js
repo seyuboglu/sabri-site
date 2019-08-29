@@ -29,6 +29,8 @@ export default class HomePage extends Component {
                         title={data[i]['title']}
                         image={data[i]['image']}
                         description={data[i]['description']}
+                        objectives={data[i]['objectives']}
+                        challenges={data[i]['challenges']}
                         links={data[i]['links']}
                         notes={data[i]['notes']}
                         exercises={data[i]['exercises']}

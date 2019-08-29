@@ -2,11 +2,19 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default class ConceptCard extends React.Component {
+  convert_to_links(links) {
+    if (links) {
+      links = links.map(link => <Link to={link['link']}>{link['name']}</Link>)
+    }
+    return links
+  }
+
   render() {
     let {
       title,
       image,
       description,
+      objectives,
       links,
       notes,
       exercises,
@@ -14,9 +22,13 @@ export default class ConceptCard extends React.Component {
       challenges,
     } = this.props
 
-    notes = notes.map(note => <Link to={note['link']}>{note['name']}</Link>)
-    exercises = exercises.map(exercise => <Link to={exercise['link']}>{exercise['name']}</Link>)
-    projects = projects.map(project => <Link to={project['link']}>{project['name']}</Link>)
+    links = this.convert_to_links(links)
+    challenges = this.convert_to_links(challenges)
+
+    notes = this.convert_to_links(notes)
+    exercises = this.convert_to_links(exercises)
+    projects = this.convert_to_links(projects)
+
 
     return (
       <div className="concept-card">
@@ -25,6 +37,30 @@ export default class ConceptCard extends React.Component {
           <div>
             {description}
           </div>
+          <div>
+            <b>Learning Objectives:</b>
+            <ol>
+              {objectives.map(objective => <li>{objective}</li>)}
+            </ol>
+          </div>
+          {links !== undefined ?
+            <div>
+              <b>Useful Links:</b>
+              <ul>
+                {links.map(link => <li>{link}</li>)}
+              </ul>
+            </div> :
+            <div></div>
+          }
+          {challenges !== undefined ?
+            <div>
+              <b>Challenges:</b>
+              <ul>
+                {challenges.map(challenge => <li>{challenge}</li>)}
+              </ul>
+            </div> :
+            <div></div>
+          }
         </div>
         <div className="card-body">
           <div className="card-body-title">

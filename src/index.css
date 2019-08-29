@@ -15,6 +15,9 @@ code {
     position: fixed;
     top: 0;
     width: 100%;
+    /* border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color:#eef0f8; */
     display: flex;
     padding: 10px;
     z-index: 10000;
@@ -92,6 +95,19 @@ code {
     display: flex;
     flex-direction: row-reverse;
     margin: 30px;
+    box-shadow: 3px 4px #798397;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #cacfd6;
+    padding: 30px;
+    background-color: white;
+}
+
+.concept-card:first-of-type {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px;
+    margin-top: 40px;
     box-shadow: 3px 4px #798397;
     border-radius: 10px;
     border-style: solid;

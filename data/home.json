@@ -4,13 +4,21 @@
         "image": "res/week2_preview.png",
         "description": "This week we'll introduce you to loops and conditional statements- essential components of computer science that allow us to write truly powerful programs. This week, PyBot's world is going to become a lot more interesting.",
         "links": [
-            "https://google.com",
-            "https://cs106r.com"
+            {
+                "name": "Conditionals vs. ML",
+                "link": "https://www.quora.com/Is-there-any-difference-between-Artificial-Intelligence-and-a-billion-if-else-statements"
+            }
         ],
         "objectives": [
             "Conditional Statements",
             "\"For\" Loops",
             "\"While\" Loops"
+        ],
+        "challenges": [
+            {
+                "name": "Midpoint PyBot",
+                "link": "https://repl.it/student_embed/assignment/3740214/dccb7a09abbcba70f8d93dac957cc21c"
+            }
         ],
         "notes": [
             {
@@ -24,38 +32,18 @@
         ],
         "exercises": [
             {
-                "name": "Warmup: Stairs",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
-            },
-            {
-                "name": "Big Field",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
-            },
-            {
-                "name": "Square Dance (Formerly Dança do Quadrado)",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
-            },
-            {
-                "name": "Rogue Fruit",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
-            },
-            {
                 "name": "Two Rows",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+                "link": "https://repl.it/student_embed/assignment/3740212/fcd8a61057c0c46c102ea1d977e14570"
             },
             {
                 "name": "Land's End",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
-            },
-            {
-                "name": "Face North",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+                "link": "https://repl.it/student_embed/assignment/3740210/0469c0d8c844954ac1d3d66038fed407"
             }
         ],
         "projects": [
             {
                 "name": "Pick Up All The Fruits!",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+                "link": "https://repl.it/student_embed/assignment/3740213/736d448aff8e6a374082bf4756c41f33"
             }
         ]
     },
@@ -64,19 +52,21 @@
         "image": "res/week1_preview.png",
         "description": "This week we'll introduce you to Python. We will present to you to PyBot, the orange-loving robot, and the functions that control it. By the end of class, you will be writing your first programs.",
         "links": [
-            "https://google.com",
-            "https://cs106r.com"
+            {
+                "name": "Python usage statistics",
+                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+            },
+            {
+                "name": "Alternative explanations of decomposition",
+                "link": "https://stackoverflow.com/questions/947874/what-is-functional-decomposition"
+            }
         ],
         "objectives": [
-            "Familiarity with Python",
             "Function calling",
-            "Function Implementation"
+            "Function implementation",
+            "Function decomposition"
         ],
         "notes": [
-            {
-                "name": "Introduction to Computer Science",
-                "link": "notes/intro_cs/intro_cs.md"
-            },
             {
                 "name": "Introduction to Python",
                 "link": "notes/intro_python/intro_python.md"
@@ -93,25 +83,17 @@
         "exercises": [
             {
                 "name": "Print Name",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+                "link": "https://repl.it/student_embed/assignment/3735928/909e1d0882427d7d365717d915aa7312"
             },
             {
                 "name": "Harvest Your First Fruit",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
-            },
-            {
-                "name": "Turn Left Function",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+                "link": "https://repl.it/student_embed/assignment/3740207/d68b2c6c47aed2aa1326f0a27a9a22b5"
             }
         ],
         "projects": [
             {
-                "name": "Introducing You",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
-            },
-            {
                 "name": "Pick Corners",
-                "link": "https://repl.it/student_embed/assignment/1331620/25866db1b3373f24a9aeb214f59a7162"
+                "link": "https://repl.it/student_embed/assignment/3740174/4181c6f91cb7d823f5050162c7fc819b"
             }
         ]
     }
