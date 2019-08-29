@@ -191,3 +191,35 @@ code {
 .card-materials-assignments a:active {
     color: #333996;
 }
+
+.footer {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    color: #42516e;
+}
+
+.notes-wrapper {
+    padding: 100px;
+    background-color: #f9fafb;
+    color: #42516e
+}
+
+.notes-wrapper h1 {
+    color: #333996;
+}
+
+.notes-wrapper h2 {
+    color: #333996;
+}
+
+.notes-wrapper h3 {
+    color: #42516e;
+}
+
+.notes-wrapper pre {
+    padding: 10px;
+    background-color: #eef0f8;
+    font-weight: 600;
+    border-radius: 5px;
+}

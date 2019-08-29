@@ -1,38 +1,30 @@
----
-title: Loops
+# Loops
 ---
 
 By now, you may have seen code that uses _conditional statements_ to whether or not to run certain segments of code. What about code that can decide whether to run itself more than once?
 
-Control flow segments responsible for making the code run several times (sometimes _infinite_ times) are known as **loops**. 
+Control flow segments responsible for making the code run several times (sometimes _infinite_ times) are known as **loops**.
 
 
-<div class="definition-section" markdown="1">
 
-<span class="definition-title">Definition</span>
 **Loop** - In a program, a segment of code that is capable of running multiple times.
 
-</div>
 
 There are two primary types of loops: `for` and `while`. These two types of loops are essential in programs, both large and small, that are meant to process large quantities of data and execute complex, but repetitive tasks.
 
-<a class="anchor-offset" id="for-loop" href="#for-loop"></a>
-### `for` Loop 
+### `for` Loop
 
 Consider the following statement:
 
-> For the next 7 days, I am going to eat a pizza.   
+> For the next 7 days, I am going to eat a pizza.
 
 What do you know about the statement above?
 
 To start, you know that I am going to eat a pizza. You also know that I am going to eat a pizza for the next 7 days _exactly_. No more, no less. This is the basic premise of a `for` loop. It is a segment of code that runs for a specified number of **iterations**.
 
-<div class="definition-section" markdown="1">
 
-<span class="definition-title">Definition</span>
 **Iterations** - A single run of a statement within a loop.
 
-</div>
 
 In Python, `for` loops are declared with the following structure:
 
@@ -52,9 +44,7 @@ Notice the following 5 elements:
 
 Let's take a look at all of these parts with an example!
 
-<div class="example-section" markdown="1">
 
-<span class="example-title">Example</span>
 Let's say that you want to get PyBot to go across the field. In the _Simple Function_ notes, we saw a function that accomplished this called `move_across()`. It looked a little something like this:
 
 ```python
@@ -77,22 +67,17 @@ Clean, right?
 
 Notice how the `for` loop is constructed. Here, we've replaced the word `num_iterations` with the number 99, because 99 is the number of times we want to call the `move()` function. Now, we only have to write `move()` once in a loop that does 99 iterations.
 
-</div>
 
-<div class="aside" markdown="1">
 
 Thinking to yourself, "What about the `range` function?" The `range` function tells `i` exactly what number to go to. In this case, it tells i to be the numbers 0 to 98. We will go more into detail about the way it does this in the coming weeks! For now, do not worry too much about it.
 
-</div>
 
 Ready to try it yourself? Here is a quick exercise to get you warmed up to `for` loops!
 
-<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1322765/fdc40a84d1d5c2234ae6cab1ecb01bf9"></iframe>
 
 But what if you _don't_ know how long to do something for? Well, that is what `while` loops are for.
 
-<a class="anchor-offset" id="while-loop" href="#while-loop"></a>
-### `while` Loop 
+### `while` Loop
 
 Consider the following statement:
 
@@ -112,9 +97,7 @@ It is very similar to the `for` loop structure, except for one big difference: `
 
 Here is a quick example:
 
-<div class="example-section" markdown="1">
 
-<span class="example-title">Example</span>
 Imagine that you want PyBot to move across the field, but you don't know how big this particular field is. You can't write out the right number of `move()` calls, and you can't set up a `for` loop capable of knowing when to stop iterating. One thing we can do is write out a function that uses a `while` loop to run while `not front_is_blocked()`, like this:
 
 ```python
@@ -123,13 +106,10 @@ def move_across_variable():
         move()
 ```
 
-</div>
 
 Make sense? Try out the following exercise and get some practice with `while` loops!
 
-<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1310899/dbc2970a6f7c445de841e7a7ddf31ce0"></iframe>
 
-<a class="anchor-offset" id="infinite-loop" href="#infinite-loop"></a>
 ### The "Infinite" Loop
 
 ```python
