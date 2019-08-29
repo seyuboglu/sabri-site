@@ -14,16 +14,14 @@ export default class ConceptCard extends React.Component {
       challenges,
     } = this.props
 
-    notes = notes.map(note => <div><Link to={note['link']}>{note['name']}</Link></div>)
-    exercises = exercises.map(exercise => <div><Link to={exercise['link']}>{exercise['name']}</Link></div>)
-    projects = projects.map(project => <div><Link to={project['link']}>{project['name']}</Link></div>)
+    notes = notes.map(note => <Link to={note['link']}>{note['name']}</Link>)
+    exercises = exercises.map(exercise => <Link to={exercise['link']}>{exercise['name']}</Link>)
+    projects = projects.map(project => <Link to={project['link']}>{project['name']}</Link>)
 
     return (
       <div className="concept-card">
         <div className="card-preview">
-          <div className="card-preview-image">
-            <img src={"https://raw.githubusercontent.com/geoffreyangus/md-ml/master/" + image}/>
-          </div>
+          <img className="card-preview-image" src={"https://raw.githubusercontent.com/geoffreyangus/md-ml/master/" + image}/>
           <div>
             {description}
           </div>

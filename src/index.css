@@ -11,13 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    z-index: 10000;
+    font-size: small;
+    background-color: rgba(0,0,0,0.0);
+    transition: background-color 0.23s;
+}
+
+.navbar.scroll {
+    background-color: #333996;
+
+}
+
+.navbar.scroll a:hover {
+    text-shadow: 3px 3px rgba(0,0,0,0.6);
+}
+
+.navbar.scroll a:active {
+    text-shadow: none;
+}
+
+.navbar a:first-child {
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    float: left;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.navbar a:hover {
+    text-shadow: 3px 3px rgba(0,0,0,0.1);
+}
+
+.navbar a:active {
+    text-shadow: none;
+}
+
+.navbar a {
+    padding: 0.5rem 0rem;
+    float: right;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #333996;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    transition: text-shadow 0.2s;
+}
+
+.navbar.scroll a {
+    color: white
+}
+
+@media screen and (max-width: 42em) {
+    .navbar a {
+        margin-top: 1rem;
+    }
+}
+
 
 #home-page {
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(95deg, #155799, #159957);
+    background-color: #f9fafb;
     min-height: 100vh;
 }
 
@@ -25,20 +92,21 @@ code {
     display: flex;
     flex-direction: row-reverse;
     margin: 30px;
-    box-shadow: 3px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 4px #798397;
     border-radius: 10px;
     border-style: solid;
+    border-color: #cacfd6;
     padding: 30px;
     background-color: white;
 }
 
 .card-preview {
     width: 300px;
-    height: 100%;
     background-color: white;
+    color: #42516e;
     border-radius: 0;
     border-width: 0px 0px 0px 2px;
-    border-color: #819197;
+    border-color: #cacfd6;
     padding-left: 30px;
     border-style: solid;
     display: flex;
@@ -57,21 +125,17 @@ code {
 }
 
 .card-body-title {
-    font-size: 24px;
-}
-
-.card-materials {
-    display: flex;
-    flex-direction: column;
+    font-size: 32px;
+    font-weight: 800;
+    color: #333996
 }
 
 .card-materials a {
-    padding: 8px 0px 5px 4px;
-    margin-left: 15px;
-    margin-top: 10px;
+    padding: 8px 8px 5px 5px;
+    margin: 12px 30px 0px 0px;
     text-decoration: none;
-    color: #606c70;
-    font-weight: 800;
+    color: #42516e;
+    font-weight: 600;
     font-size: 18px;
     transition: background-color 0.23s, color 0.23s;
     border-style: solid;
@@ -87,30 +151,43 @@ code {
     background-color: #DDDDDD;
 }
 
-.card-materials title {
+.card-materials-title {
     font-size: 20px;
+    font-weight: 800;
+    margin-top: 30px;
+    color: #42516e
+}
+
+.card-materials-notes {
+    display: flex;
+    flex-direction: column;
 }
 
 .card-materials-notes a {
-    border-color: #20955b;
+    border-color: #333996;
 }
 
 .card-materials-notes a:hover {
-    color: #20955b;
+    color: #333996;
 }
 
 .card-materials-notes a:active {
-    color: #20955b;
+    color: #333996;
 }
 
 .card-materials-assignments {
-    border-color: #1b5995;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-materials-assignments a {
+    border-color: #333996;
 }
 
 .card-materials-assignments a:hover {
-    color: #1b5995;
+    color: #333996;
 }
 
 .card-materials-assignments a:active {
-    color: #1b5995;
+    color: #333996;
 }

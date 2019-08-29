@@ -24,7 +24,6 @@ export default class HomePage extends Component {
         let cards = []
         if (data != null) {
             for (let i = 0; i < data.length; i++) {
-                console.log(data[i])
                 cards.push(
                     <ConceptCard
                         title={data[i]['title']}
@@ -43,9 +42,6 @@ export default class HomePage extends Component {
         return (
             <div id="home-page">
                 <Header/>
-                <div id="navbar-wrapper">
-                    <NavBar />
-                </div>
                 <div id="concept-cards-wrapper">
                     {cards}
                 </div>
