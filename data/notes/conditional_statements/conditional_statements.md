@@ -38,7 +38,7 @@ Every `if` statement consists of  a condition (i.e. a _True_ or _False_ question
 
 
 Let's learn the steps for writing `if` statements with PyBot:
-![fig](figures/fig_if_example.png)
+![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/conditional_statements/figures/fig_if_example.png)
 
 1. First, we start with the word `if` followed by a space .
 2. Next, we write a PyBot condition function (e.g. `has_fruit()`, `front_is_blocked()`). Remember, using a PyBot conditions function is like asking a True or False question to PyBot.
@@ -66,7 +66,7 @@ if not front_is_blocked():
 
 _Result_
 
-![fig](figures/fig_not.png)
+![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/conditional_statements/figures/fig_not.png)
 In summary, `not` allows us to write `if` statements where code is executed if a condition is **not** true.
 
 
@@ -79,7 +79,7 @@ In Python, we can program conditional instructions to have a default course of a
 
 Let's walk through the steps of writing an _if-else_ statement:
 
- ![fig](figures/fig_else.png)
+ ![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/conditional_statements/figures/fig_else.png)
 
 1. First, we write a regular `if` statement with a condition and conditional instructions.
 2. Next, we write `else` at the same level of indentation as `if` above.
@@ -108,7 +108,7 @@ Let's go back to  to the grocery store example one last time: You are about to g
 
 At the grocery store you will follow one of **three** possible courses of action: (1) buy Maracuja, (2) buy Kiwi or (3) buy Mango. In Python, we can program conditional instructions with multiple possible courses of action by extending the `if` statement with an `elif` statement.
 
- ![fig](figures/fig_elif.png)
+ ![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/conditional_statements/figures/fig_elif.png)
 
 1. First, we have a regular `if` statement with a condition and code.
 2. Next, we write `elif` at the same level of indentation as `if` above.
@@ -179,7 +179,7 @@ move()
 _Result_
 
 
- ![fig](figures/fig_nest.png)
+ ![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/conditional_statements/figures/fig_nest.png)
 
 
 ## Logical Operators – Compound Conditions
