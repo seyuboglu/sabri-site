@@ -19,8 +19,11 @@ export default class AboutPage extends React.Component {
     render() {
         const { markdown } = this.state;
         return (
-            <div className="about-wrapper">
-                <ReactMarkdown source={markdown} />
+            <div>
+                <Header/>
+                <div className="notes-wrapper">
+                    <ReactMarkdown source={markdown} />
+                </div>
             </div>
         )
     }

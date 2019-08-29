@@ -37,7 +37,7 @@ export default class ConceptCard extends React.Component {
           <div>
             {description}
           </div>
-          <div>
+          <div className="card-preview-objectives">
             <b>Learning Objectives:</b>
             <ol>
               {objectives.map(objective => <li>{objective}</li>)}
