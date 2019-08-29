@@ -58,14 +58,11 @@ As we discussed above, PyBot is capable of performing a few simple actions. By w
 ## Conditions
 PyBot is also able to answer a few yes or no questions about her condition. We can ask PyBot these questions by writing the following functions in our code. When PyBot reads these questions, she passes the answer back to us in a process called **returning**. We'll discuss **returning** in more depth in later notes, so don't worry about it too much. For now, think of **returning** as answering a question posed by a function.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_has_fruit.png "PyBot example")
 
+![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_front_is_blocked.png "PyBot example")
 
-![fig](https://github.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_has_fruit.png "PyBot example")
-
-![fig](fhttps://github.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_front_is_blocked.png "PyBot example")
-
-![fig](https://github.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_is_facing_north.png "PyBot example")
+![fig](https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/notes/pybot/figures/fig_is_facing_north.png "PyBot example")
 
 
 
