@@ -193,6 +193,7 @@ code {
 }
 
 .footer {
+    margin-top: 100px;
     width: 100%;
     text-align: center;
     font-style: italic;
@@ -222,4 +223,15 @@ code {
     background-color: #eef0f8;
     font-weight: 600;
     border-radius: 5px;
+}
+
+.notes-wrapper blockquote {
+    font-style: italic;
+    font-weight: 600;
+    margin: 0px;
+    padding: 1px 30px;
+    background-color: #efefef;
+    border-width: 0px 0px 0px 2px;
+    border-style: solid;
+    border-color: #42516e;
 }

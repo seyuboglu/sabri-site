@@ -19,8 +19,12 @@ export default class NotesPage extends Component {
     render() {
         const { markdown } = this.state;
         return (
-            <div className="notes-wrapper">
-                <ReactMarkdown source={markdown} />
+            <div>
+                <Header/>
+                <div className="notes-wrapper">
+                    <ReactMarkdown source={markdown} />
+                    <Footer />
+                </div>
             </div>
         )
     }
