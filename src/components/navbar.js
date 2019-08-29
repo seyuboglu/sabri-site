@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 export default class NavBar extends Component {
     constructor() {
@@ -33,8 +34,8 @@ export default class NavBar extends Component {
         console.log(this.state)
         return (
             <div id="navbar" className={this.state.scrolled ? "navbar scroll" : "navbar"}>
-                <a className="main-link" href="/#" className="btn"><div><b>MD</b>+<b>ML</b></div></a>
-                <a href="/about" className="btn">About</a>
+                <a className="main-link" href="" className="btn"><div><b>MD</b>+<b>ML</b></div></a>
+                <Link to="/about">About</Link>
                 <a target="_blank" href="https://repl.it/logout" className="btn">Login</a>
             </div>
         )

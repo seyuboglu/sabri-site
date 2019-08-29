@@ -9,7 +9,7 @@ import NotesPage from './components/notes'
 import AboutPage from './components/about'
 
 const routing = (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <div>
             <Route exact path="/" component={App} />
             <Route path="/about" component={AboutPage} />
