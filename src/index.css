@@ -13,6 +13,10 @@ code {
         monospace;
 }
 
+a {
+    color: #333996;
+}
+
 .navbar {
     position: fixed;
     top: 0;

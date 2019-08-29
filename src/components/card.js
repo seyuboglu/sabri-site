@@ -2,9 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default class ConceptCard extends React.Component {
-  convert_to_links(links) {
+  convert_to_links(links, is_internal) {
     if (links) {
-      links = links.map(link => <Link to={link['link']}>{link['name']}</Link>)
+      if (is_internal) {
+        links = links.map(link => <Link to={link['link']}>{link['name']}</Link>)
+      }
+      else {
+        links = links.map(link => <a href={link['link']} target='_blank'>{link['name']}</a>)
+      }
     }
     return links
   }
@@ -22,12 +27,12 @@ export default class ConceptCard extends React.Component {
       challenges,
     } = this.props
 
-    links = this.convert_to_links(links)
-    challenges = this.convert_to_links(challenges)
+    links = this.convert_to_links(links, false)
+    challenges = this.convert_to_links(challenges, false)
 
-    notes = this.convert_to_links(notes)
-    exercises = this.convert_to_links(exercises)
-    projects = this.convert_to_links(projects)
+    notes = this.convert_to_links(notes, true)
+    exercises = this.convert_to_links(exercises, false)
+    projects = this.convert_to_links(projects, false)
 
 
     return (

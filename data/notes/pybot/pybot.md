@@ -58,7 +58,14 @@ As we discussed above, PyBot is capable of performing a few simple actions. By w
 ## Conditions
 PyBot is also able to answer a few yes or no questions about her condition. We can ask PyBot these questions by writing the following functions in our code. When PyBot reads these questions, she passes the answer back to us in a process called **returning**. We'll discuss **returning** in more depth in later notes, so don't worry about it too much. For now, think of **returning** as answering a question posed by a function.
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
+
+![fig](figures/fig_has_fruit.png "PyBot example")
+
+![fig](figures/fig_front_is_blocked.png "PyBot example")
+
+![fig](figures/fig_is_facing_north.png "PyBot example")
 
 
 
@@ -82,10 +89,6 @@ def main():
 ```
 
 _Result_
-
-
-# Excercise
-Now try it yourself in the exercise:
 
 
 **NOTE**: Although PyBot is simple, programming her is not. It can be very challenging, and don't be discouraged if your programs don't work at first. PyBot is almost identical to _Karel the Robot_ used in Stanford's Introductory CS course (CS 106A), and students often say it is the hardest part of the course.
