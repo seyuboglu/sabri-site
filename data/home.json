@@ -5,6 +5,14 @@
         "description": "This week we'll introduce you to loops and conditional statements- essential components of computer science that allow us to write truly powerful programs. This week, PyBot's world is going to become a lot more interesting.",
         "links": [
             {
+                "name": "Loops Tutorial (DataCamp)",
+                "link": "https://www.datacamp.com/community/tutorials/loops-python-tutorial"
+            },
+            {
+                "name": "if-else Tutorial (DataCamp)",
+                "link": "https://www.datacamp.com/community/tutorials/python-if-elif-else"
+            },
+            {
                 "name": "Conditionals vs. ML",
                 "link": "https://www.quora.com/Is-there-any-difference-between-Artificial-Intelligence-and-a-billion-if-else-statements"
             }

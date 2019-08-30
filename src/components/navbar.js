@@ -36,7 +36,7 @@ export default class NavBar extends Component {
             <div id="navbar" className={this.state.scrolled ? "navbar scroll" : "navbar"}>
                 <a className="main-link" href="/md-ml/" className="btn"><div><b>MD</b>+<b>ML</b></div></a>
                 <Link to="/about">About</Link>
-                <a target="_blank" href="https://repl.it/logout" className="btn">Login</a>
+                <a target="_blank" href="https://repl.it/classroom/invite/db61PxD" className="btn">Sign up</a>
             </div>
         )
     }
