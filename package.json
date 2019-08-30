@@ -1,5 +1,5 @@
 {
-  "homepage": "https://geoffreyangus.github.io/md-ml/",
+  "homepage": "https://mdml.dev",
   "name": "md-ml",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
