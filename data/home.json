@@ -31,9 +31,18 @@
             }
         ],
         "exercises": [
+            {
+                "name": "Loading Data",
+                "link": "https://repl.it/student_embed/assignment/3882021/04d8040a22bc08a4555e7870ad68a51f"
+            }
             
         ],
         "projects": [
+            {
+                "name": "SpotiPy",
+                "link": "https://repl.it/student_embed/assignment/3882019/b9bf77c5e3df2d218604a5c852598249"
+            }
+
         ]
     },
     {
@@ -68,6 +77,10 @@
             }
         ],
         "exercises": [
+            {
+                "name": "Bank Account",
+                "link": "https://repl.it/student_embed/assignment/3882016/9f80fac9afe4b3d1e8fb0b8b1fe77706"
+            }
             
         ],
         "projects": [
@@ -99,7 +112,14 @@
             }
         ],
         "exercises": [
-            
+            {
+                "name": "Calculator",
+                "link": "https://repl.it/student_embed/assignment/3882014/bbd8c238ec6435a2c1305745509e7707"
+            },
+            {
+                "name": "Fibonacci",
+                "link": "https://repl.it/student_embed/assignment/3882015/3fb3556d84c78f8936a6aec4d46ab013"
+            }   
         ],
         "projects": [
         ]
