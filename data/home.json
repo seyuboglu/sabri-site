@@ -37,20 +37,6 @@
         ],
         "challenges": [
         ],
-        "slides": [
-            {
-                "name": "Objects and Variables",
-                "link": "notes/slides/operators.pdf"
-            },
-            {
-                "name": "Operators",
-                "link": "notes/slides/operators.pdf"
-            },
-            {
-                "name": "Functions with Objects",
-                "link": "notes/slides/operators.pdf"
-            }
-        ],
         "notes": [
             {
                 "name": "Complex Objects",
@@ -82,8 +68,14 @@
         ],
         "notes": [
             {
-                "name": "Advanced Functions (P2)",
+                "name": "Writing Functions with Objects",
                 "link": "notes/functions/advanced_functions_2.md"
+            }
+        ],
+        "slides": [
+            {
+                "name": "Writinig Functions with Objects",
+                "link": "notes/slides/advanced_functions.pdf"
             }
         ],
         "exercises": [
@@ -107,7 +99,7 @@
         ],
         "notes": [
             {
-                "name": "Variables",
+                "name": "Objects and Variables",
                 "link": "notes/variables/variables.md"
             },
             {
@@ -115,8 +107,22 @@
                 "link": "notes/operators/operators.md"
             },
             {
-                "name": "Advanced Functions",
+                "name": "Using Functions with Objects",
                 "link": "notes/functions/advanced_functions_1.md"
+            }
+        ],
+        "slides": [
+            {
+                "name": "Objects and Variables",
+                "link": "notes/slides/objects_variables.pdf"
+            },
+            {
+                "name": "Using Functions with Objects (1)",
+                "link": "notes/slides/functions_objects.pdf"
+            },
+            {
+                "name": "Operators",
+                "link": "notes/slides/operators.pdf"
             }
         ],
         "exercises": [
@@ -164,6 +170,12 @@
             {
                 "name": "Conditionals vs. ML",
                 "link": "https://www.quora.com/Is-there-any-difference-between-Artificial-Intelligence-and-a-billion-if-else-statements"
+            }
+        ],
+        "slides": [
+            {
+                "name": "Control Flow",
+                "link": "notes/slides/week_two.pdf"
             }
         ],
         "objectives": [
@@ -235,6 +247,12 @@
             {
                 "name": "Simple Functions",
                 "link": "notes/simple_functions/simple_functions.md"
+            }
+        ],
+        "slides": [
+            {
+                "name": "Introduction to Python",
+                "link": "slides/week_one.pdf"
             }
         ],
         "exercises": [
