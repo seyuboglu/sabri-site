@@ -39,7 +39,15 @@
         ],
         "slides": [
             {
+                "name": "Objects and Variables",
+                "link": "notes/slides/operators.md"
+            },
+            {
                 "name": "Operators",
+                "link": "notes/slides/operators.md"
+            },
+            {
+                "name": "Functions with Objects",
                 "link": "notes/slides/operators.md"
             }
         ],
