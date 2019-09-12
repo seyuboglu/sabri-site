@@ -37,6 +37,12 @@
         ],
         "challenges": [
         ],
+        "slides": [
+            {
+                "name": "Operators",
+                "link": "notes/slides/operators.md"
+            }
+        ],
         "notes": [
             {
                 "name": "Complex Objects",

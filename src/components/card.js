@@ -22,6 +22,7 @@ export default class ConceptCard extends React.Component {
       objectives,
       links,
       notes,
+      slides,
       exercises,
       projects,
       challenges,
@@ -31,6 +32,7 @@ export default class ConceptCard extends React.Component {
     challenges = this.convert_to_links(challenges, false)
 
     notes = this.convert_to_links(notes, true)
+    slides = this.convert_to_links(notes, true)
     exercises = this.convert_to_links(exercises, false)
     projects = this.convert_to_links(projects, false)
 
@@ -75,6 +77,10 @@ export default class ConceptCard extends React.Component {
             <div className="card-materials-notes">
               <div className="card-materials-title">Notes</div>
               {notes}
+            </div>
+            <div className="card-materials-notes">
+              <div className="card-materials-title">Slides</div>
+              {slides}
             </div>
             <div className="card-materials-assignments">
               <div className="card-materials-title">Exercises</div>
