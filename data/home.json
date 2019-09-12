@@ -23,11 +23,11 @@
         "slides": [
             {
                 "name": "Lists",
-                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/list.pdf"
+                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/lists.pdf"
             },
             {
                 "name": "Dictionaries",
-                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/dict.pdf"
+                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/dicts.pdf"
             }
         ],
         "exercises": [
