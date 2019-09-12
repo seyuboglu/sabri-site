@@ -14,12 +14,72 @@
         ],
         "notes": [
             {
-                "name": "Conditional Statements",
-                "link": "notes/conditional_statements/conditional_statements.md"
+                "name": "Variables",
+                "link": "data/notes/variables/variables.md"
             },
             {
-                "name": "Loops",
-                "link": "notes/loops/loops.md"
+                "name": "Operators",
+                "link": "data/notes/operators/operators.md"
+            },
+            {
+                "name": "Objects",
+                "link": "data/notes/objects/objects.md"
+            }
+        ],
+        "exercises": [
+            {
+                "name": "Uppercase",
+                "link":"https://repl.it/student_embed/assignment/3800114/7a28672c21521391bce7a8aeb354494b"
+            },
+            {
+                "name": "Guest List",
+                "link": "https://repl.it/student_embed/assignment/3800234/4a9f1abe30e7e065a6526670a4e356ef"
+            },
+            {
+                "name": "Pythagorean Theorem",
+                "link":"https://repl.it/student_embed/assignment/3800111/38efcafe210059010c1d69b4542cc8a2"
+            },
+            {
+                "name": "Best Model",
+                "link": "https://repl.it/student_embed/assignment/3800113/b0ae644e7d85b201a33ae84ab117a4a1"
+            },
+            {
+                "name": "Hailstone",
+                "link": "https://repl.it/student_embed/assignment/3800113/b0ae644e7d85b201a33ae84ab117a4a1"
+            }
+        ],
+        "projects": [
+            {
+                "name": "Election Year",
+                "link": "https://repl.it/student_embed/assignment/3800112/8c33d6fc4f09ff07d0386ad08b6d0cc4"
+            }
+        ]
+    },
+    {
+        "title": "Objects, Variables, and Operators",
+        "image": "res/week3_preview.png",
+        "description": "This week we'll introduce you to objects in Python!",
+        "links": [
+        ],
+        "objectives": [
+            "Understand what objects are in Python",
+            "Learn how to keep track of objects with Variables",
+            "Perfrom operations on Objects with operators"
+        ],
+        "challenges": [
+        ],
+        "notes": [
+            {
+                "name": "Variables",
+                "link": "data/notes/variables/variables.md"
+            },
+            {
+                "name": "Operators",
+                "link": "data/notes/operators/operators.md"
+            },
+            {
+                "name": "Objects",
+                "link": "data/notes/objects/objects.md"
             }
         ],
         "exercises": [
