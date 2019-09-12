@@ -33,6 +33,7 @@ export default class HomePage extends Component {
                         challenges={data[i]['challenges']}
                         links={data[i]['links']}
                         notes={data[i]['notes']}
+                        slides={data[i]['slides']}
                         exercises={data[i]['exercises']}
                         projects={data[i]['projects']}
                         challenges={data[i]['challenges']}

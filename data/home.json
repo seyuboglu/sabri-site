@@ -40,15 +40,15 @@
         "slides": [
             {
                 "name": "Objects and Variables",
-                "link": "notes/slides/operators.md"
+                "link": "notes/slides/operators.pdf"
             },
             {
                 "name": "Operators",
-                "link": "notes/slides/operators.md"
+                "link": "notes/slides/operators.pdf"
             },
             {
                 "name": "Functions with Objects",
-                "link": "notes/slides/operators.md"
+                "link": "notes/slides/operators.pdf"
             }
         ],
         "notes": [
