@@ -1,6 +1,60 @@
 [
     {
-        "title": "Objects and Functions",
+        "title": "Lists and Dictionaries",
+        "image": "res/week4_preview.png",
+        "description": "This week we'll introduce you to lists and dictionaries!",
+        "links": [
+        ],
+        "objectives": [
+            "Understand the internals of objects" 
+        ],
+        "challenges": [
+        ],
+        "notes": [
+            {
+                "name": "Lists",
+                "link": "notes/collections/lists.md"
+            },
+            {
+                "name": "Dictionaries",
+                "link": "notes/collections/dicts.md"
+            }
+        ],
+        "exercises": [
+            
+        ],
+        "projects": [
+        ]
+    },
+    {
+        "title": "Complex Objects",
+        "image": "res/week4_preview.png",
+        "description": "This week we'll introduce you to objects in Python!",
+        "links": [
+        ],
+        "objectives": [
+            "Understand the internals of objects" 
+        ],
+        "challenges": [
+        ],
+        "notes": [
+            {
+                "name": "Complex Objects",
+                "link": "notes/objects/objects.md"
+            },
+            {
+                "name": "Object Functonis",
+                "link": "notes/objects/class_functions.md"
+            }
+        ],
+        "exercises": [
+            
+        ],
+        "projects": [
+        ]
+    },
+    {
+        "title": "Advanced Functions",
         "image": "res/week4_preview.png",
         "description": "This week we'll introduce you to objects in Python!",
         "links": [
@@ -15,7 +69,7 @@
         "notes": [
             {
                 "name": "Advanced Functions (P2)",
-                "link": "data/notes/functions/advanced_functions_2.md"
+                "link": "notes/functions/advanced_functions_2.md"
             }
         ],
         "exercises": [
@@ -40,15 +94,15 @@
         "notes": [
             {
                 "name": "Variables",
-                "link": "data/notes/variables/variables.md"
+                "link": "notes/variables/variables.md"
             },
             {
                 "name": "Operators",
-                "link": "data/notes/operators/operators.md"
+                "link": "notes/operators/operators.md"
             },
             {
                 "name": "Advanced Functions",
-                "link": "data/notes/functions/advanced_functions_1.md"
+                "link": "notes/functions/advanced_functions_1.md"
             }
         ],
         "exercises": [
