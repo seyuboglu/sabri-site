@@ -75,7 +75,7 @@
         "slides": [
             {
                 "name": "Writinig Functions with Objects",
-                "link": "notes/slides/advanced_functions.pdf"
+                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/advanced_functions.pdf"
             }
         ],
         "exercises": [
@@ -114,15 +114,15 @@
         "slides": [
             {
                 "name": "Objects and Variables",
-                "link": "notes/slides/objects_variables.pdf"
+                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/objects_variables.pdf"
             },
             {
                 "name": "Using Functions with Objects (1)",
-                "link": "notes/slides/functions_objects.pdf"
+                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/functions_objects.pdf"
             },
             {
                 "name": "Operators",
-                "link": "notes/slides/operators.pdf"
+                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/operators.pdf"
             }
         ],
         "exercises": [
@@ -175,7 +175,7 @@
         "slides": [
             {
                 "name": "Control Flow",
-                "link": "notes/slides/week_two.pdf"
+                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/notes/slides/week_two.pdf"
             }
         ],
         "objectives": [
@@ -252,7 +252,7 @@
         "slides": [
             {
                 "name": "Introduction to Python",
-                "link": "slides/week_one.pdf"
+                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/week_one.pdf"
             }
         ],
         "exercises": [

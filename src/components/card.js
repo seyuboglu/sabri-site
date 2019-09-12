@@ -31,7 +31,7 @@ export default class ConceptCard extends React.Component {
     challenges = this.convert_to_links(challenges, false)
 
     notes = this.convert_to_links(notes, true)
-    slides = this.convert_to_links(slides, true)
+    slides = this.convert_to_links(slides, false)
     exercises = this.convert_to_links(exercises, false)
     projects = this.convert_to_links(projects, false)
 
