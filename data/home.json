@@ -81,7 +81,6 @@
                 "name": "Bank Account",
                 "link": "https://repl.it/student_embed/assignment/3882016/9f80fac9afe4b3d1e8fb0b8b1fe77706"
             }
-            
         ],
         "projects": [
         ]
@@ -119,9 +118,17 @@
             {
                 "name": "Fibonacci",
                 "link": "https://repl.it/student_embed/assignment/3882015/3fb3556d84c78f8936a6aec4d46ab013"
-            }   
+            },
+            {
+                "name": "Prime Number",
+                "link": "https://repl.it/student_embed/assignment/3893405/140da1c14d19e3303c433a03309f8fb8"
+            }     
         ],
         "projects": [
+            {
+                "name": "Citation Generator",
+                "link": "https://repl.it/student_embed/assignment/3893528/829368ea0f538a9f23627f434cf0b55f"
+            }     
         ]
     },
     {
