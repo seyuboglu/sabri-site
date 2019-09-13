@@ -6,7 +6,6 @@
         "links": [
         ],
         "objectives": [
-            "Understand the internals of objects" 
         ],
         "challenges": [
         ],
@@ -48,11 +47,11 @@
     {
         "title": "Complex Objects",
         "image": "res/week4_preview.png",
-        "description": "This week we'll introduce you to objects in Python!",
+        "description": "Objects in Python can be more complex than just numbers and text. Here, we show how complex objects in Python are combinations of simpler objects like numbers and text. ",
         "links": [
         ],
         "objectives": [
-            "Understand the internals of objects" 
+            "Familiarize yourself with complex objects"
         ],
         "challenges": [
         ],
@@ -88,13 +87,16 @@
     {
         "title": "Advanced Functions",
         "image": "res/week4_preview.png",
-        "description": "This week we'll introduce you to objects in Python!",
+        "description": "Learn how to define your own functions that accept and return objects.",
         "links": [
+            {
+                "name": "Function Tutorial (DataCamp)",
+                "link": "https://www.datacamp.com/community/tutorials/functions-python-tutorial"
+            }
         ],
         "objectives": [
-            "Understand what objects are in Python",
-            "Learn how to keep track of objects with Variables",
-            "Perfrom operations on Objects with operators"
+            "Define our own functions with parameters", 
+            "Return values from functions."
         ],
         "challenges": [
         ],
@@ -134,8 +136,16 @@
     {
         "title": "Objects, Variables, and Operators",
         "image": "res/week3_preview.png",
-        "description": "This week we'll introduce you to objects in Python!",
+        "description": "Everything in Python is an object: numbers, text, etc. We label and keep track of the objects in our program with variables.",
         "links": [
+            {
+                "name": "Variable Tutorial (LearnPython)",
+                "link": "https://www.learnpython.org/en/Variables_and_Types"
+            },
+            {
+                "name": "Operators Reference (W3Schools)",
+                "link": "https://www.w3schools.com/python/python_operators.asp"
+            }
         ],
         "objectives": [
             "Understand what objects are in Python",
