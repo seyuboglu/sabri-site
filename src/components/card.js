@@ -2,13 +2,18 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default class ConceptCard extends React.Component {
-  convert_to_links(links, is_internal) {
+  convert_to_links(links, is_internal, is_slides=false) {
     if (links) {
       if (is_internal) {
         links = links.map(link => <Link to={link['link']}>{link['name']}</Link>)
       }
       else {
-        links = links.map(link => <a href={link['link']} target='_blank'>{link['name']}</a>)
+        if (is_slides) {
+          links = links.map(link => <a href={"https://docs.google.com/viewer?url="+link['link']} target='_blank'>{link['name']}</a>)
+        }
+        else {
+          links = links.map(link => <a href={link['link']} target='_blank'>{link['name']}</a>)
+        }
       }
     }
     return links
@@ -31,7 +36,7 @@ export default class ConceptCard extends React.Component {
     challenges = this.convert_to_links(challenges, false)
 
     notes = this.convert_to_links(notes, true)
-    slides = this.convert_to_links(slides, false)
+    slides = this.convert_to_links(slides, true, is_slides=true)
     exercises = this.convert_to_links(exercises, false)
     projects = this.convert_to_links(projects, false)
 
@@ -49,23 +54,23 @@ export default class ConceptCard extends React.Component {
               {objectives.map(objective => <li>{objective}</li>)}
             </ol>
           </div>
-          {links !== undefined ?
+          {links === undefined | links.length == 0 ?
+            <div></div> :
             <div>
               <b>Useful Links:</b>
               <ul>
                 {links.map(link => <li>{link}</li>)}
               </ul>
-            </div> :
-            <div></div>
+            </div>
           }
-          {challenges !== undefined ?
+          {challenges === undefined | challenges.length == 0 ?
+            <div></div> :
             <div>
               <b>Challenges:</b>
               <ul>
                 {challenges.map(challenge => <li>{challenge}</li>)}
               </ul>
-            </div> :
-            <div></div>
+            </div>
           }
         </div>
         <div className="card-body">

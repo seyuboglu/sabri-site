@@ -22,11 +22,11 @@
         "slides": [
             {
                 "name": "Lists",
-                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/lists.pdf"
+                "link": "https://github.com/geoffreyangus/mdml/raw/master/data/slides/lists.pdf"
             },
             {
                 "name": "Dictionaries",
-                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/dicts.pdf"
+                "link": "https://github.com/geoffreyangus/mdml/raw/master/data/slides/dicts.pdf"
             }
         ],
         "exercises": [
@@ -34,7 +34,7 @@
                 "name": "Loading Data",
                 "link": "https://repl.it/student_embed/assignment/3882021/04d8040a22bc08a4555e7870ad68a51f"
             }
-            
+
         ],
         "projects": [
             {
@@ -95,7 +95,7 @@
             }
         ],
         "objectives": [
-            "Define our own functions with parameters", 
+            "Define our own functions with parameters",
             "Return values from functions."
         ],
         "challenges": [
@@ -124,13 +124,13 @@
             {
                 "name": "Prime Number",
                 "link": "https://repl.it/student_embed/assignment/3893405/140da1c14d19e3303c433a03309f8fb8"
-            }     
+            }
         ],
         "projects": [
             {
                 "name": "Citation Generator",
                 "link": "https://repl.it/student_embed/assignment/3893528/829368ea0f538a9f23627f434cf0b55f"
-            }     
+            }
         ]
     },
     {
