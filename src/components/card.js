@@ -34,9 +34,9 @@ export default class ConceptCard extends React.Component {
     } = this.props
     links = this.convert_to_links(links, false)
     challenges = this.convert_to_links(challenges, false)
+    slides = this.convert_to_links(slides, false, true)
 
     notes = this.convert_to_links(notes, true)
-    slides = this.convert_to_links(slides, true, is_slides=true)
     exercises = this.convert_to_links(exercises, false)
     projects = this.convert_to_links(projects, false)
 
@@ -54,23 +54,23 @@ export default class ConceptCard extends React.Component {
               {objectives.map(objective => <li>{objective}</li>)}
             </ol>
           </div>
-          {links === undefined | links.length == 0 ?
-            <div></div> :
+          {links !== undefined && links.length !== 0 ?
             <div>
               <b>Useful Links:</b>
               <ul>
                 {links.map(link => <li>{link}</li>)}
               </ul>
-            </div>
+            </div> :
+            <div></div>
           }
-          {challenges === undefined | challenges.length == 0 ?
-            <div></div> :
+          {challenges !== undefined && challenges.length !== 0 ?
             <div>
               <b>Challenges:</b>
               <ul>
                 {challenges.map(challenge => <li>{challenge}</li>)}
               </ul>
-            </div>
+            </div> :
+            <div></div>
           }
         </div>
         <div className="card-body">
