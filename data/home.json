@@ -6,6 +6,8 @@
         "links": [
         ],
         "objectives": [
+            "Use lists and dicts to manipulate and store data",
+            "Understand the differing functionalities of the two data structures"
         ],
         "challenges": [
         ],
@@ -51,7 +53,8 @@
         "links": [
         ],
         "objectives": [
-            "Familiarize yourself with complex objects"
+            "Familiarize yourself with complex objects",
+            "Understand object attributes and functions"
         ],
         "challenges": [
         ],
