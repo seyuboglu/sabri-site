@@ -33,8 +33,16 @@
         ],
         "exercises": [
             {
-                "link": "https://repl.it/student_embed/assignment/4009354/ab72c291117e2d0237a3d31d54665483",    
+                "link": "https://repl.it/student_embed/assignment/4009354/ab72c291117e2d0237a3d31d54665483",
                 "name": "Home Runs"
+            },
+            {
+                "link": "https://repl.it/student_embed/assignment/4016151/d95d3868a033b6db8b042baf771a0ff1",
+                "name": "MDMel's"
+            },
+            {
+                "link": "https://repl.it/student_embed/assignment/4016337/b980e8de26cf6af28bc2ae22a34c60b3",
+                "name": "Phone Book"
             },
             {
                 "name": "Loading Data",
