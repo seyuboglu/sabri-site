@@ -33,6 +33,10 @@
         ],
         "exercises": [
             {
+                "link": "https://repl.it/student_embed/assignment/4009354/ab72c291117e2d0237a3d31d54665483",    
+                "name": "Home Runs"
+            }
+            {
                 "name": "Loading Data",
                 "link": "https://repl.it/student_embed/assignment/3882021/04d8040a22bc08a4555e7870ad68a51f"
             }
@@ -75,7 +79,7 @@
             },
             {
                 "name": "Object Functions",
-                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/functions_objects.pdf"
+                "link": "https://raw.githubusercontent.com/geoffreyangus/mdml/master/data/slides/object_functions.pdf"
             }
         ],
         "exercises": [
