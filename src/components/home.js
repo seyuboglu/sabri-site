@@ -13,7 +13,7 @@ export default class HomePage extends Component {
     }
 
     componentDidMount() {
-        fetch('https://raw.githubusercontent.com/geoffreyangus/md-ml/master/data/home.json')
+        fetch('https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/home.json')
             .then(res => res.json())
             .then(res => this.setState({ data: res }));
     }
@@ -39,6 +39,7 @@ export default class HomePage extends Component {
                         challenges={data[i]['challenges']}
                     />
                 )
+                
             }
         }
 
