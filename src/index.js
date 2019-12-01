@@ -13,7 +13,7 @@ const routing = (
     <Router basename={process.env.PUBLIC_URL}>
         <div>
             <Route exact path="/" component={App} />
-            <Route path="/papers/petct" component={PetCtPage} />
+            <Route path="/papers/petct.pdf" component={PetCtPage} />
         </div>
     </Router>
 )

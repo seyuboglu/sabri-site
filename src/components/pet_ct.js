@@ -11,17 +11,13 @@ export default class PetCtPage extends React.Component {
     }
 
     componentDidMount() {
-        window.location.replace('https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/papers/pet_ct/main.pdf')
+        window.location.replace('https://cs.stanford.edu/people/sabrieyuboglu/petct.pdf')
     }
 
     render() {
         const { markdown } = this.state;
         return (
-            <div>
-                <Header/>
-                <div className="notes-wrapper">
-                    <ReactMarkdown source={markdown} />
-                </div>
+            <div> Fetching paper
             </div>
         )
     }
