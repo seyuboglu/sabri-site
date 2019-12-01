@@ -4,7 +4,7 @@
         "authors": "Sabri Eyuboglu*, Marinka Zitnik*,  Jure Leskovec",
         "venue": "preprint",
         "year": 2019,
-        "image": "res/week4_preview.png",
+        "image": "res/mi_preview.png",
         "description": "A graph based machine learning model with applications in molecular phenotype prediction.",
         "github": "https://github.com/seyuboglu/milieu"
     },
@@ -13,7 +13,7 @@
         "authors": "Sabri Eyuboglu*, Marinka Zitnik*,  Jure Leskovec",
         "venue": "preprint",
         "year": 2019,
-        "image": "res/week4_preview.png",
+        "image": "res/pet_ct_preview.png",
         "description": "Cross modal"
     }
     

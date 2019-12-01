@@ -31,6 +31,7 @@ export default class ConceptCard extends React.Component {
     return (
       <div className="concept-card">
         <div className="card-preview">
+          {<img className="card-preview-image" src={"https://raw.githubusercontent.com/geoffreyangus/md-ml/master/" + image}/>}
           <div>
             {description}
           </div>
