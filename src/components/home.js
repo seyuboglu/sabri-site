@@ -30,7 +30,7 @@ export default class HomePage extends Component {
                         title={data["research"][i]['title']}
                         authors={data["research"][i]['authors']}
                         venue={data["research"][i]['venue']}
-                        date={data["research"][i]['year']}
+                        year={data["research"][i]['year']}
                         image={data["research"][i]['image']}
                         description={data["research"][i]['description']}
                     />

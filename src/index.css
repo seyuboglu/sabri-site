@@ -156,6 +156,12 @@ a {
     font-weight: 400;
     color: #666666
 }
+.card-body-venue {
+    padding: 0px 0px 10px 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666
+}
 
 .card-materials a {
     padding: 8px 8px 5px 5px;
