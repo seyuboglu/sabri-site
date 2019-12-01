@@ -28,16 +28,9 @@ export default class HomePage extends Component {
                 cards.push(
                     <ConceptCard
                         title={data[i]['title']}
+                        authors={data[i]['authors']}
                         image={data[i]['image']}
                         description={data[i]['description']}
-                        objectives={data[i]['objectives']}
-                        challenges={data[i]['challenges']}
-                        links={data[i]['links']}
-                        notes={data[i]['notes']}
-                        slides={data[i]['slides']}
-                        exercises={data[i]['exercises']}
-                        projects={data[i]['projects']}
-                        challenges={data[i]['challenges']}
                     />
                 )
                 

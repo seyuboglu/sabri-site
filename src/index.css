@@ -100,11 +100,12 @@ a {
 .concept-card {
     display: flex;
     flex-direction: row-reverse;
-    margin: 40px;
+    margin-left: 30%;
+    margin-top:20px;
     box-shadow: 3px 4px #798397;
-    border-radius:px;
+    border-radius: 30;
     border-style: solid;
-    border-color: #cacfd6;
+    border-color: white;
     padding: 30px;
     background-color: white;
 }
@@ -115,9 +116,9 @@ a {
     margin-left: 30%;
     margin-top:20px;
     box-shadow: 3px 4px #798397;
-    border-radius: 10px;
+    border-radius: 30;
     border-style: solid;
-    border-color: #cacfd6;
+    border-color: white;
     padding: 30px;
     background-color: white;
 }
@@ -156,9 +157,14 @@ a {
 }
 
 .card-body-title {
-    font-size: 32px;
-    font-weight: 800;
-    color: #333996
+    font-size: 25px;
+    font-weight: 600;
+    color: #666666
+}
+.card-body-authors {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666
 }
 
 .card-materials a {
