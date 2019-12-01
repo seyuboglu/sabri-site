@@ -8,12 +8,15 @@ import App from './App';
 import NotesPage from './components/notes'
 import AboutPage from './components/about'
 import PetCtPage from './components/pet_ct'
+import MilieuPage from './components/mutual_interactors'
+
 
 const routing = (
     <Router basename={process.env.PUBLIC_URL}>
         <div>
             <Route exact path="/" component={App} />
-            <Route path="/papers/petct.pdf" component={PetCtPage} />
+            <Route path="/papers/pet-ct.pdf" component={PetCtPage} />
+            <Route path="/papers/mutual-interactors.pdf" component={MilieuPage} />
         </div>
     </Router>
 )
