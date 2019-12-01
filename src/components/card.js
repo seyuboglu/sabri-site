@@ -46,7 +46,7 @@ export default class ConceptCard extends React.Component {
             <i>{venue}</i>, {year}
           </div>
           <div className="card-body-abstract">
-            {description}
+            <b>Abstract.</b> {description}
           </div>
           
         </div>

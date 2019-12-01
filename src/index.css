@@ -151,14 +151,20 @@ a {
     color: #666666
 }
 .card-body-authors {
-    padding: 10px;
+    padding:5px 0px 0px 0px;;
     font-size: 20px;
     font-weight: 400;
     color: #666666
 }
 .card-body-venue {
-    padding: 0px 0px 10px 10px;
+    padding: 0px 0px 0px 0px;
     font-size: 20px;
+    font-weight: 400;
+    color: #666666
+}
+.card-body-abstract {
+    padding: 20px 0px 0px 0px;
+    font-size: 15px;
     font-weight: 400;
     color: #666666
 }

@@ -11,7 +11,7 @@
         },
         {
             "title": "Cross-modal weak supervision enables abnormality localization in full-body PET-CT",
-            "authors": "Sabri Eyuboglu*, Marinka Zitnik*,  Jure Leskovec",
+            "authors": "Sabri Eyuboglu*, Geoffrey Angus*,  Bhavik Patel, Anuj Pareek, Guido Davidzon, Jared Dunnmon, Matthew Lungren",
             "venue": "In submission",
             "year": "2019",
             "image": "res/pet_ct_preview.png",
