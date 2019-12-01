@@ -102,10 +102,11 @@ a {
     flex-direction: row-reverse;
     margin-left: 30%;
     margin-top:20px;
-    box-shadow: 3px 4px #798397;
-    border-radius: 30;
+    box-shadow: 3px 4px 5px #798397;
+    border-radius: 5px;
+    border-width: 2px;
     border-style: solid;
-    border-color: white;
+    border-color: #b3b3b3;
     padding: 30px;
     background-color: white;
 }
@@ -115,20 +116,21 @@ a {
     flex-direction: row-reverse;
     margin-left: 30%;
     margin-top:20px;
-    box-shadow: 3px 4px #798397;
-    border-radius: 30;
+    box-shadow: 3px 4px 5px #798397;
+    border-radius: 5px;
+    border-width: 2px;
     border-style: solid;
-    border-color: white;
+    border-color: #b3b3b3;
     padding: 30px;
     background-color: white;
 }
 
 .card-preview {
-    width: 300px;
+    width: 400px;
     background-color: white;
     color: #42516e;
     border-radius: 0;
-    border-width: 0px 0px 0px 2px;
+    border-width: 0px 0px 0px 0px;
     border-color: #cacfd6;
     padding-left: 30px;
     border-style: solid;
@@ -142,7 +144,7 @@ a {
 }
 
 .card-preview-image {
-    width: 250px;
+    width: 350px;
     margin-bottom: 20px;
 }
 
