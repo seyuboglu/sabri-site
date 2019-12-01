@@ -24,13 +24,14 @@ export default class HomePage extends Component {
 
         let cards = []
         if (data != null) {
+           // research 
             for (let i = 0; i < data.length; i++) {
                 cards.push(
                     <ConceptCard
-                        title={data[i]['title']}
-                        authors={data[i]['authors']}
-                        image={data[i]['image']}
-                        description={data[i]['description']}
+                        title={data["research"][i]['title']}
+                        authors={data["research"][i]['authors']}
+                        image={data["reserach"][i]['image']}
+                        description={data["research"][i]['description']}
                     />
                 )
                 
@@ -40,6 +41,7 @@ export default class HomePage extends Component {
         return (
             <div id="home-page">
                 <Header/>
+                <div className="section-heading"> Research </div>
                 <div id="concept-cards-wrapper">
                     {cards}
                 </div>

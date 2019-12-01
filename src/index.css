@@ -19,66 +19,39 @@ a {
 
 .navbar {
     position: fixed;
-    display: flex;
     flex-direction: row-reverse;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-top:20px;
-    width: 23%;
-    box-shadow: 3px 4px #798397;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #cacfd6;
-    padding: 30px;
-    background-color: white;
+    width: 14%;
 }
 
-.navbar.scroll {
-    background-color: #333996;
-    
+.navbar-image {
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 3px 4px 5px #798397;
 }
 
-.navbar.scroll a:hover {
-    text-shadow: 3px 3px rgba(0,0,0,0.6);
+.navbar-image {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 3px 4px 5px #798397;
+    display: inline-block;
 }
 
-.navbar.scroll a:active {
-    text-shadow: none;
-}
-
-.navbar a:first-child {
-
-    margin-right: auto;
-    margin-bottom: 0px;
-    float: left;
-    font-size: 40px;
-    font-weight: 300;
-}
-
-.navbar a:hover {
-    text-shadow: 3px 3px rgba(0,0,0,0.1);
-}
-
-.navbar a:active {
-    text-shadow: none;
-}
-
-.navbar a {
-    padding: 0.5rem 0rem;
-    float: right;
-    margin-bottom: 0px;
-    margin-right: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #333996;
+.navbar-name {
+    font-size: 35px;
     font-weight: 600;
-    font-size: 18px;
-    text-decoration: none;
-    transition: text-shadow 0.2s;
+    color: #666666;
+    text-align: right;
 }
 
-.navbar.scroll a {
-    color: white
+.navbar-email {
+    font-size: 20px;
+    font-weight: 600;
+    color: #666666;
+    text-align: right;
 }
 
 @media screen and (max-width: 42em) {
@@ -96,12 +69,23 @@ a {
     background-color: #f9fafb;
     min-height: 100vh;
 }
+.section-heading {
+    display: flex;
+    font-size: 45px;
+    font-weight: 600;
+    color: #666666;
+    margin-left: 25%;
+    width:1000px;
+    margin-top:20px;
+    padding: 0px;
+}
 
 .concept-card {
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-top:20px;
+    max-width:1000px;
     box-shadow: 3px 4px 5px #798397;
     border-radius: 5px;
     border-width: 2px;
@@ -111,10 +95,12 @@ a {
     background-color: white;
 }
 
+
 .concept-card:first-of-type {
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 30%;
+    margin-left: 25%;
+    max-width:1000px;
     margin-top:20px;
     box-shadow: 3px 4px 5px #798397;
     border-radius: 5px;
@@ -147,6 +133,7 @@ a {
     width: 350px;
     margin-bottom: 20px;
 }
+
 
 .card-preview-objectives {
     margin-top: 20px;

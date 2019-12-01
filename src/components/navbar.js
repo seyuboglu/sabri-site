@@ -34,10 +34,15 @@ export default class NavBar extends Component {
         console.log(this.state)
         return (
             <div id="navbar" className={this.state.scrolled ? "navbar scroll" : "navbar"}>
-                <a className="main-link" href="/" className="btn"><div><b>Sabri Eyuboglu</b></div></a>
-                <div className="card-preview-objectives">
-                    <b>last name at stanford.edu</b>
-                    <b>Masters Student in Computer Science at Stanford</b>
+                <img className="navbar-image" src={"https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/main.jpeg"}/>
+                <div className="navbar-info"> 
+                    <div className="navbar-name"> Sabri Eyuboglu</div>
+                    <div className="navbar-github">
+                        
+                    </div>
+                    <div className="navbar-email">
+                        eyuboglu <b><i>at</i></b> stanford <b><i>dot</i></b> edu
+                    </div>
                 </div>
             </div>
         )
