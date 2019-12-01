@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import ConceptCard from './card'
 import NavBar from './navbar'
+import Sidebar from './sidebar'
 import Header from './header'
 import Footer from './footer'
 

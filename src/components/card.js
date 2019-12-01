@@ -82,10 +82,6 @@ export default class ConceptCard extends React.Component {
               <div className="card-materials-title">Notes</div>
               {notes}
             </div>
-            <div className="card-materials-notes">
-              <div className="card-materials-title">Slides</div>
-              {slides}
-            </div>
             <div className="card-materials-assignments">
               <div className="card-materials-title">Exercises</div>
               {exercises}

@@ -1,61 +1,20 @@
 [
     {
-        "title": "Sabri Eyuboglu",
+        "title": "Mutual interactors as a principle for the discovery of phenotypes in molecular networks",
+        "authors": "Sabri Eyuboglu*, Marinka Zitnik*,  Jure Leskovec",
+        "venue": "preprint",
+        "year": 2019,
         "image": "res/week4_preview.png",
-        "description": "Welcome to my site!",
-        "links": [
-        ],
-        "objectives": [
-            "Use lists and dicts to manipulate and store data",
-            "Understand the differing functionalities of the two data structures"
-        ],
-        "challenges": [
-        ],
-        "notes": [
-            {
-                "name": "Lists",
-                "link": "notes/collections/lists.md"
-            },
-            {
-                "name": "Dictionaries",
-                "link": "notes/collections/dicts.md"
-            }
-        ],
-        "slides": [
-            {
-                "name": "Lists",
-                "link": "https://github.com/geoffreyangus/mdml/raw/master/data/slides/lists.pdf"
-            },
-            {
-                "name": "Dictionaries",
-                "link": "https://github.com/geoffreyangus/mdml/raw/master/data/slides/dicts.pdf"
-            }
-        ],
-        "exercises": [
-            {
-                "link": "https://repl.it/student_embed/assignment/4009354/ab72c291117e2d0237a3d31d54665483",
-                "name": "Home Runs"
-            },
-            {
-                "link": "https://repl.it/student_embed/assignment/4016151/d95d3868a033b6db8b042baf771a0ff1",
-                "name": "MDMel's"
-            },
-            {
-                "link": "https://repl.it/student_embed/assignment/4016337/b980e8de26cf6af28bc2ae22a34c60b3",
-                "name": "Phone Book"
-            },
-            {
-                "name": "Loading Data",
-                "link": "https://repl.it/student_embed/assignment/3882021/04d8040a22bc08a4555e7870ad68a51f"
-            }
-
-        ],
-        "projects": [
-            {
-                "name": "SpotiPy",
-                "link": "https://repl.it/student_embed/assignment/3882019/b9bf77c5e3df2d218604a5c852598249"
-            }
-
-        ]
+        "description": "A graph based machine learning model with applications in molecular phenotype prediction.",
+        "github": "https://github.com/seyuboglu/milieu"
+    },
+    {
+        "title": "Cross-modal weak supervision enables abnormality localization in full-body PET-CT",
+        "authors": "Sabri Eyuboglu*, Marinka Zitnik*,  Jure Leskovec",
+        "venue": "preprint",
+        "year": 2019,
+        "image": "res/week4_preview.png",
+        "description": "Machine learning"
     }
+    
 ]

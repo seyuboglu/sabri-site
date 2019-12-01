@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 
-export default class NavBar extends Component {
+export default class SideBar extends Component {
     constructor() {
         super();
         this.state = {scrolled: false}
@@ -33,12 +33,10 @@ export default class NavBar extends Component {
     render() {
         console.log(this.state)
         return (
-            <div id="navbar" className={this.state.scrolled ? "navbar scroll" : "navbar"}>
-                <a className="main-link" href="/" className="btn"><div><b>Sabri Eyuboglu</b></div></a>
-                <div className="card-preview-objectives">
-                    <b>last name at stanford.edu</b>
-                    <b>Masters Student in Computer Science at Stanford</b>
-                </div>
+            <div id="sidebar" className={this.state.scrolled ? "sidebar scroll" : "sidebar"}>
+                <a className="main-link" href="/" className="btn"><div><b>MD</b>+<b>ML</b></div></a>
+                <Link to="/about">About</Link>
+                <a target="_blank" href="https://repl.it/classroom/invite/db61PxD" className="btn">Sign up</a>
             </div>
         )
     }
