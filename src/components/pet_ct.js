@@ -11,7 +11,7 @@ export default class PetCtPage extends React.Component {
     }
 
     componentDidMount() {
-        window.location.replace('http://www.google.com')
+        window.location.replace('https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/papers/pet_ct/main.pdf')
     }
 
     render() {
