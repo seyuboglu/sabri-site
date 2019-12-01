@@ -7,13 +7,13 @@ import './index.css';
 import App from './App';
 import NotesPage from './components/notes'
 import AboutPage from './components/about'
+import PetCtPage from './components/pet_ct'
 
 const routing = (
     <Router basename={process.env.PUBLIC_URL}>
         <div>
             <Route exact path="/" component={App} />
-            <Route path="/about" component={AboutPage} />
-            <Route path="/notes" component={NotesPage} />
+            <Route path="/papers/petct" component={PetCtPage} />
         </div>
     </Router>
 )
