@@ -21,16 +21,17 @@ export default class HomePage extends Component {
 
     render() {
         const { data } = this.state;
-
         let cards = []
         if (data != null) {
            // research 
-            for (let i = 0; i < data.length; i++) {
+            for (let i = 0; i < data["research"].length; i++) {
                 cards.push(
                     <ConceptCard
                         title={data["research"][i]['title']}
                         authors={data["research"][i]['authors']}
-                        image={data["reserach"][i]['image']}
+                        venue={data["research"][i]['venue']}
+                        date={data["research"][i]['year']}
+                        image={data["research"][i]['image']}
                         description={data["research"][i]['description']}
                     />
                 )

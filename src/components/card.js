@@ -23,6 +23,8 @@ export default class ConceptCard extends React.Component {
     let {
       title,
       authors,
+      venue,
+      year,
       image,
       description
     } = this.props
@@ -39,6 +41,9 @@ export default class ConceptCard extends React.Component {
           </div>
           <div className="card-body-authors">
             {authors}
+          </div>
+          <div className="card-body-venue">
+            <i>{venue}</i>, {year}
           </div>
           <div className="card-body-description">
             {description}
