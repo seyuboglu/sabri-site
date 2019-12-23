@@ -50,10 +50,13 @@ a {
 .external-link {
     width: 38px;
     height: 38px;
-    background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/github.png") no-repeat;
     display: inline-block;
 }
-.external-link:hover {
+
+.github-link{
+    background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/github-grey.png") no-repeat;
+}
+.github-link:hover {
     background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/github-green.png") no-repeat;
 }
 
