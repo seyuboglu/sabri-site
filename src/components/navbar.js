@@ -43,6 +43,11 @@ export default class NavBar extends Component {
                     <div className="navbar-email">
                         eyuboglu <b><i>at</i></b> stanford <b><i>dot</i></b> edu
                     </div>
+                    <div className="external-links">
+                        <a href="http://www.google.com">
+                            <div className="external-link"> </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         )

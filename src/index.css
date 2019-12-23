@@ -47,6 +47,18 @@ a {
     text-align: right;
 }
 
+.external-link {
+    width: 130px;
+    height: 195px;
+    background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/main.jpeg") no-repeat;
+    display: inline-block;
+}
+.external-link:hover {
+    width: 140px;
+    height: 400px;
+    background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/main.jpeg") no-repeat;
+}
+
 #home-page {
     padding-top: 50px;
     padding-bottom: 50px;
