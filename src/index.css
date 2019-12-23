@@ -48,15 +48,13 @@ a {
 }
 
 .external-link {
-    width: 130px;
-    height: 195px;
-    background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/main.jpeg") no-repeat;
+    width: 38px;
+    height: 38px;
+    background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/github.png") no-repeat;
     display: inline-block;
 }
 .external-link:hover {
-    width: 140px;
-    height: 400px;
-    background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/main.jpeg") no-repeat;
+    background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/github-green.png") no-repeat;
 }
 
 #home-page {
