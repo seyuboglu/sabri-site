@@ -15,6 +15,7 @@
             "venue": "In submission",
             "year": "2019",
             "image": "res/pet_ct_preview.png",
+            "github": null, 
             "description": "Computational decision support systems could provide clinical value in full-body PET-CT workflows. However, the lack of labeled data and the sheer size of PET-CT studies make it challenging to apply existing supervised machine learning systems to these full-body scans. Leveraging recent advancements in natural language processing, we introduce a weak-supervision framework that extracts imperfect, yet highly granular regional abnormality training labels from the radiologist reports associated with each scan. Using these labels, we train a multi-task 3D convolutional neural network to detect abnormalities in 26 anatomical regions commonly of interest in PET-CT protocols. Our model can detect lymph node, lung and liver abnormalities with median areas under the curve of 87%, 85% and 92%, respectively. We show that performing multi-task pre-training on these core tasks can enable strong performance on rare abnormalities and orthogonal tasks. Multi-task pre-training enables improvements of 28 and 17 AUC percentage-points in detecting abnormalities in the kidney and pancreas, respectively."
         }
     ],

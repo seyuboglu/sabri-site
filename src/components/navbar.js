@@ -43,6 +43,19 @@ export default class NavBar extends Component {
                     <div className="navbar-email">
                         eyuboglu <b><i>at</i></b> stanford <b><i>dot</i></b> edu
                     </div>
+
+                    <div className="text-section">
+                        <p>
+                        <b>B.S.</b> Computer Science <br />
+                        Stanford University '18 
+                        </p>
+                        <p>
+                        <b>M.S.</b> Computer Science <br />
+                        Stanford University '19
+                        </p>
+                    </div>
+
+
                     <div className="social-links">
                         <a href="https://github.com/seyuboglu">
                             <div class="external-link github-link"> </div>
@@ -55,11 +68,26 @@ export default class NavBar extends Component {
                         </a>
                     </div>
                     <div className="personal-links">
-                        <a href="https://github.com/seyuboglu">
+                        <a href="https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/resume.pdf">
                             <div className="text-button">
                                 Resume/CV
                             </div>
                         </a>
+                    </div>
+                    <div className="text-section">
+                        <p>
+                            <b>About.</b> I'm currently a machine learning research intern
+                            at <a href="https://flatiron.com/">Flatiron Health</a>. Previously, I completed my undergrad and master's 
+                            at Stanford, where I worked with Jure Leskovec's 
+                            <a href="https://cs.stanford.edu/~jure/"> SNAP Group</a> and 
+                            the <a href="https://aimi.stanford.edu/">AIMI Center.</a>
+                        </p>
+                        <p>
+                            <b>Research Interests.</b> I study ways to 
+                            make machine learning systemsmore effective in high impact applications, like medicine and 
+                            the life sciences, where data come in many forms and are often 
+                            unlabeled, unstructured or otherwise imperfect. 
+                        </p>
                     </div>
                 </div>
             </div>

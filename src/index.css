@@ -23,11 +23,11 @@ a {
     flex-direction: row-reverse;
     margin-left: 5%;
     margin-top:20px;
-    width: 14%;
+    width:16%;
 }
 
 .navbar-image {
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
     border-radius: 6px;
     display: inline-block;
@@ -38,24 +38,24 @@ a {
     font-size: 30px;
     font-weight: 600;
     color: #666666;
-    text-align: right;
+    text-align: left;
 }
 
 .navbar-email {
     font-size: 15px;
     font-weight: 600;
     color: #666666;
-    text-align: right;
+    text-align: left;
 }
 
 .social-links {
-    padding-top: 20px;
-    text-align: right;
+    padding-top: 0px;
+    text-align: left;
 }
 
 .personal-links {
     padding-top: 10px;
-    text-align: right;
+    text-align: left;
 }
 
 .text-button {
@@ -80,11 +80,18 @@ a {
     color:#f9fafb;;
 }
 
+.text-section {
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666
+}
+
 .external-link {
     height: 30px;
     width: 30px;
     border-left-width:5px;
-    border-right-width: 0px;
+    border-left-width: 0px;
     border-style: solid;
     border-color: transparent;
     display: inline-block;
@@ -326,7 +333,7 @@ a {
 }
 
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 875px) {
     .navbar {
         display: none;
     }
