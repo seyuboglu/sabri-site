@@ -39,7 +39,7 @@
             "school": "Stanford University",
             "image": "res/cem_preview.png",
             "description": "From sophomore to senior year of undergrad, I was a CS 106A/B section leader at Stanford. I taught a weekly class of twelve students, graded assignments and held office hours.",
-            "github": "https://github.com/geoffreyangus/cs106r",,
+            "github": "https://github.com/geoffreyangus/cs106r",
             "website": "http://web.stanford.edu/class/cs106b/"
         },
         {
@@ -49,7 +49,7 @@
             "school": "Koç University – Istanbul, Turkey",
             "image": "res/cem_preview.png",
             "description": "I spent two weeks this past summer in Istanbul teaching computer science at Koç University. I helped develop some of the curriculum and materials for the course.",
-            "github": "https://github.com/geoffreyangus/cs106r",,
+            "github": "https://github.com/geoffreyangus/cs106r",
             "website": "https://koc.csbridge.org/en/index.html"
         }
     ]
