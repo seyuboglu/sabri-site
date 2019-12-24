@@ -22,6 +22,7 @@ export default class HomePage extends Component {
         const { data } = this.state;
         let researchCards = []
         let teachingCards = []
+        console.log(data)
         if (data != null) {
            // research 
             for (let i = 0; i < data["research"].length; i++) {

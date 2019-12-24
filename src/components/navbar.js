@@ -58,13 +58,13 @@ export default class NavBar extends Component {
 
                     <div className="social-links">
                         <a href="https://github.com/seyuboglu">
-                            <div class="external-link github-link"> </div>
+                            <div className="external-link github-link"> </div>
                         </a>
                         <a href="https://www.linkedin.com/in/evan-sabri-eyuboglu-21509bb2/">
-                            <div class="external-link linkedin-link"> </div>
+                            <div className="external-link linkedin-link"> </div>
                         </a>
                         <a href="https://twitter.com/EyubogluSabri">
-                            <div class="external-link twitter-link"> </div>
+                            <div className="external-link twitter-link"> </div>
                         </a>
                     </div>
                     <div className="personal-links">
