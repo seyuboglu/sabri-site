@@ -25,7 +25,7 @@
             "organization": "Sabri Eyuboglu and Geoffrey Angus",
             "year": "2018",
             "school": "Colégio SESC São Jose – Curitiba, Brasil",
-            "image": "res/mi_preview.png",
+            "image": "res/cem_preview.png",
             "description": " I spent the summer of 2018 in Curitiba, Brazil teaching an introductory computer science course to over 300 awesome high schoolers from all over the city. Every week Geoff Angus (another master's student at Stanford) and I co-taught eleven different classes at three different high schools in the city. We designed a full curriculum from scratch that uses the pedagogical methods of CS106A, but is tailored for high-school students that speak English as a second language. We wrote all of the assignments, course notes and slides from scratch. You can find all these materials on our website. We worked with school administrators and math teachers at the high schools to ensure the continuation of CS curriculum at the high school after we left. Also, because many students spoke little english, we lectured primarily in Portuguese (I had spent the school year before that summer studying Portuguese in preparation",
             "github": "https://github.com/geoffreyangus/cs106r",
             "website": "http://cs106r.com/"
