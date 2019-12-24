@@ -27,9 +27,11 @@ export default class TeachingCard extends ConceptCard {
           {<img className="card-preview-image" src={"https://raw.githubusercontent.com/seyuboglu/sabri-site/master/" + image}/>}
         </div>
         <div className="card-body">
-          <div className="card-body-title">
-            {title}
-          </div>
+          <a href={website}>
+            <div className="card-body-title">
+                {title}
+            </div>
+          </a>
           <div className="card-body-authors">
             {organization}
           </div>
@@ -40,8 +42,10 @@ export default class TeachingCard extends ConceptCard {
             {year} <br />
           </div>
           <div className="card-body-links">
-            <a href="https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/resume.pdf">
-              <div class="external-link paper-link"> </div>
+            <a href={website}>
+              <div class="text-button"> 
+                Course Website
+              </div>
             </a>
             <a href={github}>
               <div class="external-link github-link"> </div>

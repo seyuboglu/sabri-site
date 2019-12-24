@@ -63,13 +63,14 @@ a {
     border-color: #666666;
     border-width: 1.3px;
     border-style: solid;
-    padding: 1.5%;
+    padding: 2px;
+    margin-right: 10px;
     font-size: 15px;
     font-weight: bold;
     color: #666666;
-    display: inline;
-    vertical-align: middle;
+    display: inline-block;
     user-select: none;
+    vertical-align: 55%;
     background-color: transparent;
     transition: all 0.2s ease-in-out;
 }
@@ -209,7 +210,12 @@ a {
 .card-body-title {
     font-size: 23px;
     font-weight: 600;
-    color: #666666
+    color: #666666;
+    transition: all 0.2s ease-in-out;
+
+}
+.card-body-title:hover{
+    color: #66c2a5
 }
 .card-body-authors {
     padding:5px 0px 0px 0px;;
