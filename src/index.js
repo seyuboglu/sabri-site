@@ -5,8 +5,6 @@ import * as serviceWorker from './serviceWorker';
 
 import './index.css';
 import App from './App';
-import NotesPage from './components/notes'
-import AboutPage from './components/about'
 import PetCtPage from './components/pet_ct'
 import MilieuPage from './components/mutual_interactors'
 

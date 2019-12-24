@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import ReadMore from './read_more';
+
 export default class ConceptCard extends React.Component {
   convert_to_links(links, is_internal, is_slides=false) {
     if (links) {
@@ -38,9 +40,6 @@ export default class ConceptCard extends React.Component {
       <div className="concept-card">
         <div className="card-preview">
           {<img className="card-preview-image" src={"https://raw.githubusercontent.com/seyuboglu/sabri-site/master/" + image}/>}
-          {<a href={github}>
-            <div class="external-link github-link"> </div>
-          </a>}
         </div>
         <div className="card-body">
           <div className="card-body-title">
@@ -50,12 +49,19 @@ export default class ConceptCard extends React.Component {
             {authors}
           </div>
           <div className="card-body-venue">
-            <i>{venue}</i>, {year}
+            <i>{venue}</i>, {year} <br />
+          </div>
+          <div className="card-body-links">
+            <a href={github}>
+              <div class="external-link github-link"> </div>
+            </a>
+            <a href="https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/resume.pdf">
+              <div class="external-link github-link"> </div>
+            </a>
           </div>
           <div className="card-body-abstract">
-            <b>Abstract.</b> {description}
+            <b>Abstract.</b><ReadMore>{description}</ReadMore>
           </div>
-          
         </div>
       </div>
     );

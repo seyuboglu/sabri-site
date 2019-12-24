@@ -23,7 +23,7 @@ a {
     flex-direction: row-reverse;
     margin-left: 5%;
     margin-top:20px;
-    width:16%;
+    width:250px;
 }
 
 .navbar-image {
@@ -123,6 +123,11 @@ a {
     background-size: contain;
 }
 
+.paper-link{
+    background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/paper.png") no-repeat;
+    background-size: contain; 
+}
+
 #home-page {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -136,7 +141,7 @@ a {
     font-size: 45px;
     font-weight: 600;
     color: #666666;
-    margin-left: 25%;
+    margin-left: 350px;
     width:1000px;
     margin-top:20px;
     padding: 0px;
@@ -145,7 +150,7 @@ a {
 .concept-card {
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 25%;
+    margin-left: 350px;;
     margin-right: 5%;
     margin-top:20px;
     max-width:1000px;
@@ -163,7 +168,7 @@ a {
 }
 
 .card-preview {
-    width:45%;
+    width:35%;
     background-color: white;
     color: #42516e;
     border-radius: 0;
@@ -182,7 +187,7 @@ a {
 
 .card-preview-image {
     width: 95%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .card-preview-objectives {
@@ -196,24 +201,29 @@ a {
 }
 
 .card-body-title {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
     color: #666666
 }
 .card-body-authors {
     padding:5px 0px 0px 0px;;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #666666
 }
 .card-body-venue {
     padding: 0px 0px 0px 0px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     color: #666666
 }
+
+.card-body-links {
+    padding: 5px 0px 0px 0px;
+}
+
 .card-body-abstract {
-    padding: 20px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
     font-size: 15px;
     font-weight: 400;
     color: #666666
