@@ -31,26 +31,6 @@
             "description": " I spent the summer of 2018 in Curitiba, Brazil teaching an introductory computer science course to over 300 awesome high schoolers from all over the city. Every week Geoff Angus (another master's student at Stanford) and I co-taught eleven different classes at three different high schools in the city. We designed a full curriculum from scratch that uses the pedagogical methods of CS106A, but is tailored for high-school students that speak English as a second language. We wrote all of the assignments, course notes and slides from scratch. You can find all these materials on our website. We worked with school administrators and math teachers at the high schools to ensure the continuation of CS curriculum at the high school after we left. Also, because many students spoke little english, we lectured primarily in Portuguese (I had spent the school year before that summer studying Portuguese in preparation",
             "github": "https://github.com/geoffreyangus/cs106r",
             "website": "http://cs106r.com/"
-        },
-        {
-            "title": "CS 198 Section Leader",
-            "organization": "Computer Science Department",
-            "year": "2015-2018",
-            "school": "Stanford University",
-            "image": "res/cem_preview.png",
-            "description": "From sophomore to senior year of undergrad, I was a CS 106A/B section leader at Stanford. I taught a weekly class of twelve students, graded assignments and held office hours.",
-            "github": "https://github.com/geoffreyangus/cs106r",
-            "website": "http://web.stanford.edu/class/cs106b/"
-        },
-        {
-            "title": "CS Bridge Section Leader",
-            "organization": "Computer Science Department",
-            "year": "2019",
-            "school": "Koç University – Istanbul, Turkey",
-            "image": "res/cem_preview.png",
-            "description": "I spent two weeks this past summer in Istanbul teaching computer science at Koç University. I helped develop some of the curriculum and materials for the course.",
-            "github": "https://github.com/geoffreyangus/cs106r",
-            "website": "https://koc.csbridge.org/en/index.html"
         }
     ]
 }
