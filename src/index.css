@@ -193,6 +193,7 @@ a {
 .card-preview-image {
     width: 95%;
     margin-bottom: 0px;
+    border-radius: 10px;
 }
 
 .card-preview-objectives {
