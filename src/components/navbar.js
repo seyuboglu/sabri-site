@@ -74,6 +74,8 @@ export default class NavBar extends Component {
                             </div>
                         </a>
                     </div>
+                </div>
+                <div className="navbar-about">
                     <div className="text-section">
                         <p>
                             <b>About.</b> I'm currently a machine learning research intern

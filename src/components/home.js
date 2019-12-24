@@ -77,7 +77,7 @@ export default class HomePage extends Component {
         return (
             <div id="home-page">
                 <Header/>
-                <div className="section-heading"> Research </div>
+                <div className="section-heading research-heading"> Research </div>
                 <div id="concept-cards-wrapper">
                     {researchCards}
                 </div>

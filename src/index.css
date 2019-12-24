@@ -153,6 +153,10 @@ a {
     font-style: italic;
 }
 
+.section-heading:first-of-type{
+    margin-top: 30px;
+}
+
 .concept-card {
     display: flex;
     flex-direction: row-reverse;
@@ -357,22 +361,40 @@ a {
 
 @media screen and (max-width: 875px) {
     .navbar {
-        display: none;
+        content: "";
+        width: 85%;
+        display: table;
+        clear: both;
+        position:;
+    }
+
+    .navbar-image {
+        float: left;
+        width: 25%;
+    }
+
+    .navbar-info {
+        float: left;
+        width: 30%;
+        padding-left: 5%;
+    }
+
+    .navbar-about {
+        float: left;
+        width:35%;
+        padding-left: 5%;
     }
 
     .section-heading {
         margin-left: 5%;
+        
+    }
+
+    .research-heading{
+        margin-top: 50%;
     }
 
     .concept-card {
         margin-left: 5%;
-    }
-
-    .concept-card:first-of-type {
-        margin-left: 5%;
-    }
-
-    .card-body-abstract {
-        display: none;
     }
 }
