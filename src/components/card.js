@@ -12,7 +12,8 @@ export default class ConceptCard extends React.Component {
       year,
       image,
       description,
-      github
+      github,
+      manuscript
     } = this.props
 
     if (! github){
@@ -35,7 +36,7 @@ export default class ConceptCard extends React.Component {
             <i>{venue}</i>, {year} <br />
           </div>
           <div className="card-body-links">
-            <a href="https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/resume.pdf">
+            <a href={manuscript}>
               <div class="external-link paper-link"> </div>
             </a>
             <a href={github}>

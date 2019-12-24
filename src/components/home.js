@@ -34,6 +34,7 @@ export default class HomePage extends Component {
                         image={data["research"][i]['image']}
                         description={data["research"][i]['description']}
                         github={data["research"][i]['github']}
+                        manuscript={data["research"][i]['manuscript']}
                     />
                 )
             }
