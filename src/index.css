@@ -127,6 +127,10 @@ a {
     background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/paper.png") no-repeat;
     background-size: contain; 
 }
+.paper-link:hover{
+    background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/paper-yellow.png") no-repeat;
+    background-size: contain; 
+}
 
 #home-page {
     padding-top: 50px;
