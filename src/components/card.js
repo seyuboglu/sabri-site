@@ -26,14 +26,21 @@ export default class ConceptCard extends React.Component {
       venue,
       year,
       image,
-      description
+      description,
+      github
     } = this.props
 
+    if (! github){
+      github = "https://github.com/seyuboglu"
+    }
 
     return (
       <div className="concept-card">
         <div className="card-preview">
           {<img className="card-preview-image" src={"https://raw.githubusercontent.com/seyuboglu/sabri-site/master/" + image}/>}
+          {<a href={github}>
+            <div class="external-link github-link"> </div>
+          </a>}
         </div>
         <div className="card-body">
           <div className="card-body-title">
