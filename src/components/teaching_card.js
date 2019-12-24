@@ -2,17 +2,19 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import ReadMore from './read_more';
+import ConceptCard from './card'
 
-export default class ConceptCard extends React.Component {
+export default class TeachingCard extends ConceptCard {
   render() {
     let {
       title,
-      authors,
-      venue,
+      organization,
+      school,
       year,
       image,
       description,
-      github
+      github,
+      website
     } = this.props
 
     if (! github){
@@ -29,10 +31,13 @@ export default class ConceptCard extends React.Component {
             {title}
           </div>
           <div className="card-body-authors">
-            {authors}
+            {organization}
           </div>
           <div className="card-body-venue">
-            <i>{venue}</i>, {year} <br />
+            <i>{school}</i> 
+          </div>
+          <div className="card-body-venue">
+            {year} <br />
           </div>
           <div className="card-body-links">
             <a href="https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/resume.pdf">

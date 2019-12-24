@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import ConceptCard from './card'
+import TeachingCard from './teaching_card'
 import Header from './header'
 import Footer from './footer'
 
@@ -39,14 +40,15 @@ export default class HomePage extends Component {
 
             for (let i = 0; i < data["teaching"].length; i++) {
                 teachingCards.push(
-                    <ConceptCard
+                    <TeachingCard
                         title={data["teaching"][i]['title']}
-                        authors={data["teaching"][i]['authors']}
-                        school={Curitiba, Brasil}
+                        organization={data["teaching"][i]['organization']}
+                        school={data["teaching"][i]['school']}
                         year={data["teaching"][i]['year']}
                         image={data["teaching"][i]['image']}
                         description={data["teaching"][i]['description']}
                         github={data["teaching"][i]['github']}
+                        website={data["teaching"][i]['website']}
                     />
                 )
             }
@@ -58,6 +60,9 @@ export default class HomePage extends Component {
                 <div className="section-heading"> Research </div>
                 <div id="concept-cards-wrapper">
                     {researchCards}
+                </div>
+                <div className="section-heading"> Teaching </div>
+                <div id="concept-cards-wrapper">
                     {teachingCards}
                 </div>
                 <Footer/>
