@@ -19,11 +19,12 @@ export default class HomePage extends Component {
 
     render() {
         const { data } = this.state;
-        let cards = []
+        let researchCards = []
+        let teachingCards = []
         if (data != null) {
            // research 
             for (let i = 0; i < data["research"].length; i++) {
-                cards.push(
+                researchCards.push(
                     <ConceptCard
                         title={data["research"][i]['title']}
                         authors={data["research"][i]['authors']}
@@ -34,7 +35,20 @@ export default class HomePage extends Component {
                         github={data["research"][i]['github']}
                     />
                 )
-                
+            }
+
+            for (let i = 0; i < data["teaching"].length; i++) {
+                teachingCards.push(
+                    <ConceptCard
+                        title={data["teaching"][i]['title']}
+                        authors={data["teaching"][i]['authors']}
+                        school={Curitiba, Brasil}
+                        year={data["teaching"][i]['year']}
+                        image={data["teaching"][i]['image']}
+                        description={data["teaching"][i]['description']}
+                        github={data["teaching"][i]['github']}
+                    />
+                )
             }
         }
 
@@ -43,7 +57,8 @@ export default class HomePage extends Component {
                 <Header/>
                 <div className="section-heading"> Research </div>
                 <div id="concept-cards-wrapper">
-                    {cards}
+                    {researchCards}
+                    {teachingCards}
                 </div>
                 <Footer/>
             </div>

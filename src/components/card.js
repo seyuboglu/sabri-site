@@ -52,11 +52,11 @@ export default class ConceptCard extends React.Component {
             <i>{venue}</i>, {year} <br />
           </div>
           <div className="card-body-links">
-            <a href={github}>
-              <div class="external-link github-link"> </div>
-            </a>
             <a href="https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/resume.pdf">
               <div class="external-link paper-link"> </div>
+            </a>
+            <a href={github}>
+              <div class="external-link github-link"> </div>
             </a>
           </div>
           <div className="card-body-abstract">
