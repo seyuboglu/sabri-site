@@ -80,7 +80,7 @@
             "authors": "Sabri Eyuboglu, Geoffrey Angus, Roozbeh Mahdavian, Pierce Freeman",
             "venue": "CS 230",
             "year": "2018",
-            "image": null,
+            "image": "data/papers/repkit/preview.png",
             "description": "We present a supervised learning method for exercise recognition and transcription. Our algorithm ingests micro- electromagnetic (MEM) sequences recorded by a wearable device during a workout set and outputs both the type of exercise performed and the number of repetitions completed. Our model consists of a 1-D convolutional layer whose output is fed into a Bidirectional Long Short-Term Memory Recurrent Neural Net- work (BLSTM). Because exercise transcription is a many-to-many sequence prediction problem where input and output sequences are unaligned and different in length, we use Connectionist Temporal Classification (CTC) Loss to train the network. Our model generalizes to new users not included in the training set and achieves near-perfect accuracy in transcribing their workouts.",
             "manuscript": "https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/repkit/manuscript.pdf",
             "poster": "https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/repkit/poster.pdf",
