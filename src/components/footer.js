@@ -5,7 +5,6 @@ export default class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                Terminal icon made by Focus from the Noun Project.
             </div>
         )
     }

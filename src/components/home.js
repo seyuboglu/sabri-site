@@ -77,19 +77,20 @@ export default class HomePage extends Component {
         return (
             <div id="home-page">
                 <Header/>
-                <div className="section-heading research-heading"> Research </div>
-                <div id="concept-cards-wrapper">
-                    {researchCards}
+                <div className="concept-cards">
+                    <div id="research-heading" className="section-heading research-heading"> Research </div>
+                    <div id="research-cards-wrapper">
+                        {researchCards}
+                    </div>
+                    <div id="teaching-heading" className="section-heading"> Teaching </div>
+                    <div id="teaching-cards-wrapper">
+                        {teachingCards}
+                    </div>
+                    <div id="project-heading" className="section-heading"> Other Projects </div>
+                    <div id="project-cards-wrapper">
+                        {projectsCards}
+                    </div>
                 </div>
-                <div className="section-heading"> Teaching </div>
-                <div id="concept-cards-wrapper">
-                    {teachingCards}
-                </div>
-                <div className="section-heading"> Other Projects </div>
-                <div id="concept-cards-wrapper">
-                    {projectsCards}
-                </div>
-                <Footer/>
             </div>
 
         )

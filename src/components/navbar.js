@@ -37,12 +37,11 @@ export default class NavBar extends Component {
                 <img className="navbar-image" src={"https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/main.jpeg"}/>
                 <div className="navbar-info"> 
                     <div className="navbar-name"> Sabri Eyuboglu</div>
-                    <div className="navbar-github">
-                        
-                    </div>
+                    
                     <div className="navbar-email">
                         eyuboglu <b><i>at</i></b> stanford <b><i>dot</i></b> edu
                     </div>
+                    
 
                     <div className="text-section">
                         <p>
@@ -86,12 +85,29 @@ export default class NavBar extends Component {
                         </p>
                         <p>
                             <b>Research Interests.</b> I study ways to 
-                            make machine learning systemsmore effective in high impact applications, like medicine and 
+                            make machine learning systems more effective in high impact applications, like medicine and 
                             the life sciences, where data come in many forms and are often 
                             unlabeled, unstructured or otherwise imperfect. 
                         </p>
                     </div>
                 </div>
+                <div className="navigation">
+                        <a href="#research-heading">
+                            <div className="text-button">
+                                Research
+                            </div>
+                        </a>
+                        <a href="#teaching-heading">
+                            <div className="text-button">
+                                Teaching
+                            </div>
+                        </a>
+                        <a href="#project-heading">
+                            <div className="text-button">
+                                Projects
+                            </div>
+                        </a>
+                    </div>
             </div>
         )
     }

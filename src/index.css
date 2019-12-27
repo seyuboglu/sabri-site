@@ -6,6 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #f9fafb;
+    display: flex;
 }
 
 code {
@@ -18,12 +19,28 @@ a {
     text-decoration: none;
 }
 
+#home-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f9fafb;
+    min-height: 100vh;
+}
+
 .navbar {
-    position: fixed;
+    /*position: fixed;
     flex-direction: row-reverse;
-    margin-left: 5%;
-    margin-top:20px;
-    width:250px;
+    margin-left: 75px;
+    margin-top: 20px;*/
+    flex-basis: 400px;
+    position: sticky;
+    top: 50px;
+    padding-left: 75px;
+    padding-right: 25px;
+    max-width:300px;
+    min-width: 300px;
+
 }
 
 .navbar-image {
@@ -31,7 +48,8 @@ a {
     margin-bottom: 20px;
     border-radius: 6px;
     display: inline-block;
-    box-shadow: 0px 0px 3px 0.2px #798397
+    box-shadow: 0px 0px 3px 0.2px #798397;
+    max-width:200px;
 }
 
 .navbar-name {
@@ -133,37 +151,23 @@ a {
     background-size: contain; 
 }
 
-#home-page {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    background-color: #f9fafb;
-    min-height: 100vh;
-}
 .section-heading {
     display: flex;
     font-size: 45px;
     font-weight: 600;
     color: #666666;
-    margin-left: 350px;
-    width:1000px;
     margin-top:20px;
     padding: 0px;
     font-style: italic;
 }
 
-.section-heading:first-of-type{
-    margin-top: 30px;
-}
 
 .concept-card {
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 350px;;
     margin-right: 5%;
     margin-top:20px;
-    max-width:1000px;
+    max-width: 1000px;
     box-shadow: 0px 0px 5px 0.2px #798397;
     border-radius: 5px;
     border-width: 2px;
@@ -360,12 +364,17 @@ a {
 
 
 @media screen and (max-width: 875px) {
+    #home-page {
+        flex-direction: column;
+    }
+
     .navbar {
         content: "";
         width: 85%;
         display: table;
         clear: both;
-        position:;
+        position:static;
+        max-width: 85%; 
     }
 
     .navbar-image {
@@ -390,11 +399,12 @@ a {
         
     }
 
-    .research-heading{
-        margin-top: 50%;
-    }
-
     .concept-card {
         margin-left: 5%;
     }
+}
+
+@media screen and (min-width: 875px) and (max-height: 550px){
+
+
 }
