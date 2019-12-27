@@ -91,23 +91,6 @@ export default class NavBar extends Component {
                         </p>
                     </div>
                 </div>
-                <div className="navigation">
-                        <a href="#research-heading">
-                            <div className="text-button">
-                                Research
-                            </div>
-                        </a>
-                        <a href="#teaching-heading">
-                            <div className="text-button">
-                                Teaching
-                            </div>
-                        </a>
-                        <a href="#project-heading">
-                            <div className="text-button">
-                                Projects
-                            </div>
-                        </a>
-                    </div>
             </div>
         )
     }
