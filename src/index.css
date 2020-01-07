@@ -372,6 +372,7 @@ a {
         clear: both;
         position:static;
         max-width: 85%; 
+        height:20vh;
     }
 
     .navbar-image {
@@ -392,8 +393,7 @@ a {
     }
 
     .section-heading {
-        margin-left: 5%;
-        
+        margin-left: 5%;        
     }
 
     .concept-card {
