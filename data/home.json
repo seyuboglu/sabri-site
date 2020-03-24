@@ -2,7 +2,7 @@
     "research":[
         {
             "title": "Multi-task weak supervision enables automated abnormality localization in whole-body PET-CT",
-            "authors": "Sabri Eyuboglu*, Geoffrey Angus*,  Bhavik Patel, Anuj Pareek, Guido Davidzon, Jared Dunnmon, Matthew Lungren",
+            "authors": ["Sabri Eyuboglu*", "Geoffrey Angus*",  "Bhavik Patel", "Anuj Pareek", "Guido Davidzon", "Jared Dunnmon", "Matthew Lungren"],
             "venue": "In submission",
             "year": "2020",
             "image": "res/pet_ct_preview.png",
@@ -12,7 +12,7 @@
         },
         {
             "title": "Mutual interactors as a principle for the discovery of phenotypes in molecular networks",
-            "authors": "Sabri Eyuboglu*, Marinka Zitnik*,  Jure Leskovec",
+            "authors": ["Sabri Eyuboglu*", "Marinka Zitnik*",  "Jure Leskovec"],
             "venue": "In submission",
             "year": "2020",
             "image": "res/mi_preview.png",

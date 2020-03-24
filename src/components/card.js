@@ -20,6 +20,8 @@ export default class ConceptCard extends React.Component {
       github = "https://github.com/seyuboglu"
     }
 
+    authors = authors.join(", ")
+
     return (
       <div className="concept-card">
         <div className="card-preview">
