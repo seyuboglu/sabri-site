@@ -1,24 +1,24 @@
 {
     "research":[
         {
+            "title": "Multi-task weak supervision enables automated abnormality localization in whole-body PET-CT",
+            "authors": "Sabri Eyuboglu*, Geoffrey Angus*,  Bhavik Patel, Anuj Pareek, Guido Davidzon, Jared Dunnmon, Matthew Lungren",
+            "venue": "In submission",
+            "year": "2020",
+            "image": "res/pet_ct_preview.png",
+            "github": "https://github.com/seyuboglu/weakly-supervised-petct", 
+            "manuscript": "http://sabrieyuboglu.com/papers/pet-ct.pdf",
+            "description": "Computational decision support systems could provide clinical value in whole-body FDG-PET/CT workflows.  However, the lack of labeled data combined with the sheer size of each scan make it challenging to apply existing supervised machine learning systems. Leveraging recent advancements in natural language processing, we develop a weak supervision frame-work that extracts imperfect, yet highly granular regional abnormality labels from the radi-ologist reports associated with each scan.  Our framework automatically labels each region in a custom ontology of anatomical regions, providing a structured profile of the pathologies in each scan. We design an attention-based, multi-task CNN architecture that can be trainedusing these generated labels to localize abnormalities in whole-body scans. We show that our multi-task representation is critical for strong performance on rare abnormalities for which we have little data and for accurately predicting mortality from imaging data alone (AUROC 80%), a critical challenge for palliative care teams."
+        },
+        {
             "title": "Mutual interactors as a principle for the discovery of phenotypes in molecular networks",
             "authors": "Sabri Eyuboglu*, Marinka Zitnik*,  Jure Leskovec",
             "venue": "In submission",
-            "year": "2019",
+            "year": "2020",
             "image": "res/mi_preview.png",
             "description": "Biological networks are powerful resources for the discovery of molecular phenotypes. Here, we show that proteins are more likely to have similar phenotypes, not if they directly interact in a molecular network, but if they interact with the same proteins. We call this the mutual interactor principle and show that it holds for several kinds of molecular networks, including protein-protein interaction, genetic interaction, and signaling networks. We then develop a machine learning framework for predicting molecular phenotypes on the basis of mutual interactors. Strikingly, the framework can predict drug targets, disease proteins, and protein functions in different species, and it performs better than much more complex algorithms. The framework is robust to incomplete biological data and capable of generalizing to phenotypes it has not seen during training.",
             "manuscript": "http://sabrieyuboglu.com/papers/mutual-interactors.pdf",
             "github": "https://github.com/seyuboglu/milieu"
-        },
-        {
-            "title": "Cross-modal weak supervision enables abnormality localization in full-body PET-CT",
-            "authors": "Sabri Eyuboglu*, Geoffrey Angus*,  Bhavik Patel, Anuj Pareek, Guido Davidzon, Jared Dunnmon, Matthew Lungren",
-            "venue": "In submission",
-            "year": "2019",
-            "image": "res/pet_ct_preview.png",
-            "github": null, 
-            "manuscript": "http://sabrieyuboglu.com/papers/pet-ct.pdf",
-            "description": "Computational decision support systems could provide clinical value in full-body PET-CT workflows. However, the lack of labeled data and the sheer size of PET-CT studies make it challenging to apply existing supervised machine learning systems to these full-body scans. Leveraging recent advancements in natural language processing, we introduce a weak-supervision framework that extracts imperfect, yet highly granular regional abnormality training labels from the radiologist reports associated with each scan. Using these labels, we train a multi-task 3D convolutional neural network to detect abnormalities in 26 anatomical regions commonly of interest in PET-CT protocols. Our model can detect lymph node, lung and liver abnormalities with median areas under the curve of 87%, 85% and 92%, respectively. We show that performing multi-task pre-training on these core tasks can enable strong performance on rare abnormalities and orthogonal tasks. Multi-task pre-training enables improvements of 28 and 17 AUC percentage-points in detecting abnormalities in the kidney and pancreas, respectively."
         }
     ],
     "teaching":[
