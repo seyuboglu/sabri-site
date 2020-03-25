@@ -19,7 +19,8 @@ export default class ConceptCard extends React.Component {
     if (! github){
       github = "https://github.com/seyuboglu"
     }
-    authors = authors.join(", ")
+    
+    var meIdx = authors.findIndex(a => a.includes("Sabri Eyuboglu"))
 
     return (
       <div className="concept-card">
@@ -33,7 +34,7 @@ export default class ConceptCard extends React.Component {
             </div>
           </a>
           <div className="card-body-authors">
-            {authors}
+            {authors.slice(0, meIdx).join(", ")} <b>{authors[meIdx]}</b>,  {authors.slice(meIdx + 1).join(", ")}
           </div>
           <div className="card-body-venue">
             <i>{venue}</i>, {year} <br />
