@@ -34,7 +34,7 @@ export default class ConceptCard extends React.Component {
             </div>
           </a>
           <div className="card-body-authors">
-            {authors.slice(0, meIdx).join(", ")} <b>{authors[meIdx]}</b>,  {authors.slice(meIdx + 1).join(", ")}
+            {authors.slice(0, meIdx).join(", ")} <b>{authors[meIdx]}</b>, {authors.slice(meIdx + 1).join(", ")}
           </div>
           <div className="card-body-venue">
             <i>{venue}</i>, {year} <br />
