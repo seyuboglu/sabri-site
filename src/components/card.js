@@ -19,7 +19,6 @@ export default class ConceptCard extends React.Component {
     if (! github){
       github = "https://github.com/seyuboglu"
     }
-
     authors = authors.join(", ")
 
     return (
