@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default class NavBar extends Component {
     constructor() {
         super();
-        this.state = {scrolled: false}
+        this.state = { scrolled: false }
     }
 
     componentDidMount() {
@@ -34,23 +34,27 @@ export default class NavBar extends Component {
         console.log(this.state)
         return (
             <div id="navbar" className={this.state.scrolled ? "navbar scroll" : "navbar"}>
-                <img className="navbar-image" src={"https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/main.jpeg"}/>
-                <div className="navbar-info"> 
+                <img className="navbar-image" src={"https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/main.jpeg"} />
+                <div className="navbar-info">
                     <div className="navbar-name"> Sabri Eyuboglu</div>
-                    
+
                     <div className="navbar-email">
                         eyuboglu <b><i>at</i></b> stanford <b><i>dot</i></b> edu
                     </div>
-                    
+
 
                     <div className="text-section">
                         <p>
-                        <b>B.S.</b> Computer Science <br />
-                        Stanford University '18 
+                            <b>PhD candidate</b> Computer Science <br />
+                        Stanford University
                         </p>
                         <p>
-                        <b>M.S.</b> Computer Science <br />
+                            <b>M.S.</b> Computer Science <br />
                         Stanford University '19
+                        </p>
+                        <p>
+                            <b>B.S.</b> Computer Science <br />
+                        Stanford University '18
                         </p>
                     </div>
 
@@ -77,17 +81,17 @@ export default class NavBar extends Component {
                 <div className="navbar-about">
                     <div className="text-section">
                         <p>
-                            <b>About.</b> I'm currently a machine learning research intern
-                            at <a href="https://flatiron.com/">Flatiron Health</a>. Previously, I completed my undergrad and master's 
-                            at Stanford, where I worked with Jure Leskovec's 
-                            <a href="https://cs.stanford.edu/~jure/"> SNAP Group</a> and 
+                            <b>About.</b> I'm a first-year CS PhD Student at Stanford. Previously, I was a machine learning research intern
+                            at <a href="https://flatiron.com/">Flatiron Health</a>. I completed my undergrad and master's
+                            at Stanford, where I worked with Jure Leskovec's
+                            <a href="https://cs.stanford.edu/~jure/"> SNAP Group</a> and
                             the <a href="https://aimi.stanford.edu/">AIMI Center.</a>
                         </p>
                         <p>
-                            <b>Research Interests.</b> I study ways to 
-                            make machine learning systems more effective in high impact applications, like medicine and 
-                            the life sciences, where data come in many forms and are often 
-                            unlabeled, unstructured or otherwise imperfect. 
+                            <b>Research Interests.</b> I study ways to
+                            make machine learning systems more effective in high impact applications, like medicine and
+                            the life sciences, where data come in many forms and are often
+                            unlabeled, unstructured or otherwise imperfect.
                         </p>
                     </div>
                 </div>
