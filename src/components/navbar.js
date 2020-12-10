@@ -49,12 +49,8 @@ export default class NavBar extends Component {
                         Stanford University
                         </p>
                         <p>
-                            <b>M.S.</b> Computer Science <br />
+                            <b>B.S. + M.S.</b> Computer Science <br />
                         Stanford University '19
-                        </p>
-                        <p>
-                            <b>B.S.</b> Computer Science <br />
-                        Stanford University '18
                         </p>
                     </div>
 
@@ -89,7 +85,7 @@ export default class NavBar extends Component {
                         </p>
                         <p>
                             <b>Research Interests.</b> I study ways to
-                            make machine learning systems more effective in high impact applications, like medicine and
+                            make machine learning systems more effective in challenging applied settings, like medicine and
                             the life sciences, where data come in many forms and are often
                             unlabeled, unstructured or otherwise imperfect.
                         </p>
