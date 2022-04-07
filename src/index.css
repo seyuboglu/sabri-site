@@ -179,7 +179,7 @@ a {
 }
 
 .card-preview {
-    width:55%;
+    width:50%;
     background-color: white;
     color: #42516e;
     border-radius: 0;
@@ -189,6 +189,7 @@ a {
     border-style: solid;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .card-preview a {
@@ -198,7 +199,7 @@ a {
 
 .card-preview-image {
     width: 100%;
-    margin-bottom: 0px;
+    margin: auto;
     border-radius: 10px;
 }
 

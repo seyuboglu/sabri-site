@@ -3,7 +3,7 @@ export const DATA = {
     "research": [
         {
             "title": "Domino: Discovering Systematic Errors with Cross-modal Embeddings ",
-            "authors": ["Sabri Eyuboglu*", "Maya Varma",  "Khaled Saab", "Jean-Benoit Delbrouck", "Christopher Lee-Messer", "Jared Dunnmon**", "James Zou", "Christopher Ré"],
+            "authors": ["Sabri Eyuboglu", "Maya Varma",  "Khaled Saab", "Jean-Benoit Delbrouck", "Christopher Lee-Messer", "Jared Dunnmon", "James Zou", "Christopher Ré"],
             "venue": "ICLR",
             "year": "2022",
             "image": "res/domino_preview.png",
