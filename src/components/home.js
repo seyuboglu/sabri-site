@@ -4,18 +4,13 @@ import ConceptCard from './card'
 import TeachingCard from './teaching_card'
 import Header from './header'
 import Footer from './footer'
+import { DATA } from '../data/home'
 
 
 export default class HomePage extends Component {
     constructor() {
         super();
-        this.state = { data: null };
-    }
-
-    componentDidMount() {
-        fetch('https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/home.json')
-            .then(res => res.json())
-            .then(res => this.setState({ data: res }));
+        this.state = { data: DATA };
     }
 
     render() {
@@ -23,9 +18,7 @@ export default class HomePage extends Component {
         let researchCards = []
         let teachingCards = []
         let projectsCards = []
-        console.log("HI")
         console.log(data)
-        console.log("BYE")
         if (data != null) {
            // research 
             for (let i = 0; i < data["research"].length; i++) {

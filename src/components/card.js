@@ -25,7 +25,7 @@ export default class ConceptCard extends React.Component {
     return (
       <div className="concept-card">
         <div className="card-preview">
-          {<img className="card-preview-image" src={"https://raw.githubusercontent.com/seyuboglu/sabri-site/master/" + image}/>}
+          {<img className="card-preview-image" src={require("../../" + image)}/>}
         </div>
         <div className="card-body">
           <a href={manuscript}>

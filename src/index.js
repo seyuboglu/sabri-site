@@ -5,16 +5,12 @@ import * as serviceWorker from './serviceWorker';
 
 import './index.css';
 import App from './App';
-import PetCtPage from './components/pet_ct'
-import MilieuPage from './components/mutual_interactors'
 
 
 const routing = (
     <Router basename={process.env.PUBLIC_URL}>
         <div>
             <Route exact path="/" component={App} />
-            <Route path="/papers/pet-ct.pdf" component={PetCtPage} />
-            <Route path="/papers/mutual-interactors.pdf" component={MilieuPage} />
         </div>
     </Router>
 )

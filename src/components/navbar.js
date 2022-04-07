@@ -77,17 +77,22 @@ export default class NavBar extends Component {
                 <div className="navbar-about">
                     <div className="text-section">
                         <p>
-                            <b>About.</b> I'm a first-year CS PhD Student at Stanford. Previously, I was a machine learning research intern
+                            <b>About.</b> I'm a Second-Year CS PhD Student in the <a href="http://ml.stanford.edu">Stanford Machine Learning Group</a> advised
+                            by <a href="https://cs.stanford.edu/people/chrismre/">Chris Ré</a> and <a href="https://www.james-zou.com/">James Zou</a>. 
+                            I am supported by the <a href="https://www.nsfgrfp.org/"> National Science Foundation GRFP </a>.
+                        </p>
+                        <p>
+                            <b>Research Interests.</b> I’m broadly interested in how we can make machine learning systems 
+                            more reliable in challenging applied settings like medicine and the sciences. To that end,
+                            I’ve recently been working on tools that help practitioners better understand their data 
+                            (see Domino and Meerkat).
+                        </p>
+                        <p>
+                            <b>Background.</b> Previously, I was a machine learning research intern
                             at <a href="https://flatiron.com/">Flatiron Health</a>. I completed my undergrad and master's
                             at Stanford, where I worked with Jure Leskovec's
                             <a href="https://cs.stanford.edu/~jure/"> SNAP Group</a> and
                             the <a href="https://aimi.stanford.edu/">AIMI Center.</a>
-                        </p>
-                        <p>
-                            <b>Research Interests.</b> I study ways to
-                            make machine learning systems more effective in challenging applied settings, like medicine and
-                            the life sciences, where data come in many forms and are often
-                            unlabeled, unstructured or otherwise imperfect.
                         </p>
                     </div>
                 </div>
