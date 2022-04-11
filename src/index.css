@@ -131,6 +131,7 @@ a {
 }
 
 .github-link{
+    content: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/github-grey.png") url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/github-green.png");
     background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/github-grey.png") no-repeat;
     background-size: contain;
     margin-left: 5px;
@@ -142,6 +143,7 @@ a {
     background-size: contain;
 }
 .linkedin-link{
+    content: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/linkedin-grey.png") url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/linkedin-green.png");
     background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/linkedin-grey.png") no-repeat;
     background-size: contain;
     margin-left: 5px;
@@ -154,6 +156,7 @@ a {
     background-size: contain;
 }
 .twitter-link{
+    content: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/twitter-grey.png") url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/twitter-green.png");
     background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/twitter-grey.png") no-repeat;
     background-size: contain;
     margin-left: 5px;
