@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import ConceptCard from './card'
 import TeachingCard from './teaching_card'
+import SoftwareCard from './software_card'
 import Header from './header'
 import Footer from './footer'
 import { DATA } from '../data/home'
@@ -18,6 +19,7 @@ export default class HomePage extends Component {
         let researchCards = []
         let teachingCards = []
         let projectsCards = []
+        let softwareCards = []
         console.log(data)
         if (data != null) {
            // research 
@@ -51,20 +53,23 @@ export default class HomePage extends Component {
                 )
             }
 
-            // for (let i = 0; i < data["projects"].length; i++) {
-            //     projectsCards.push(
-            //         <ConceptCard
-            //             title={data["projects"][i]['title']}
-            //             authors={data["projects"][i]['authors']}
-            //             venue={data["projects"][i]['venue']}
-            //             year={data["projects"][i]['year']}
-            //             image={data["projects"][i]['image']}
-            //             description={data["projects"][i]['description']}
-            //             github={data["projects"][i]['github']}
-            //             manuscript={data["projects"][i]['manuscript']}
-            //         />
-            //     )
-            // }
+            for (let i = 0; i < data["software"].length; i++) {
+                softwareCards.push(
+                    <SoftwareCard
+                        title={data["software"][i]['title']}
+                        banner={data["software"][i]['banner']}
+                        description={data["software"][i]['description']}
+                        github={data["software"][i]['github']}
+                        website={data["software"][i]['website']}
+                        pypi={data["software"][i]['pypi']}
+                        docs={data["software"][i]['docs']}
+                    />
+                )
+            }
+
+
+
+            
         }
 
         return (
@@ -72,17 +77,20 @@ export default class HomePage extends Component {
                 <Header/>
                 <div className="concept-cards">
                     <div id="research-heading" className="section-heading research-heading"> Research </div>
+                    <em id="google-scholar" className='google-scholar'> For a full list of publications, please see <a href="https://scholar.google.com/citations?user=ya1egC8AAAAJ&hl=en&authuser=1&oi=ao">Google Scholar</a>. </em>
                     <div id="research-cards-wrapper">
                         {researchCards}
+                    </div>
+                    <div id="software-heading" className="section-heading"> Software </div>
+                    <div id="software-cards-wrapper">
+                        {softwareCards}
                     </div>
                     <div id="teaching-heading" className="section-heading"> Teaching </div>
                     <div id="teaching-cards-wrapper">
                         {teachingCards}
                     </div>
-                    {/* <div id="project-heading" className="section-heading"> Other Projects </div>
-                    <div id="project-cards-wrapper">
-                        {projectsCards}
-                    </div> */}
+                    
+                    
                 </div>
             </div>
 

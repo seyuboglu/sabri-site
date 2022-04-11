@@ -64,4 +64,15 @@ export const DATA = {
             "website": "https://koc.csbridge.org/en/index.html"
         }
     ],
+    "software":[
+        {
+            "title": "Meerkat",
+            "banner": "software/meerkat/meerkat_banner_small.png",
+            "description": "Meerkat provides fast and flexible data structures for working with complex machine learning datasets. It is designed to house your data throughout the machine learning lifecycle – along the way enabling interactive data exploration, cross-modal training, and fine-grained error analysis.",
+            "github": "https://github.com/robustness-gym/meerkat/",
+            "docs": "http://cs106r.com/",
+            "pypi": "meerkat-ml",
+            "install": "https://meerkat.readthedocs.io/en/latest/"
+        },
+    ]
 }

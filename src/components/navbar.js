@@ -34,7 +34,7 @@ export default class NavBar extends Component {
         console.log(this.state)
         return (
             <div id="navbar" className={this.state.scrolled ? "navbar scroll" : "navbar"}>
-                <img className="navbar-image" src={"https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/main.jpeg"} />
+                <img className="navbar-image" src={require("../data/main.jpeg")} />
                 <div className="navbar-info">
                     <div className="navbar-name"> Sabri Eyuboglu</div>
 
