@@ -433,6 +433,7 @@ a {
         position:static;
         max-width: 85%; 
         height:20vh;
+        padding-left: 50px;
     }
 
     .navbar-image {
@@ -464,18 +465,24 @@ a {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
 
     .navbar-image {
         display: none;
     }
 
     .navbar-info {
-        width: 40%;
+        width: 100%;
+        float: left;
+        padding-left: 5%;
+
     }
 
     .navbar-about {
-        width:50%;
+        float: left;
+        width:100%;
+        padding-left: 5%;
+
     }
 
     .navbar {
