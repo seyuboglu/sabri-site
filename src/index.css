@@ -75,10 +75,13 @@ a {
 
 .text-button {
     border-radius: 7px;
-    border-color: #666666;
+    background-color: #e0e0e0;
     border-width: 1.3px;
-    border-style: solid;
-    padding: 2px;
+    border-style: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     margin-right: 10px;
     font-size: 15px;
     font-weight: bold;
@@ -86,14 +89,11 @@ a {
     display: inline-block;
     user-select: none;
     vertical-align: 55%;
-    background-color: transparent;
     transition: all 0.2s ease-in-out;
 }
 
 .text-button:hover {
-    background-color:#903e82;
-    border-color: #903e82;
-    color:#f9fafb;;
+    box-shadow: 1px 1px 1px 0.0px black;
 }
 
 .text-section {
@@ -114,9 +114,28 @@ a {
     transition: all 0.2s ease-in-out;
 }
 
+.note-tag {
+    border-radius: 7px;
+    background-color: #e0e0e0;
+    border-width: 1.3px;
+    border-style: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #f25858;
+    display: inline-block;
+    user-select: none;
+    transition: all 0.2s ease-in-out;
+}
+
 .github-link{
     background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/github-grey.png") no-repeat;
     background-size: contain;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.2s ease-in-out;
 }
 .github-link:hover {
     background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/github-green.png") no-repeat;
@@ -125,6 +144,10 @@ a {
 .linkedin-link{
     background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/linkedin-grey.png") no-repeat;
     background-size: contain;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.2s ease-in-out;
+
 }
 .linkedin-link:hover {
     background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/linkedin-blue.png") no-repeat;
@@ -133,10 +156,14 @@ a {
 .twitter-link{
     background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/twitter-grey.png") no-repeat;
     background-size: contain;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.2s ease-in-out;
 }
 .twitter-link:hover {
     background: url("https://raw.githubusercontent.com/seyuboglu/sabri-site/master/res/twitter-blue.png") no-repeat;
     background-size: contain;
+
 }
 
 .paper-link{
@@ -376,12 +403,10 @@ a {
     margin-left: 8px;
     margin-top: 12px;
     width: fit-content;
-    box-shadow: 1px 1px 1px 0.0px black;
 }
 
 .command-line-button:hover{
-    box-shadow: 0px 0px 0px 0px black;
-
+    box-shadow: 1px 1px 1px 0.0px black;
 }
 
 @media screen and (max-width: 1300px) {
@@ -414,7 +439,7 @@ a {
 
     .navbar-info {
         float: left;
-        width: 30%;
+        width: 70%;
         padding-left: 5%;
     }
 

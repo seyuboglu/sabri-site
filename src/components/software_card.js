@@ -13,11 +13,24 @@ export default class SoftwareCard extends ConceptCard {
       github,
       docs,
       pypi,
-      website
+      website,
+      links
     } = this.props
 
     if (! github){
       github = "https://github.com/seyuboglu"
+    }
+
+    let link_buttons = []
+
+    for (const [key, value] of Object.entries(links)){
+      link_buttons.push(
+        <a href={value}>
+          <div class="text-button"> 
+            {key}
+          </div>
+        </a>
+      )
     }
 
     return (
@@ -28,14 +41,7 @@ export default class SoftwareCard extends ConceptCard {
             <img className="banner-image" src={require("../data/" + banner)} />
           </a>
           <div className="card-body-links">
-            <a href={docs}>
-              <div class="text-button"> 
-                Docs
-              </div>
-            </a>
-            <a href={github}>
-              <div class="external-link github-link"> </div>
-            </a>
+            {link_buttons}
           </div>
           <div className="card-body-abstract">
             <b>Abstract.</b><ReadMore>{description}</ReadMore>

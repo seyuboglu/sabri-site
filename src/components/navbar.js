@@ -69,7 +69,7 @@ export default class NavBar extends Component {
                     <div className="personal-links">
                         <a href="https://raw.githubusercontent.com/seyuboglu/sabri-site/master/data/resume.pdf">
                             <div className="text-button">
-                                Resume/CV
+                                📄 Resume/CV
                             </div>
                         </a>
                     </div>

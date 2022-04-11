@@ -34,6 +34,8 @@ export default class HomePage extends Component {
                         description={data["research"][i]['description']}
                         github={data["research"][i]['github']}
                         manuscript={data["research"][i]['manuscript']}
+                        links={data["research"][i]['links']}
+                        notes={data["research"][i]['notes']}
                     />
                 )
             }
@@ -49,6 +51,7 @@ export default class HomePage extends Component {
                         description={data["teaching"][i]['description']}
                         github={data["teaching"][i]['github']}
                         website={data["teaching"][i]['website']}
+                        links={data["teaching"][i]['links']}
                     />
                 )
             }
@@ -63,6 +66,7 @@ export default class HomePage extends Component {
                         website={data["software"][i]['website']}
                         pypi={data["software"][i]['pypi']}
                         docs={data["software"][i]['docs']}
+                        links={data["software"][i]['links']}
                     />
                 )
             }
