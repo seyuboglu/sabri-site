@@ -16,7 +16,7 @@ export const DATA = {
                 "🧩 Demo": "https://hazyresearch.stanford.edu/blog/2022-04-02-domino",
                 "🌍 Blog post": "https://ai.stanford.edu/blog/domino/",
                 "📒 Google Colab": "https://colab.research.google.com/github/HazyResearch/domino/blob/main/examples/01_intro.ipynb",
-                "🎤 ICLR Oral": "https://iclr.cc/virtual/2022/oral/6149",
+                "🎤 ICLR Oral": "https://iclr.cc/virtual/2022/oral/6149"
             }
         },
         {
