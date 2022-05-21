@@ -10,7 +10,7 @@
     "react-read-more-less": "^0.1.6",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "^3.3.0",
+    "react-scripts": "^3.4.4",
     "read-more-react": "^1.0.9"
   },
   "scripts": {
