@@ -44,7 +44,7 @@ export const DATA = {
             "github": "https://github.com/seyuboglu/milieu",
             "links": {
             }
-        },
+        }
     ],
     "teaching": [
         {
