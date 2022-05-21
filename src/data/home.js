@@ -15,7 +15,8 @@ export const DATA = {
                 "📘 Docs": "https://domino-slice.readthedocs.io/en/latest/",
                 "🧩 Demo": "https://hazyresearch.stanford.edu/blog/2022-04-02-domino",
                 "🌍 Blog post": "https://ai.stanford.edu/blog/domino/",
-                "📒 Google Colab": "https://colab.research.google.com/github/HazyResearch/domino/blob/main/examples/01_intro.ipynb"
+                "📒 Google Colab": "https://colab.research.google.com/github/HazyResearch/domino/blob/main/examples/01_intro.ipynb",
+                "🎤 ICLR Oral": "https://iclr.cc/virtual/2022/oral/6149",
             }
         },
         {
@@ -34,9 +35,9 @@ export const DATA = {
         {
             "title": "Mutual interactors as a principle for the discovery of phenotypes in molecular networks",
             "authors": ["Sabri Eyuboglu*", "Marinka Zitnik*", "Jure Leskovec"],
-            "venue": "Preprint",
+            "venue": "In submission",
             "notes": [], 
-            "year": "2021",
+            "year": "2022",
             "image": "res/mi_preview.png",
             "description": "Biological networks are powerful resources for the discovery of molecular phenotypes. Here, we show that proteins are more likely to have similar phenotypes, not if they directly interact in a molecular network, but if they interact with the same proteins. We call this the mutual interactor principle and show that it holds for several kinds of molecular networks, including protein-protein interaction, genetic interaction, and signaling networks. We then develop a machine learning framework for predicting molecular phenotypes on the basis of mutual interactors. Strikingly, the framework can predict drug targets, disease proteins, and protein functions in different species, and it performs better than much more complex algorithms. The framework is robust to incomplete biological data and capable of generalizing to phenotypes it has not seen during training.",
             "manuscript": "https://cs.stanford.edu/people/sabrieyuboglu/mutual-interactors.pdf",
