@@ -6,7 +6,7 @@ export const DATA = {
             "authors": ["Sabri Eyuboglu*", "Maya Varma*", "Khaled Saab*", "Jean-Benoit Delbrouck", "Christopher Lee-Messer", "Jared Dunnmon", "James Zou", "Christopher Ré"],
             "venue": "ICLR: International Conference on Learning Representations",
             "year": "2022",
-            "notes": ["Oral Presentation"], 
+            "notes": ["Oral"], 
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/domino/tree/main/domino",
             "manuscript": "https://arxiv.org/pdf/2203.14960.pdf",
@@ -16,7 +16,7 @@ export const DATA = {
                 "🧩 Demo": "https://hazyresearch.stanford.edu/blog/2022-04-02-domino",
                 "🌍 Blog post": "https://ai.stanford.edu/blog/domino/",
                 "📒 Google Colab": "https://colab.research.google.com/github/HazyResearch/domino/blob/main/examples/01_intro.ipynb",
-                "🎤 ICLR Oral": "https://iclr.cc/virtual/2022/oral/6149"
+                "🎤 ICLR talk": "https://iclr.cc/virtual/2022/oral/6149"
             }
         },
         {
