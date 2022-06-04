@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sabrieyuboglu.com",
+  "homepage": "https://seyuboglu.github.io/sabri-site",
   "name": "sabri-site",
   "version": "0.1.0",
   "private": true,
@@ -37,6 +37,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   }
 }
