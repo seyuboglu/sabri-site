@@ -20,6 +20,19 @@ export const DATA = {
             }
         },
         {
+            "title": "Mutual interactors as a principle for the discovery of phenotypes in molecular networks",
+            "authors": ["Sabri Eyuboglu*", "Marinka Zitnik*", "Jure Leskovec"],
+            "venue": "Under review",
+            "notes": [], 
+            "year": "2022",
+            "image": "res/mi_preview.png",
+            "description": "Biological networks are powerful resources for the discovery of molecular phenotypes. Here, we show that proteins are more likely to have similar phenotypes, not if they directly interact in a molecular network, but if they interact with the same proteins. We call this the mutual interactor principle and show that it holds for several kinds of molecular networks, including protein-protein interaction, genetic interaction, and signaling networks. We then develop a machine learning framework for predicting molecular phenotypes on the basis of mutual interactors. Strikingly, the framework can predict drug targets, disease proteins, and protein functions in different species, and it performs better than much more complex algorithms. The framework is robust to incomplete biological data and capable of generalizing to phenotypes it has not seen during training.",
+            "manuscript": "https://cs.stanford.edu/people/sabrieyuboglu/mutual-interactors.pdf",
+            "github": "https://github.com/seyuboglu/milieu",
+            "links": {
+            }
+        },
+        {
             "title": "Multi-task weak supervision enables anatomically-resolved abnormality detection in whole-body FDG-PET/CT",
             "authors": ["Sabri Eyuboglu*", "Geoffrey Angus*", "Bhavik Patel", "Anuj Pareek", "Guido Davidzon", "Jin Long", "Jared Dunnmon**", "Matthew Lungren**"],
             "venue": "Nature Communications",
@@ -29,19 +42,6 @@ export const DATA = {
             "github": "https://github.com/seyuboglu/weakly-supervised-petct",
             "manuscript": "https://www.nature.com/articles/s41467-021-22018-1",
             "description": "Computational decision support systems could provide clinical value in whole-body FDG-PET/CT workflows. However, limited availability of labeled data combined with the large size of PET/CT imaging exams make it challenging to apply existing supervised machine learning systems. Leveraging recent advancements in natural language processing, we describe a weak supervision framework that extracts imperfect, yet highly granular, regional abnormality labels from free-text radiology reports. Our framework automatically labels each region in a custom ontology of anatomical regions, providing a structured profile of the pathologies in each imaging exam. Using these generated labels, we then train an attention-based, multi-task CNN architecture to detect and estimate the location of abnormalities in whole-body scans. We demonstrate empirically that our multi-task representation is critical for strong performance on rare abnormalities with limited training data. The representation also contributes to more accurate mortality prediction from imaging data, suggesting the potential utility of our framework beyond abnormality detection and location estimation.",
-            "links": {
-            }
-        },
-        {
-            "title": "Mutual interactors as a principle for the discovery of phenotypes in molecular networks",
-            "authors": ["Sabri Eyuboglu*", "Marinka Zitnik*", "Jure Leskovec"],
-            "venue": "In submission",
-            "notes": [], 
-            "year": "2022",
-            "image": "res/mi_preview.png",
-            "description": "Biological networks are powerful resources for the discovery of molecular phenotypes. Here, we show that proteins are more likely to have similar phenotypes, not if they directly interact in a molecular network, but if they interact with the same proteins. We call this the mutual interactor principle and show that it holds for several kinds of molecular networks, including protein-protein interaction, genetic interaction, and signaling networks. We then develop a machine learning framework for predicting molecular phenotypes on the basis of mutual interactors. Strikingly, the framework can predict drug targets, disease proteins, and protein functions in different species, and it performs better than much more complex algorithms. The framework is robust to incomplete biological data and capable of generalizing to phenotypes it has not seen during training.",
-            "manuscript": "https://cs.stanford.edu/people/sabrieyuboglu/mutual-interactors.pdf",
-            "github": "https://github.com/seyuboglu/milieu",
             "links": {
             }
         }
