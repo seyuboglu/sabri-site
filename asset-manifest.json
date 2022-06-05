@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/sabri-site/static/css/main.a19a5d1d.chunk.css",
-    "main.js": "/sabri-site/static/js/main.a3e16b42.chunk.js",
-    "main.js.map": "/sabri-site/static/js/main.a3e16b42.chunk.js.map",
-    "runtime-main.js": "/sabri-site/static/js/runtime-main.642cbf14.js",
-    "runtime-main.js.map": "/sabri-site/static/js/runtime-main.642cbf14.js.map",
-    "static/js/2.0eb18ddd.chunk.js": "/sabri-site/static/js/2.0eb18ddd.chunk.js",
-    "static/js/2.0eb18ddd.chunk.js.map": "/sabri-site/static/js/2.0eb18ddd.chunk.js.map",
-    "index.html": "/sabri-site/index.html",
-    "precache-manifest.f32773ef911c5f13c64e6e38f726f33d.js": "/sabri-site/precache-manifest.f32773ef911c5f13c64e6e38f726f33d.js",
-    "service-worker.js": "/sabri-site/service-worker.js",
-    "static/css/main.a19a5d1d.chunk.css.map": "/sabri-site/static/css/main.a19a5d1d.chunk.css.map",
-    "static/js/2.0eb18ddd.chunk.js.LICENSE.txt": "/sabri-site/static/js/2.0eb18ddd.chunk.js.LICENSE.txt",
-    "static/media/main.jpeg": "/sabri-site/static/media/main.f24ba450.jpeg",
-    "static/media/meerkat_banner_small.png": "/sabri-site/static/media/meerkat_banner_small.32f8c97b.png"
+    "main.css": "/sabrieyuboglu.com/static/css/main.a19a5d1d.chunk.css",
+    "main.js": "/sabrieyuboglu.com/static/js/main.54b69e63.chunk.js",
+    "main.js.map": "/sabrieyuboglu.com/static/js/main.54b69e63.chunk.js.map",
+    "runtime-main.js": "/sabrieyuboglu.com/static/js/runtime-main.61182a09.js",
+    "runtime-main.js.map": "/sabrieyuboglu.com/static/js/runtime-main.61182a09.js.map",
+    "static/js/2.0eb18ddd.chunk.js": "/sabrieyuboglu.com/static/js/2.0eb18ddd.chunk.js",
+    "static/js/2.0eb18ddd.chunk.js.map": "/sabrieyuboglu.com/static/js/2.0eb18ddd.chunk.js.map",
+    "index.html": "/sabrieyuboglu.com/index.html",
+    "precache-manifest.2db30aa3480e503591007c299d6d3c95.js": "/sabrieyuboglu.com/precache-manifest.2db30aa3480e503591007c299d6d3c95.js",
+    "service-worker.js": "/sabrieyuboglu.com/service-worker.js",
+    "static/css/main.a19a5d1d.chunk.css.map": "/sabrieyuboglu.com/static/css/main.a19a5d1d.chunk.css.map",
+    "static/js/2.0eb18ddd.chunk.js.LICENSE.txt": "/sabrieyuboglu.com/static/js/2.0eb18ddd.chunk.js.LICENSE.txt",
+    "static/media/main.jpeg": "/sabrieyuboglu.com/static/media/main.f24ba450.jpeg",
+    "static/media/meerkat_banner_small.png": "/sabrieyuboglu.com/static/media/meerkat_banner_small.32f8c97b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.642cbf14.js",
+    "static/js/runtime-main.61182a09.js",
     "static/js/2.0eb18ddd.chunk.js",
     "static/css/main.a19a5d1d.chunk.css",
-    "static/js/main.a3e16b42.chunk.js"
+    "static/js/main.54b69e63.chunk.js"
   ]
 }
