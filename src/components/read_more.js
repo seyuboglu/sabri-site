@@ -71,7 +71,7 @@ ReadMore.propTypes = {
   children: PropTypes.string.isRequired
 };
 ReadMore.defaultProps = {
-  charLimit: 250,
+  charLimit: 100,
   readMoreText: ' Read More',
   readLessText: ' Read Less'
 };

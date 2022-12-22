@@ -43,6 +43,7 @@ export const DATA = {
             "github": "https://github.com/lchen001/HAPI",
             "manuscript": "https://arxiv.org/abs/2209.08443",
             "links": {
+                "🌍 Website": "http://hapi.stanford.edu/",
             }
 
         },

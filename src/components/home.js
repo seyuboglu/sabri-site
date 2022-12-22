@@ -89,10 +89,10 @@ export default class HomePage extends Component {
                     <div id="software-cards-wrapper">
                         {softwareCards}
                     </div>
-                    <div id="teaching-heading" className="section-heading"> Teaching </div>
+                    {/* <div id="teaching-heading" className="section-heading"> Teaching </div>
                     <div id="teaching-cards-wrapper">
                         {teachingCards}
-                    </div>
+                    </div> */}
                     
                     
                 </div>
