@@ -77,14 +77,14 @@ export default class NavBar extends Component {
                 <div className="navbar-about">
                     <div className="text-section">
                         <p>
-                            <b>About.</b> I'm a Second-Year CS PhD Student in the <a href="http://ml.stanford.edu">Stanford Machine Learning Group</a> advised
+                            <b>About.</b> I'm a Third-Year CS PhD Student in the <a href="http://ml.stanford.edu">Stanford Machine Learning Group</a> advised
                             by <a href="https://cs.stanford.edu/people/chrismre/">Chris Ré</a> and <a href="https://www.james-zou.com/">James Zou</a>. 
                             I am supported by the <a href="https://www.nsfgrfp.org/"> National Science Foundation GRFP </a>.
                         </p>
                         <p>
-                            <b>Research Interests.</b> I’m broadly interested in how we can make machine learning systems 
-                            more reliable in challenging applied settings like medicine and the sciences. To that end,
-                            I’ve recently been working on tools that help practitioners better understand their data 
+                            <b>Research Interests.</b> I’m broadly interested in how we can bring machine learning to bear 
+                            in challenging applied settings like medicine and the sciences. To that end,
+                            I’ve recently been working on data management tools that help practitioners better understand their data 
                             (see Domino and Meerkat).
                         </p>
                         <p>
