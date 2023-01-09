@@ -27,9 +27,11 @@ export const DATA = {
             "year": "2023",
             "image": "res/mi_preview.png",
             "description": "Biological networks are powerful representations for the discovery of molecular phenotypes. Fundamental to network analysis is the principle—rooted in social networks—that nodes that interact in the network tend to have similar properties. While this long-standing principle underlies powerful methods in biology that associate molecules with phenotypes on the basis of network proximity, interacting molecules are not necessarily similar, and molecules with similar properties do not necessarily interact. Here, we show that molecules are more likely to have similar phenotypes, not if they directly interact in a molecular network, but if they interact with the same molecules. We call this the mutual interactor principle and show that it holds for several kinds of molecular networks, including protein-protein interaction, genetic interaction, and signaling networks. We then develop a machine learning framework for predicting molecular phenotypes on the basis of mutual interactors. Strikingly, the framework can predict drug targets, disease proteins, and protein functions in different species, and it performs better than much more complex algorithms. The framework is robust to incomplete biological data and is capable of generalizing to phenotypes it has not seen during training. Our work represents a network-based predictive platform for phenotypic characterization of biological molecules.",
-            "manuscript": "http://psb.stanford.edu/psb-online/proceedings/psb23/eyuboglu.pdf",
+            "manuscript": "https://cs.stanford.edu/people/sabrieyuboglu/psb-mi.pdf",
             "github": "https://github.com/seyuboglu/milieu",
             "links": {
+                "🎤 PSB talk": "https://youtu.be/WAE3spTP9PI" 
+                "🛝 Slides": "https://drive.google.com/file/d/1268p4qqwSP48MlQGtemnsenkz4iRYz18/view?usp=sharing",
             }
         },
         {
