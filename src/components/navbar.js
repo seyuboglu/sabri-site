@@ -84,7 +84,7 @@ export default class NavBar extends Component {
                         <p>
                             <b>Research Interests.</b> I like to develop detailed understanding of how machine learning models work and when they fail by exploring the unstructured data on which they are trained and formalizing sub-tasks with synthetics.
                             Most recently, I've been working on understanding how neural network building blocks (e.g. convolutions, attention) affect the quality and efficiency of foundation models [<a href="https://arxiv.org/abs/2304.09433">1</a>].
-                            I've also had a lot of fun building tools that leverage large, pretrained models to facilitate the analysis and management of unstructured training and validation datasets [<a href="https://github.com/HazyResearch/meerkat">2</a>, <a href="https://arxiv.org/abs/2203.14960">3</a>, <a href="https://arxiv.org/abs/2304.09433">4</a>]. 
+                            I like to build tools that leverage large, pretrained models to facilitate the analysis and management of unstructured training and validation datasets [<a href="https://github.com/HazyResearch/meerkat">2</a>, <a href="https://arxiv.org/abs/2203.14960">3</a>, <a href="https://arxiv.org/abs/2304.09433">4</a>]. 
                             I'm motivated by the challenges that arise when trying to apply machine learning in safety-crticial settings like medicine and the sciences [<a href="https://www.nature.com/articles/s41467-021-22018-1">5</a>, <a href="https://cs.stanford.edu/people/sabrieyuboglu/psb-mi.pdf">6</a>]. 
                         </p>
                         <p>
@@ -101,3 +101,4 @@ export default class NavBar extends Component {
         )
     }
 }
+
