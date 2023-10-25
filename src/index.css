@@ -34,7 +34,7 @@ a {
     top: 50px;
     padding-left: 75px;
     padding-right: 25px;
-    max-width:275px;
+    max-width:345px;
     min-width: 275px;
     overflow: scroll;
     height: 90vh;
@@ -74,8 +74,8 @@ a {
 }
 
 .text-button {
-    border-radius: 7px;
-    background-color: #e0e0e0;
+    border-radius: 4px;
+    background-color: #edebeb;
     border-width: 1.3px;
     border-style: transparent;
     padding-left: 7px;
@@ -83,9 +83,9 @@ a {
     padding-top: 1px;
     padding-bottom: 1px;
     margin-right: 10px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
-    color: #666666;
+    color: #444343;
     display: inline-block;
     user-select: none;
     vertical-align: 55%;
@@ -116,15 +116,14 @@ a {
 
 .note-tag {
     border-radius: 7px;
-    background-color: #e0e0e0;
     border-width: 1.3px;
     border-style: transparent;
     padding-left: 5px;
     padding-right: 5px;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 6px;
     font-weight: bold;
-    color: #f25858;
+    color: #f11111;
     display: inline-block;
     user-select: none;
     transition: all 0.2s ease-in-out;
@@ -180,7 +179,7 @@ a {
 
 .section-heading {
     display: flex;
-    font-size: 45px;
+    font-size: 32px;
     font-weight: 600;
     color: #666666;
     margin-top:20px;
@@ -194,10 +193,9 @@ a {
     flex-direction: row-reverse;
     margin-right: 5%;
     margin-top:15px;
-    max-width: 1000px;
-    box-shadow: 0px 0px 5px 0.2px #798397;
-    border-radius: 5px;
-    border-width: 2px;
+    box-shadow: 0px 0px 3px 0.2px #798397;
+    border-radius: 3px;
+    border-width: 1px;
     border-style: none;
     border-color: #b3b3b3;
     padding: 1.2%;
@@ -248,7 +246,7 @@ a {
 }
 
 .card-body-title {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 600;
     color: #666666;
     transition: all 0.2s ease-in-out;
@@ -259,7 +257,7 @@ a {
 }
 .card-body-authors {
     padding:5px 0px 0px 0px;;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     color: #666666
 }
@@ -398,8 +396,9 @@ a {
 
 .command-line-button {
     font-family: IBMPlexMono,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-    background-color: gray;
+    background-color: rgb(97, 97, 97);
     color: white;
+    font-weight: 600;
     border-radius: 3px;
     padding-left: 8px;
     padding-right: 8px;
@@ -414,7 +413,7 @@ a {
     box-shadow: 1px 1px 1px 0.0px black;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 2000px) {
     
 
     .card-preview {
@@ -422,7 +421,7 @@ a {
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1500px) {
     #home-page {
         flex-direction: column;
     }
@@ -435,7 +434,7 @@ a {
         position:static;
         max-width: 85%; 
         height:20vh;
-        padding-left: 50px;
+        padding-left: 5%;
     }
 
     .navbar-image {

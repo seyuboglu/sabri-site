@@ -22,7 +22,7 @@ export default class HomePage extends Component {
         let softwareCards = []
         console.log(data)
         if (data != null) {
-           // research 
+            // research 
             for (let i = 0; i < data["research"].length; i++) {
                 researchCards.push(
                     <ConceptCard
@@ -73,28 +73,29 @@ export default class HomePage extends Component {
 
 
 
-            
+
         }
 
         return (
             <div id="home-page">
-                <Header/>
+                <Header />
                 <div className="concept-cards">
+                    <div id="software-heading" className="section-heading"> Software </div>
+                    <div id="software-cards-wrapper">
+                        {softwareCards}
+                    </div>
                     <div id="research-heading" className="section-heading research-heading"> Research </div>
                     <em id="google-scholar" className='google-scholar'> For a full list of publications, please see <a href="https://scholar.google.com/citations?user=ya1egC8AAAAJ&hl=en&authuser=1&oi=ao">Google Scholar</a>. </em>
                     <div id="research-cards-wrapper">
                         {researchCards}
                     </div>
-                    <div id="software-heading" className="section-heading"> Software </div>
-                    <div id="software-cards-wrapper">
-                        {softwareCards}
-                    </div>
+
                     {/* <div id="teaching-heading" className="section-heading"> Teaching </div>
                     <div id="teaching-cards-wrapper">
                         {teachingCards}
                     </div> */}
-                    
-                    
+
+
                 </div>
             </div>
 

@@ -2,9 +2,40 @@
 export const DATA = {
     "research": [
         {
+            "title": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
+            "authors": [
+                "Simran Arora", "Brandon Yang*", "Sabri Eyuboglu*", "Avanika Narayan", "Andrew Hojel", "Immanuel Trummer", "Christopher Ré"],
+            "venue": "VLDB",
+            "year": "2024",
+            "notes": [], 
+            "image": "res/domino_preview.png",
+            "github": "https://github.com/HazyResearch/evaporate",
+            "manuscript": "https://arxiv.org/abs/2304.09433",
+            "description": "A long standing goal of the data management community is to develop general, automated systems that ingest semi-structured documents and output queryable tables without human effort or domain specific customization. Given the sheer variety of potential documents, state-of-the art systems make simplifying assumptions and use domain specific training. In this work, we ask whether we can maintain generality by using large language models (LLMs). LLMs, which are pretrained on broad data, can perform diverse downstream tasks simply conditioned on natural language task descriptions. We propose and evaluate EVAPORATE, a simple, prototype system powered by LLMs. We identify two fundamentally different strategies for implementing this system: prompt the LLM to directly extract values from documents or prompt the LLM to synthesize code that performs the extraction. Our evaluations show a cost-quality tradeoff between these two approaches. Code synthesis is cheap, but far less accurate than directly processing each document with the LLM. To improve quality while maintaining low cost, we propose an extended code synthesis implementation, EVAPORATE-CODE+, which achieves better quality than direct extraction. Our key insight is to generate many candidate functions and ensemble their extractions using weak supervision. EVAPORATE-CODE+ not only outperforms the state-of-the art systems, but does so using a sublinear pass over the documents with the LLM. This equates to a 110x reduction in the number of tokens the LLM needs to process, averaged across 16 real-world evaluation settings of 10k documents each.",
+            "links": {
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-04-12-batch",
+            }
+        },
+        {
+            "title": "Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture",
+            "authors": [
+                "Daniel Y. Fu", "Simran Arora*", "Jessica Grogan*", "Isys Johnson*", "Sabri Eyuboglu*", "Armin W. Thomas*", "Benjamin Spector", "Michael Poli", "Atri Rudra", "Christopher Ré"   
+            ],
+            "venue": "NeurIPS",
+            "year": "2023",
+            "notes": ["Oral Presentation"], 
+            "image": "res/domino_preview.png",
+            "github": "https://github.com/HazyResearch/evaporate",
+            "manuscript": "https://arxiv.org/abs/2304.09433",
+            "description": "Machine learning models are increasingly being scaled in both sequence length and model dimension to reach longer contexts and better performance. However, existing architectures such as Transformers scale quadratically along both these axes. We ask: are there performant architectures that can scale sub-quadratically along sequence length and model dimension? We introduce Monarch Mixer (M2), a new architecture that uses the same sub-quadratic primitive along both sequence length and model dimension: Monarch matrices, a simple class of expressive structured matrices that captures many linear transforms, achieves high hardware efficiency on GPUs, and scales sub-quadratically. As a proof of concept, we explore the performance of M2 in three domains: non-causal BERT-style language modeling, ViT-style image classification, and causal GPT-style language modeling. For non-causal BERT-style modeling, M2 matches BERT-base and BERT-large in downstream GLUE quality with up to 27% fewer parameters, and achieves up to 9.1× higher throughput at sequence length 4K. On ImageNet, M2 outperforms ViT-b by 1% in accuracy, with only half the parameters. Causal GPT-style models introduce a technical challenge: enforcing causality via masking introduces a quadratic bottleneck. To alleviate this bottleneck, we develop a novel theoretical view of Monarch matrices based on multivariate polynomial evaluation and interpolation, which lets us parameterize M2 to be causal while remaining sub-quadratic. Using this parameterization, M2 matches GPT-style Transformers at 360M parameters in pretraining perplexity on The PILE--showing for the first time that it may be possible to match Transformer quality without attention or MLPs.",
+            "links": {
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-04-12-batch",
+            }
+        },
+        {
             "title": "Domino: Discovering Systematic Errors with Cross-modal Embeddings ",
             "authors": ["Sabri Eyuboglu*", "Maya Varma*", "Khaled Saab*", "Jean-Benoit Delbrouck", "Christopher Lee-Messer", "Jared Dunnmon", "James Zou", "Christopher Ré"],
-            "venue": "ICLR: International Conference on Learning Representations",
+            "venue": "ICLR",
             "year": "2022",
             "notes": ["Oral Presentation"], 
             "image": "res/domino_preview.png",
@@ -22,7 +53,7 @@ export const DATA = {
         {
             "title": "Mutual interactors as a principle for the discovery of phenotypes in molecular networks",
             "authors": ["Sabri Eyuboglu*", "Marinka Zitnik*", "Jure Leskovec"],
-            "venue": "PSB: Pacific Symposium on Biocomputing",
+            "venue": "PSB",
             "notes": ["Oral Presentation"], 
             "year": "2023",
             "image": "res/mi_preview.png",
@@ -30,14 +61,14 @@ export const DATA = {
             "manuscript": "https://cs.stanford.edu/people/sabrieyuboglu/psb-mi.pdf",
             "github": "https://github.com/seyuboglu/milieu",
             "links": {
-                "🎤 PSB talk": "https://youtu.be/WAE3spTP9PI" 
-                "🛝 Slides": "https://drive.google.com/file/d/1268p4qqwSP48MlQGtemnsenkz4iRYz18/view?usp=sharing",
+                "🎤 PSB talk": "https://youtu.be/WAE3spTP9PI",
+                "🛝 Slides": "https://drive.google.com/file/d/1268p4qqwSP48MlQGtemnsenkz4iRYz18/view?usp=sharing"
             }
         },
         {
-            "title": "HAPI: A Large-scale Longitudinal Dataset of Commercial ML API Predictions",
+            "title": "A Large-scale Longitudinal Dataset of Commercial ML API Predictions",
             "authors": ["Lingjiao Chen", "Zhihua Jin", "Sabri Eyuboglu", "Christopher Ré", "Matei Zaharia", "James Zou"],
-            "venue": "NeurIPS: Neural Information Processing Systems, Datasets and Benchmarks",
+            "venue": "NeurIPS: Datasets and Benchmarks",
             "year": "2022",
             "image": "res/hapi-preview.png",
             "notes": [],
@@ -111,16 +142,15 @@ export const DATA = {
         {
             "title": "Meerkat",
             "banner": "software/meerkat/meerkat_banner_small.png",
-            "description": "Meerkat provides fast and flexible data structures for working with complex machine learning datasets. It is designed to house your data throughout the machine learning lifecycle – along the way enabling interactive data exploration, cross-modal training, and fine-grained error analysis.",
-            "github": "https://github.com/robustness-gym/meerkat/",
+            "description": "Meerkat is an open-source Python library that helps users visualize, explore, and annotate any dataset. It is especially useful when processing unstructured data types (e.g. free text, PDFs, images, video) with machine learning models.",
+            "github": "https://github.com/HazyResearch/meerkat/",
             "docs": "http://cs106r.com/",
             "pypi": "meerkat-ml",
-            "install": "https://meerkat.readthedocs.io/en/latest/",
+            "install": "http://meerkat.wiki/docs/start/install.html",
             "links": {
-                "💻 GitHub":"https://github.com/robustness-gym/meerkat/tree/dev", 
-                "📘 Docs": "https://meerkat.readthedocs.io/en/latest/",
-                "🌍 Blog post": "https://www.notion.so/Meerkat-Data-Panels-for-Machine-Learning-64891aca2c584f1889eb0129bb747863",
-                "📒 Google Colab": "https://colab.research.google.com/drive/1cxhlMF2i8MjPNYpH4X8zcevDNeBNze2j"
+                "💻 GitHub":"https://github.com/HazyResearch/meerkat", 
+                "📘 Docs": "http://meerkat.wiki/docs/index.html",
+                "🌍 Blog post": "http://meerkat.wiki/blog",
             }
         },
     ]
