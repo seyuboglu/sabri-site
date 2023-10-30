@@ -86,6 +86,7 @@ export default class NavBar extends Component {
                             Most recently, I've been working on understanding how neural network building blocks (e.g. convolutions, attention) affect the quality and efficiency of foundation models [<a href="https://arxiv.org/abs/2304.09433">1</a>].
                             I also like to build tools that leverage large, pretrained models to facilitate the analysis and management of unstructured training and validation datasets [<a href="https://github.com/HazyResearch/meerkat">2</a>, <a href="https://arxiv.org/abs/2203.14960">3</a>, <a href="https://arxiv.org/abs/2304.09433">4</a>]. 
                             I'm motivated by challenges that arise when trying to apply machine learning in safety-crticial settings like medicine and the sciences [<a href="https://www.nature.com/articles/s41467-021-22018-1">5</a>, <a href="https://cs.stanford.edu/people/sabrieyuboglu/psb-mi.pdf">6</a>]. 
+                            Also, I'm excited to build towards a future where machine learning is open, transparent, and accessible. 
                         </p>
                         <p>
                             <b>Background.</b> Previously, I was a machine learning research intern
@@ -93,7 +94,7 @@ export default class NavBar extends Component {
                             at Stanford, where I worked with Jure Leskovec's
                             <a href="https://cs.stanford.edu/~jure/"> SNAP Group</a> and
                             the <a href="https://aimi.stanford.edu/">AIMI Center</a>. 
-                            I'm grateful to mentors along the way including Marinka Zitnik and Jared Dunnmon who helped me navigate my early days in research. 
+                            I'm grateful to my many mentors along the way who helped me navigate my early days in research including (but not limited to) my advisors, Marinka Zitnik, Jared Dunnmon, and Matt Lungren. 
                         </p>
                     </div>
                 </div>
