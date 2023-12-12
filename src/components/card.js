@@ -73,7 +73,7 @@ export default class ConceptCard extends React.Component {
             {link_buttons}
           </div>
           <div className="card-body-abstract">
-            <b>Abstract.</b><ReadMore>{description}</ReadMore>
+            <b>tl;dr</b>       {description}
           </div>
         </div>
       </div>

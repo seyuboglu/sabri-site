@@ -2,6 +2,21 @@
 export const DATA = {
     "research": [
         {
+            "title": "Zoology: Measuring and Improving Recall in Efficient Language Models",
+            "authors": [
+                "Sabri Eyuboglu*", "Simran Arora*", "Aman Timalsina", "Isys Johnson", "Michael Poli", "James Zou", "Atri Rudra", "Christopher Ré"],
+            "venue": "Under Review (workshop presentation at NeurIPS ENSLP)",
+            "year": "2024",
+            "notes": [], 
+            "image": "res/domino_preview.png",
+            "github": "https://github.com/HazyResearch/zoology",
+            "manuscript": "https://arxiv.org/abs/2312.04927",
+            "description": "We explain why a broad class of efficient language model architectures struggle to recall information seen in-context and propose some simple fixes.",
+            "links": {
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-12-11-zoology1-analysis",
+            }
+        },
+        {
             "title": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
             "authors": [
                 "Simran Arora", "Brandon Yang*", "Sabri Eyuboglu*", "Avanika Narayan", "Andrew Hojel", "Immanuel Trummer", "Christopher Ré"],
@@ -11,7 +26,7 @@ export const DATA = {
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/evaporate",
             "manuscript": "https://arxiv.org/abs/2304.09433",
-            "description": "A long standing goal of the data management community is to develop general, automated systems that ingest semi-structured documents and output queryable tables without human effort or domain specific customization. Given the sheer variety of potential documents, state-of-the art systems make simplifying assumptions and use domain specific training. In this work, we ask whether we can maintain generality by using large language models (LLMs). LLMs, which are pretrained on broad data, can perform diverse downstream tasks simply conditioned on natural language task descriptions. We propose and evaluate EVAPORATE, a simple, prototype system powered by LLMs. We identify two fundamentally different strategies for implementing this system: prompt the LLM to directly extract values from documents or prompt the LLM to synthesize code that performs the extraction. Our evaluations show a cost-quality tradeoff between these two approaches. Code synthesis is cheap, but far less accurate than directly processing each document with the LLM. To improve quality while maintaining low cost, we propose an extended code synthesis implementation, EVAPORATE-CODE+, which achieves better quality than direct extraction. Our key insight is to generate many candidate functions and ensemble their extractions using weak supervision. EVAPORATE-CODE+ not only outperforms the state-of-the art systems, but does so using a sublinear pass over the documents with the LLM. This equates to a 110x reduction in the number of tokens the LLM needs to process, averaged across 16 real-world evaluation settings of 10k documents each.",
+            "description": "Using LLMs to process unstructured data is expensive. We show how they can be used to generate and evalute code snippets that do the processing at a fraction of the cost.",
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-04-12-batch",
             }
@@ -27,7 +42,7 @@ export const DATA = {
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/evaporate",
             "manuscript": "https://arxiv.org/abs/2304.09433",
-            "description": "Machine learning models are increasingly being scaled in both sequence length and model dimension to reach longer contexts and better performance. However, existing architectures such as Transformers scale quadratically along both these axes. We ask: are there performant architectures that can scale sub-quadratically along sequence length and model dimension? We introduce Monarch Mixer (M2), a new architecture that uses the same sub-quadratic primitive along both sequence length and model dimension: Monarch matrices, a simple class of expressive structured matrices that captures many linear transforms, achieves high hardware efficiency on GPUs, and scales sub-quadratically. As a proof of concept, we explore the performance of M2 in three domains: non-causal BERT-style language modeling, ViT-style image classification, and causal GPT-style language modeling. For non-causal BERT-style modeling, M2 matches BERT-base and BERT-large in downstream GLUE quality with up to 27% fewer parameters, and achieves up to 9.1× higher throughput at sequence length 4K. On ImageNet, M2 outperforms ViT-b by 1% in accuracy, with only half the parameters. Causal GPT-style models introduce a technical challenge: enforcing causality via masking introduces a quadratic bottleneck. To alleviate this bottleneck, we develop a novel theoretical view of Monarch matrices based on multivariate polynomial evaluation and interpolation, which lets us parameterize M2 to be causal while remaining sub-quadratic. Using this parameterization, M2 matches GPT-style Transformers at 360M parameters in pretraining perplexity on The PILE--showing for the first time that it may be possible to match Transformer quality without attention or MLPs.",
+            "description": "We swap out the attention and MLPs in a Transformer with fast, structured matrices that can be computed in sub-quadratic time.",
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-04-12-batch",
             }
@@ -41,7 +56,7 @@ export const DATA = {
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/domino/tree/main/domino",
             "manuscript": "https://arxiv.org/abs/2203.14960",
-            "description": "Machine learning models that achieve high overall accuracy often make systematic errors on important subsets (or slices) of data. Identifying underperforming slices is particularly challenging when working with high-dimensional inputs (e.g. images, audio), where important slices are often unlabeled. In order to address this issue, recent studies have proposed automated slice discovery methods (SDMs), which leverage learned model representations to mine input data for slices on which a model performs poorly. To be useful to a practitioner, these methods must identify slices that are both underperforming and coherent (i.e. united by a human-understandable concept). However, no quantitative evaluation framework currently exists for rigorously assessing SDMs with respect to these criteria. Additionally, prior qualitative evaluations have shown that SDMs often identify slices that are incoherent. In this work, we address these challenges by first designing a principled evaluation framework that enables a quantitative comparison of SDMs across 1,235 slice discovery settings in three input domains (natural images, medical images, and time-series data). Then, motivated by the recent development of powerful cross-modal representation learning approaches, we present Domino, an SDM that leverages cross-modal embeddings and a novel error-aware mixture model to discover and describe coherent slices.",
+            "description": "We show how you can use foundation models to discover the systematic errors made by machine learning models.",
             "links": {
                 "📘 Docs": "https://domino-slice.readthedocs.io/en/latest/",
                 "🧩 Demo": "https://hazyresearch.stanford.edu/blog/2022-04-02-domino",
@@ -57,7 +72,7 @@ export const DATA = {
             "notes": ["Oral Presentation"], 
             "year": "2023",
             "image": "res/mi_preview.png",
-            "description": "Biological networks are powerful representations for the discovery of molecular phenotypes. Fundamental to network analysis is the principle—rooted in social networks—that nodes that interact in the network tend to have similar properties. While this long-standing principle underlies powerful methods in biology that associate molecules with phenotypes on the basis of network proximity, interacting molecules are not necessarily similar, and molecules with similar properties do not necessarily interact. Here, we show that molecules are more likely to have similar phenotypes, not if they directly interact in a molecular network, but if they interact with the same molecules. We call this the mutual interactor principle and show that it holds for several kinds of molecular networks, including protein-protein interaction, genetic interaction, and signaling networks. We then develop a machine learning framework for predicting molecular phenotypes on the basis of mutual interactors. Strikingly, the framework can predict drug targets, disease proteins, and protein functions in different species, and it performs better than much more complex algorithms. The framework is robust to incomplete biological data and is capable of generalizing to phenotypes it has not seen during training. Our work represents a network-based predictive platform for phenotypic characterization of biological molecules.",
+            "description": "We show that a super simple network principle can be used to identify disease-related genes.",
             "manuscript": "https://cs.stanford.edu/people/sabrieyuboglu/psb-mi.pdf",
             "github": "https://github.com/seyuboglu/milieu",
             "links": {
@@ -72,7 +87,7 @@ export const DATA = {
             "year": "2022",
             "image": "res/hapi-preview.png",
             "notes": [],
-            "description": "Commercial ML APIs offered by providers such as Google, Amazon and Microsoft have dramatically simplified ML adoption in many applications. Numerous companies and academics pay to use ML APIs for tasks such as object detection, OCR and sentiment analysis. Different ML APIs tackling the same task can have very heterogeneous performance. Moreover, the ML models underlying the APIs also evolve over time. As ML APIs rapidly become a valuable marketplace and a widespread way to consume machine learning, it is critical to systematically study and compare different APIs with each other and to characterize how APIs change over time. However, this topic is currently underexplored due to the lack of data. In this paper, we present HAPI (History of APIs), a longitudinal dataset of 1,761,417 instances of commercial ML API applications (involving APIs from Amazon, Google, IBM, Microsoft and other providers) across diverse tasks including image tagging, speech recognition and text mining from 2020 to 2022. Each instance consists of a query input for an API (e.g., an image or text) along with the API's output prediction/annotation and confidence scores. HAPI is the first large-scale dataset of ML API usages and is a unique resource for studying ML-as-a-service (MLaaS). As examples of the types of analyses that HAPI enables, we show that ML APIs' performance change substantially over time--several APIs' accuracies dropped on specific benchmark datasets. Even when the API's aggregate performance stays steady, its error modes can shift across different subtypes of data between 2020 and 2022. Such changes can substantially impact the entire analytics pipelines that use some ML API as a component. We further use HAPI to study commercial APIs' performance disparities across demographic subgroups over time. HAPI can stimulate more research in the growing field of MLaaS.",
+            "description": "We collect predictions from ML APIs (e.g. GPT-3) over time and explore how they change.",
             "github": "https://github.com/lchen001/HAPI",
             "manuscript": "https://arxiv.org/abs/2209.08443",
             "links": {
@@ -89,7 +104,7 @@ export const DATA = {
             "image": "res/pet_ct_preview.png",
             "github": "https://github.com/seyuboglu/weakly-supervised-petct",
             "manuscript": "https://www.nature.com/articles/s41467-021-22018-1",
-            "description": "Computational decision support systems could provide clinical value in whole-body FDG-PET/CT workflows. However, limited availability of labeled data combined with the large size of PET/CT imaging exams make it challenging to apply existing supervised machine learning systems. Leveraging recent advancements in natural language processing, we describe a weak supervision framework that extracts imperfect, yet highly granular, regional abnormality labels from free-text radiology reports. Our framework automatically labels each region in a custom ontology of anatomical regions, providing a structured profile of the pathologies in each imaging exam. Using these generated labels, we then train an attention-based, multi-task CNN architecture to detect and estimate the location of abnormalities in whole-body scans. We demonstrate empirically that our multi-task representation is critical for strong performance on rare abnormalities with limited training data. The representation also contributes to more accurate mortality prediction from imaging data, suggesting the potential utility of our framework beyond abnormality detection and location estimation.",
+            "description": "We train language models to read complicated radiology reports and use them to train multi-task models that can detect fine-grained abnormalities in large scans.",
             "links": {
             }
         },

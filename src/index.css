@@ -269,7 +269,7 @@ a {
 }
 
 .card-body-links {
-    padding: 7px 0px 7px 0px;
+    padding: 7px 0px 1px 0px;
 }
 
 .card-body-abstract {
@@ -277,8 +277,8 @@ a {
     font-size: 15px;
     font-weight: 400;
     color: #666666;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: row; */
 }
 
 .card-materials a {
@@ -427,30 +427,28 @@ a {
     }
 
     .navbar {
-        content: "";
-        width: 85%;
-        display: table;
+        /* content: ""; */
+        width: 100%;
+        display:grid;
+        grid-template-columns: auto auto 1fr;
+        gap: 20px;
         clear: both;
-        position:static;
         max-width: 85%; 
-        height:20vh;
         padding-left: 5%;
+        height: 256px;
     }
 
     .navbar-image {
-        float: left;
-        width: 25%;
+        /* width: 25%; */
     }
 
     .navbar-info {
-        float: left;
-        width: 70%;
-        padding-left: 5%;
+        /* padding-left: 5%; */
     }
 
     .navbar-about {
-        float: left;
-        width:100%;
+        overflow-y: scroll;
+        
     }
 
     .section-heading {
