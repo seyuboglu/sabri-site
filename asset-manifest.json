@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.351f2265.chunk.css",
-    "main.js": "/static/js/main.5926abc6.chunk.js",
-    "main.js.map": "/static/js/main.5926abc6.chunk.js.map",
+    "main.js": "/static/js/main.287fbb9c.chunk.js",
+    "main.js.map": "/static/js/main.287fbb9c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4add0552.js",
     "runtime-main.js.map": "/static/js/runtime-main.4add0552.js.map",
-    "static/js/2.0eb18ddd.chunk.js": "/static/js/2.0eb18ddd.chunk.js",
-    "static/js/2.0eb18ddd.chunk.js.map": "/static/js/2.0eb18ddd.chunk.js.map",
+    "static/js/2.a1537223.chunk.js": "/static/js/2.a1537223.chunk.js",
+    "static/js/2.a1537223.chunk.js.map": "/static/js/2.a1537223.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a3dcbde5311c870204472059df477469.js": "/precache-manifest.a3dcbde5311c870204472059df477469.js",
+    "precache-manifest.04f1e171ccd356edd6257f90015f943b.js": "/precache-manifest.04f1e171ccd356edd6257f90015f943b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.351f2265.chunk.css.map": "/static/css/main.351f2265.chunk.css.map",
-    "static/js/2.0eb18ddd.chunk.js.LICENSE.txt": "/static/js/2.0eb18ddd.chunk.js.LICENSE.txt",
-    "static/media/main.jpeg": "/static/media/main.f24ba450.jpeg",
+    "static/js/2.a1537223.chunk.js.LICENSE.txt": "/static/js/2.a1537223.chunk.js.LICENSE.txt",
     "static/media/meerkat_banner_small.png": "/static/media/meerkat_banner_small.32f8c97b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4add0552.js",
-    "static/js/2.0eb18ddd.chunk.js",
+    "static/js/2.a1537223.chunk.js",
     "static/css/main.351f2265.chunk.css",
-    "static/js/main.5926abc6.chunk.js"
+    "static/js/main.287fbb9c.chunk.js"
   ]
 }
