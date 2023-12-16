@@ -56,7 +56,7 @@ export const DATA = {
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/domino/tree/main/domino",
             "manuscript": "https://arxiv.org/abs/2203.14960",
-            "description": "We show how you can use foundation models to discover the systematic errors made by machine learning models.",
+            "description": "We show how you can use multi-modal foundation models to discover the systematic errors made by machine learning models.",
             "links": {
                 "📘 Docs": "https://domino-slice.readthedocs.io/en/latest/",
                 "🧩 Demo": "https://hazyresearch.stanford.edu/blog/2022-04-02-domino",
