@@ -5,7 +5,7 @@ export const DATA = {
             "title": "Zoology: Measuring and Improving Recall in Efficient Language Models",
             "authors": [
                 "Sabri Eyuboglu*", "Simran Arora*", "Aman Timalsina", "Isys Johnson", "Michael Poli", "James Zou", "Atri Rudra", "Christopher Ré"],
-            "venue": "Under Review (workshop presentation at NeurIPS ENSLP)",
+            "venue": "ICLR",
             "year": "2024",
             "notes": [], 
             "image": "res/domino_preview.png",
