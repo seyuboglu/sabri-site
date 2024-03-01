@@ -17,7 +17,7 @@ export const DATA = {
             }
         },
         {
-            "title": "Zoology: Measuring and Improving Recall in Efficient Language Models",
+            "title": "Zoology: Measuring and improving recall in efficient language models",
             "authors": [
                 "Sabri Eyuboglu*", "Simran Arora*", "Aman Timalsina", "Isys Johnson", "Michael Poli", "James Zou", "Atri Rudra", "Christopher Ré"],
             "venue": "ICLR",
@@ -32,7 +32,7 @@ export const DATA = {
             }
         },
         {
-            "title": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
+            "title": "Language models enable simple systems for generating structured views of heterogeneous data lakes",
             "authors": [
                 "Simran Arora", "Brandon Yang*", "Sabri Eyuboglu*", "Avanika Narayan", "Andrew Hojel", "Immanuel Trummer", "Christopher Ré"],
             "venue": "VLDB",
@@ -47,7 +47,7 @@ export const DATA = {
             }
         },
         {
-            "title": "Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture",
+            "title": "Monarch Mixer: A simple sub-quadratic GEMM-based architecture",
             "authors": [
                 "Daniel Y. Fu", "Simran Arora*", "Jessica Grogan*", "Isys Johnson*", "Sabri Eyuboglu*", "Armin W. Thomas*", "Benjamin Spector", "Michael Poli", "Atri Rudra", "Christopher Ré"   
             ],
@@ -63,7 +63,7 @@ export const DATA = {
             }
         },
         {
-            "title": "Domino: Discovering Systematic Errors with Cross-modal Embeddings ",
+            "title": "Domino: Discovering systematic errors with cross-modal embeddings ",
             "authors": ["Sabri Eyuboglu*", "Maya Varma*", "Khaled Saab*", "Jean-Benoit Delbrouck", "Christopher Lee-Messer", "Jared Dunnmon", "James Zou", "Christopher Ré"],
             "venue": "ICLR",
             "year": "2022",
@@ -96,7 +96,7 @@ export const DATA = {
             }
         },
         {
-            "title": "A Large-scale Longitudinal Dataset of Commercial ML API Predictions",
+            "title": "A L large-scale longitudinal dataset of commercial ML API predictions",
             "authors": ["Lingjiao Chen", "Zhihua Jin", "Sabri Eyuboglu", "Christopher Ré", "Matei Zaharia", "James Zou"],
             "venue": "NeurIPS: Datasets and Benchmarks",
             "year": "2022",
