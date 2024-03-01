@@ -96,12 +96,12 @@ export const DATA = {
             }
         },
         {
-            "title": "A L large-scale longitudinal dataset of commercial ML API predictions",
+            "title": "A large-scale longitudinal dataset of commercial ML API predictions",
             "authors": ["Lingjiao Chen", "Zhihua Jin", "Sabri Eyuboglu", "Christopher Ré", "Matei Zaharia", "James Zou"],
-            "venue": "NeurIPS: Datasets and Benchmarks",
+            "venue": "NeurIPS",
             "year": "2022",
             "image": "res/hapi-preview.png",
-            "notes": [],
+            "notes": ["Datasets and Benchmarks"],
             "description": "We collect predictions from ML APIs (e.g. GPT-3) over time and explore how they change.",
             "github": "https://github.com/lchen001/HAPI",
             "manuscript": "https://arxiv.org/abs/2209.08443",
