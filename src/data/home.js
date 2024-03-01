@@ -2,6 +2,21 @@
 export const DATA = {
     "research": [
         {
+            "title": "Simple linear attention models balance the recall-throughput tradeoff",
+            "authors": [
+                "Sabri Eyuboglu*", "Simran Arora*", "Michael Zhang*", "Aman Timalsina", "Silas Alberti", "Dylan Zinsley", "James Zou", "Atri Rudra", "Christopher Ré"],
+            "venue": "In submission",
+            "year": "2024",
+            "notes": [], 
+            "image": "res/domino_preview.png",
+            "github": "https://github.com/HazyResearch/based",
+            "manuscript": "https://arxiv.org/abs/2402.18668",
+            "description": "We highlight a fundamental tradeoff between a language model's memory consumption during generation and it's capacity to perfrom recall (e.g. copying). We show that simple linear attention models sit at the pareto frontier of this tradeoff.",
+            "links": {
+                "🌍 Blog post": "",
+            }
+        },
+        {
             "title": "Zoology: Measuring and Improving Recall in Efficient Language Models",
             "authors": [
                 "Sabri Eyuboglu*", "Simran Arora*", "Aman Timalsina", "Isys Johnson", "Michael Poli", "James Zou", "Atri Rudra", "Christopher Ré"],
@@ -11,7 +26,7 @@ export const DATA = {
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/zoology",
             "manuscript": "https://arxiv.org/abs/2312.04927",
-            "description": "We explain why a broad class of efficient language model architectures struggle to recall information seen in-context and propose some simple fixes.",
+            "description": "We explain why a broad class of efficient language model architectures struggle to recall information seen in-context (e.g. copy information from the prompt).",
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-12-11-zoology1-analysis",
             }
