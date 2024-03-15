@@ -96,6 +96,22 @@ export const DATA = {
             }
         },
         {
+            "title": "DCBench: A benchmark for data-centric AI systems",
+            "authors": ["Sabri Eyuboglu*", "Bojan Karlaš*", "Christopher Ré", "Ce Zhang", "James Zou"],
+            "venue": "DEEM",
+            "year": "2022",
+            "image": "res/hapi-preview.png",
+            "notes": ["Best Presentation"],
+            "description": "We create a benchmark for the parts of the machine-learning lifecycle beyond model training (e.g. data selection, subgroup analysis, data cleaning).",
+            "github": "https://github.com/data-centric-ai/dcbench",
+            "manuscript": "https://dl.acm.org/doi/abs/10.1145/3533028.3533310",
+            "links": {
+                "🌍 Website": "https://www.datacentricai.cc/benchmark/",
+                "🎥 Demo": "https://drive.google.com/file/d/1BVLfPuXfqldrdJd1WI1SRBlcklcOyNC5/view"
+            }
+
+        },
+        {
             "title": "A large-scale longitudinal dataset of commercial ML API predictions",
             "authors": ["Lingjiao Chen", "Zhihua Jin", "Sabri Eyuboglu", "Christopher Ré", "Matei Zaharia", "James Zou"],
             "venue": "NeurIPS",
