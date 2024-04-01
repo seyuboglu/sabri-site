@@ -81,7 +81,7 @@ export default class HomePage extends Component {
                 <Header />
                 <div className="concept-cards">
                     <div id="software-heading" className="section-heading"> Software </div>
-                    <div id="software-cards-wrapper">
+                    <div id="software-cards-wrapper" className="horizontal-section">
                         {softwareCards}
                     </div>
                     <div id="research-heading" className="section-heading research-heading"> Research </div>

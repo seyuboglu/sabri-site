@@ -207,7 +207,7 @@ a {
 }
 
 .banner-image {
-    height:50px;
+    /* height:50px; */
 }
 
 .card-preview {
@@ -351,6 +351,13 @@ a {
     font-style: italic;
     color: #42516e;
 }
+
+/* .horizontal-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+} */
+
 
 .notes-wrapper {
     padding: 100px;

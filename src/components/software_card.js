@@ -44,11 +44,11 @@ export default class SoftwareCard extends ConceptCard {
             {link_buttons}
           </div>
           <div className="card-body-abstract">
-            <b>Abstract.</b><ReadMore>{description}</ReadMore>
+            <b>tl;dr</b>       {description}
           </div>
-          <a href={github}>
+          {/* <a href={github}>
             <div className="command-line-button">pip install {pypi}</div>
-          </a>
+          </a> */}
 
         </div>
       </div>

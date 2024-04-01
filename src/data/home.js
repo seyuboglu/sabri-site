@@ -19,7 +19,7 @@ export const DATA = {
         {
             "title": "Zoology: Measuring and improving recall in efficient language models",
             "authors": [
-                "Sabri Eyuboglu*", "Simran Arora*", "Aman Timalsina", "Isys Johnson", "Michael Poli", "James Zou", "Atri Rudra", "Christopher Ré"],
+                "Simran Arora*", "Sabri Eyuboglu*", "Aman Timalsina", "Isys Johnson", "Michael Poli", "James Zou", "Atri Rudra", "Christopher Ré"],
             "venue": "ICLR",
             "year": "2024",
             "notes": [], 
@@ -30,6 +30,18 @@ export const DATA = {
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-12-11-zoology1-analysis",
             }
+        },
+        {
+            "title": "Model ChangeLists: Characterizing changes to machine learning APIs",
+            "authors": ["Sabri Eyuboglu", "Karan Goel", "Arjun Desai", "Lingjiao Chen", "Mathew Monfort", "Christopher Ré", "James Zou"],
+            "venue": "FAccT",
+            "year": "2024",
+            "notes": [], 
+            "image": "res/domino_preview.png",
+            "github": "https://github.com/HazyResearch/meerkat",
+            "manuscript": "",
+            "description": "We explore how slice discovery techniques like Domino can be used to create a \"ChangeList\" comparing two machine learning models (e.g. before and after an update).",
+            "links": {}
         },
         {
             "title": "Language models enable simple systems for generating structured views of heterogeneous data lakes",
@@ -188,7 +200,7 @@ export const DATA = {
         {
             "title": "Meerkat",
             "banner": "software/meerkat/meerkat_banner_small.png",
-            "description": "Meerkat is an open-source Python library that helps users visualize, explore, and annotate any dataset. It is especially useful when processing unstructured data types (e.g. free text, PDFs, images, video) with machine learning models.",
+            "description": "Meerkat is an open-source Python library that helps users visualize, explore, and annotate any dataset.",
             "github": "https://github.com/HazyResearch/meerkat/",
             "docs": "http://cs106r.com/",
             "pypi": "meerkat-ml",
@@ -197,6 +209,19 @@ export const DATA = {
                 "💻 GitHub":"https://github.com/HazyResearch/meerkat", 
                 "📘 Docs": "http://meerkat.wiki/docs/index.html",
                 "🌍 Blog post": "http://meerkat.wiki/blog",
+            }
+        },
+        {
+            "title": "Zoology",
+            "banner": "software/zoology/zoology_banner_small.png",
+            "description": "Zoology provides a simple playground for understanding and testing language models on synthetic tasks.",
+            "github": "https://github.com/HazyResearch/zoology",
+            "docs": "http://cs106r.com/",
+            "pypi": "meerkat-ml",
+            "install": "http://meerkat.wiki/docs/start/install.html",
+            "links": {
+                "💻 GitHub":"https://github.com/HazyResearch/zoology", 
+                "🌍 Blog post": "",
             }
         },
     ]
