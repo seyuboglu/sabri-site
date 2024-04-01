@@ -34,8 +34,8 @@ a {
     top: 50px;
     padding-left: 75px;
     padding-right: 25px;
-    max-width:345px;
-    min-width: 275px;
+    max-width:320px;
+    min-width: 320px;
     overflow: scroll;
     height: 90vh;
 }
