@@ -13,7 +13,7 @@ export const DATA = {
             "manuscript": "https://arxiv.org/abs/2402.18668",
             "description": "We highlight a fundamental tradeoff between a language model's memory consumption during generation and it's capacity to perfrom recall (e.g. copying). We show that simple linear attention models sit at the pareto frontier of this tradeoff.",
             "links": {
-                "🌍 Blog post": "",
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-03-03-based",
             }
         },
         {
@@ -29,6 +29,7 @@ export const DATA = {
             "description": "We explain why a broad class of efficient language model architectures struggle to recall information seen in-context (e.g. copy information from the prompt).",
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-12-11-zoology1-analysis",
+                "🎤 ICLR Talk": "https://iclr.cc/virtual/2024/poster/18860"
             }
         },
         {
