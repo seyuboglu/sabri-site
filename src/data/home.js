@@ -5,7 +5,7 @@ export const DATA = {
             "title": "Simple linear attention models balance the recall-throughput tradeoff",
             "authors": [
                 "Sabri Eyuboglu*", "Simran Arora*", "Michael Zhang*", "Aman Timalsina", "Silas Alberti", "Dylan Zinsley", "James Zou", "Atri Rudra", "Christopher Ré"],
-            "venue": "In submission",
+            "venue": "ICML",
             "year": "2024",
             "notes": [], 
             "image": "res/domino_preview.png",
