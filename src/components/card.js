@@ -8,13 +8,11 @@ export default class ConceptCard extends React.Component {
     let {
       title,
       authors,
-      venue,
-      year,
+      venues,
       image,
       description,
       github,
       manuscript,
-      notes,
       links
     } = this.props
 
@@ -34,13 +32,23 @@ export default class ConceptCard extends React.Component {
       )
     }
 
-    let note_tags = []
-    for (let i=0; i<notes.length; i++){
-      note_tags.push(
-        <span  className='note-tag'>
-          {notes[i]}
-        </span>
-      ) 
+    let venues_elements = []
+    for (let i=0; i<venues.length; i++){
+      let venue = venues[i]
+      let note_tags = []
+      for (let i=0; i<venue.notes.length; i++){
+        note_tags.push(
+          <span  className='note-tag'>
+            {venue.notes[i]}
+          </span>
+        ) 
+      }
+      venues_elements.push(
+        <div className="card-body-venue">
+          <i>{venue.name}</i>, {venue.year}  {note_tags} <br />
+        </div>
+      )
+
     }
     
     var meIdx = authors.findIndex(a => a.includes("Sabri Eyuboglu"))
@@ -60,9 +68,7 @@ export default class ConceptCard extends React.Component {
             {}
             {meIdx != 0 ? authors.slice(0, meIdx).join(", ") + "," : ""} <b>{authors[meIdx]}</b>, {authors.slice(meIdx + 1).join(", ")}
           </div>
-          <div className="card-body-venue">
-            <i>{venue}</i>, {year}  {note_tags} <br />
-          </div>
+          {venues_elements}
           <div className="card-body-links">
             <a href={manuscript}>
               <div class="text-button">📄 Paper </div>

@@ -81,14 +81,17 @@ export default class NavBar extends Component {
                             I am supported by the <a href="https://www.nsfgrfp.org/"> National Science Foundation GRFP </a>.
                         </p>
                         <p>
-                            <b>Research Interests.</b> I like to develop detailed understanding of how machine learning models work and when they fail by exploring the unstructured data on which they are trained and formalizing sub-tasks with synthetics.
-                            Most recently, I've been working on understanding how neural network building blocks affect the quality and efficiency of foundation models [<a href="https://arxiv.org/abs/2312.04927">1</a>,<a href="https://arxiv.org/abs/2402.18668">2</a>,<a href="https://arxiv.org/abs/2304.09433">3</a>].
+                            <b>Research Interests.</b> I'm currently focused on getting machine learning models to <i>store and recall information</i> more efficiently and reliably. 
+                        </p>
+                        <p>
+                            To this end, I like to develop low-level understanding of how machine learning models work by exploring the unstructured data on which they are trained and formulating simple synthetic tasks [<a href="https://arxiv.org/abs/2312.04927">1</a>,<a href="https://arxiv.org/abs/2402.18668">2</a>,<a href="https://arxiv.org/abs/2304.09433">3</a>].
                             I also like to build tools that leverage large, pretrained models to facilitate the analysis and management of unstructured training and validation datasets [<a href="https://github.com/HazyResearch/meerkat">4</a>, <a href="https://arxiv.org/abs/2203.14960">5</a>, <a href="https://arxiv.org/abs/2304.09433">6</a>]. 
-                            I'm motivated by challenges that arise when trying to apply machine learning in safety-critical settings like medicine and the sciences [<a href="https://www.nature.com/articles/s41467-021-22018-1">6</a>, <a href="https://cs.stanford.edu/people/sabrieyuboglu/psb-mi.pdf">7</a>]. 
+
+                            {/* I'm motivated by challenges that arise when trying to apply machine learning in safety-critical settings like medicine and the sciences [<a href="https://www.nature.com/articles/s41467-021-22018-1">6</a>, <a href="https://cs.stanford.edu/people/sabrieyuboglu/psb-mi.pdf">7</a>].  */}
         
                         </p>
                         <p>
-                            <b>Background.</b> Previously, I was a machine learning research intern
+                            <b>Background.</b> Previously, I was a machine learning researcher
                             at <a href="https://flatiron.com/">Flatiron Health</a>. I completed my undergrad and master's
                             at Stanford, where I worked with Jure Leskovec's
                             <a href="https://cs.stanford.edu/~jure/"> SNAP Group</a> and

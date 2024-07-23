@@ -28,14 +28,12 @@ export default class HomePage extends Component {
                     <ConceptCard
                         title={data["research"][i]['title']}
                         authors={data["research"][i]['authors']}
-                        venue={data["research"][i]['venue']}
-                        year={data["research"][i]['year']}
+                        venues={data["research"][i]['venues']}
                         image={data["research"][i]['image']}
                         description={data["research"][i]['description']}
                         github={data["research"][i]['github']}
                         manuscript={data["research"][i]['manuscript']}
                         links={data["research"][i]['links']}
-                        notes={data["research"][i]['notes']}
                     />
                 )
             }

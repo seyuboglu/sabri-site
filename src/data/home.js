@@ -2,27 +2,66 @@
 export const DATA = {
     "research": [
         {
+            "title": "Towards smaller language models via layer looping",
+            "authors": [
+                "Sabri Eyuboglu*", "Dylan Zinsley", "Jon Saad-Falcon", "Simran Arora", "Atri Rudra", "James Zou", "Christopher Ré"],
+            "venues": [
+                {
+                    "name": "Working Paper",
+                    "year": "2024",
+                    "notes": [""]
+                },
+                {
+                    "name": "ICML (Efficient Systems for Foundation Models Workshop)",
+                    "year": "2024",
+                    "notes": []
+                }
+            ],
+            "image": "res/domino_preview.png",
+            "github": "https://github.com/HazyResearch/zoology",
+            "manuscript": "https://openreview.net/pdf?id=2N3CtUdoB0",
+            "description": "Can a Transformer act as an efficient data structure? We show that Transformers cannot efficiently answer complex queries over the factual knowledge in their parameters. However, two simple modifications, looped + conditional computation, improve space + time complexity!",
+            "links": {
+                // "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-03-03-based",
+                // "🎤 ICML Talk": "https://www.youtube.com/watch?v=KCIcBnR-67s"
+            }
+        },
+        {
             "title": "Simple linear attention models balance the recall-throughput tradeoff",
             "authors": [
                 "Sabri Eyuboglu*", "Simran Arora*", "Michael Zhang*", "Aman Timalsina", "Silas Alberti", "Dylan Zinsley", "James Zou", "Atri Rudra", "Christopher Ré"],
-            "venue": "ICML",
-            "year": "2024",
-            "notes": [], 
+            "venues": [
+                {
+                    "name": "ICML",
+                    "year": "2024",
+                    "notes": ["Spotlight Presentation"]
+                },
+                {
+                    "name": "ICML (Efficient Systems for Foundation Models Workshop)",
+                    "year": "2024",
+                    "notes": ["Oral Presentation"]
+                }
+            ],
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/based",
             "manuscript": "https://arxiv.org/abs/2402.18668",
             "description": "We highlight a fundamental tradeoff between a language model's memory consumption during generation and it's capacity to perfrom recall (e.g. copying). We show that simple linear attention models sit at the pareto frontier of this tradeoff.",
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-03-03-based",
+                "🎤 ICML Talk": "https://www.youtube.com/watch?v=KCIcBnR-67s"
             }
         },
         {
             "title": "Zoology: Measuring and improving recall in efficient language models",
             "authors": [
                 "Simran Arora*", "Sabri Eyuboglu*", "Aman Timalsina", "Isys Johnson", "Michael Poli", "James Zou", "Atri Rudra", "Christopher Ré"],
-            "venue": "ICLR",
-            "year": "2024",
-            "notes": [], 
+            "venues": [
+                {
+                    "name": "ICLR",
+                    "year": "2024",
+                    "notes": []
+                }
+            ],
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/zoology",
             "manuscript": "https://arxiv.org/abs/2312.04927",
@@ -35,9 +74,13 @@ export const DATA = {
         {
             "title": "Model ChangeLists: Characterizing changes to machine learning APIs",
             "authors": ["Sabri Eyuboglu", "Karan Goel", "Arjun Desai", "Lingjiao Chen", "Mathew Monfort", "Christopher Ré", "James Zou"],
-            "venue": "FAccT",
-            "year": "2024",
-            "notes": [], 
+            "venues": [
+                {
+                    "name": "FAccT",
+                    "year": "2024",
+                    "notes": ["Oral Presentation"]
+                }
+            ],
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/meerkat",
             "manuscript": "",
@@ -48,9 +91,13 @@ export const DATA = {
             "title": "Language models enable simple systems for generating structured views of heterogeneous data lakes",
             "authors": [
                 "Simran Arora", "Brandon Yang*", "Sabri Eyuboglu*", "Avanika Narayan", "Andrew Hojel", "Immanuel Trummer", "Christopher Ré"],
-            "venue": "VLDB",
-            "year": "2024",
-            "notes": [], 
+            "venues": [
+                {
+                    "name": "VLDB",
+                    "year": "2024",
+                    "notes": []
+                }
+            ],
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/evaporate",
             "manuscript": "https://arxiv.org/abs/2304.09433",
@@ -64,9 +111,13 @@ export const DATA = {
             "authors": [
                 "Daniel Y. Fu", "Simran Arora*", "Jessica Grogan*", "Isys Johnson*", "Sabri Eyuboglu*", "Armin W. Thomas*", "Benjamin Spector", "Michael Poli", "Atri Rudra", "Christopher Ré"   
             ],
-            "venue": "NeurIPS",
-            "year": "2023",
-            "notes": ["Oral Presentation"], 
+            "venues": [
+                {
+                    "name": "NeurIPS",
+                    "year": "2023",
+                    "notes": ["Oral Presentation"], 
+                }
+            ],
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/evaporate",
             "manuscript": "https://arxiv.org/abs/2304.09433",
@@ -78,9 +129,13 @@ export const DATA = {
         {
             "title": "Domino: Discovering systematic errors with cross-modal embeddings ",
             "authors": ["Sabri Eyuboglu*", "Maya Varma*", "Khaled Saab*", "Jean-Benoit Delbrouck", "Christopher Lee-Messer", "Jared Dunnmon", "James Zou", "Christopher Ré"],
-            "venue": "ICLR",
-            "year": "2022",
-            "notes": ["Oral Presentation"], 
+            "venues": [
+                {
+                    "name": "ICLR",
+                    "year": "2022",
+                    "notes": ["Oral Presentation"], 
+                }
+            ],
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/domino/tree/main/domino",
             "manuscript": "https://arxiv.org/abs/2203.14960",
@@ -94,11 +149,50 @@ export const DATA = {
             }
         },
         {
+            "title": "DCBench: A benchmark for data-centric AI systems",
+            "authors": ["Sabri Eyuboglu*", "Bojan Karlaš*", "Christopher Ré", "Ce Zhang", "James Zou"],
+            "venues": [
+                {
+                    "name": "DEEM",
+                    "year": "2022",
+                    "notes": ["Best Presentation Award"], 
+                }
+            ],
+            "image": "res/hapi-preview.png",
+            "description": "We create a benchmark for the parts of the machine-learning lifecycle beyond model training (e.g. data selection, subgroup analysis, data cleaning).",
+            "github": "https://github.com/data-centric-ai/dcbench",
+            "manuscript": "https://dl.acm.org/doi/abs/10.1145/3533028.3533310",
+            "links": {
+                "🌍 Website": "https://www.datacentricai.cc/benchmark/",
+                "🎥 Demo": "https://drive.google.com/file/d/1BVLfPuXfqldrdJd1WI1SRBlcklcOyNC5/view"
+            }
+
+        },
+        // {
+        //     "title": "A large-scale longitudinal dataset of commercial ML API predictions",
+        //     "authors": ["Lingjiao Chen", "Zhihua Jin", "Sabri Eyuboglu", "Christopher Ré", "Matei Zaharia", "James Zou"],
+        //     "venue": "NeurIPS",
+        //     "year": "2022",
+        //     "image": "res/hapi-preview.png",
+        //     "notes": ["Datasets and Benchmarks"],
+        //     "description": "We collect predictions from ML APIs (e.g. GPT-3) over time and explore how they change.",
+        //     "github": "https://github.com/lchen001/HAPI",
+        //     "manuscript": "https://arxiv.org/abs/2209.08443",
+        //     "links": {
+        //         "🌍 Website": "http://hapi.stanford.edu/",
+        //     }
+
+        // },
+        {
             "title": "Mutual interactors as a principle for the discovery of phenotypes in molecular networks",
             "authors": ["Sabri Eyuboglu*", "Marinka Zitnik*", "Jure Leskovec"],
-            "venue": "PSB",
-            "notes": ["Oral Presentation"], 
-            "year": "2023",
+            "venues": [
+                {
+                    "name": "PSB",
+                    "year": "2023",
+                    "notes": ["Oral Presentation"], 
+                }
+            ],
             "image": "res/mi_preview.png",
             "description": "We show that a super simple network principle can be used to identify disease-related genes.",
             "manuscript": "https://cs.stanford.edu/people/sabrieyuboglu/psb-mi.pdf",
@@ -109,42 +203,15 @@ export const DATA = {
             }
         },
         {
-            "title": "DCBench: A benchmark for data-centric AI systems",
-            "authors": ["Sabri Eyuboglu*", "Bojan Karlaš*", "Christopher Ré", "Ce Zhang", "James Zou"],
-            "venue": "DEEM",
-            "year": "2022",
-            "image": "res/hapi-preview.png",
-            "notes": ["Best Presentation"],
-            "description": "We create a benchmark for the parts of the machine-learning lifecycle beyond model training (e.g. data selection, subgroup analysis, data cleaning).",
-            "github": "https://github.com/data-centric-ai/dcbench",
-            "manuscript": "https://dl.acm.org/doi/abs/10.1145/3533028.3533310",
-            "links": {
-                "🌍 Website": "https://www.datacentricai.cc/benchmark/",
-                "🎥 Demo": "https://drive.google.com/file/d/1BVLfPuXfqldrdJd1WI1SRBlcklcOyNC5/view"
-            }
-
-        },
-        {
-            "title": "A large-scale longitudinal dataset of commercial ML API predictions",
-            "authors": ["Lingjiao Chen", "Zhihua Jin", "Sabri Eyuboglu", "Christopher Ré", "Matei Zaharia", "James Zou"],
-            "venue": "NeurIPS",
-            "year": "2022",
-            "image": "res/hapi-preview.png",
-            "notes": ["Datasets and Benchmarks"],
-            "description": "We collect predictions from ML APIs (e.g. GPT-3) over time and explore how they change.",
-            "github": "https://github.com/lchen001/HAPI",
-            "manuscript": "https://arxiv.org/abs/2209.08443",
-            "links": {
-                "🌍 Website": "http://hapi.stanford.edu/",
-            }
-
-        },
-        {
             "title": "Multi-task weak supervision enables anatomically-resolved abnormality detection in whole-body FDG-PET/CT",
             "authors": ["Sabri Eyuboglu*", "Geoffrey Angus*", "Bhavik Patel", "Anuj Pareek", "Guido Davidzon", "Jin Long", "Jared Dunnmon**", "Matthew Lungren**"],
-            "venue": "Nature Communications",
-            "notes": [], 
-            "year": "2021",
+            "venues": [
+                {
+                    "name": "Nature Communications",
+                    "year": "2021",
+                    "notes": [], 
+                }
+            ],
             "image": "res/pet_ct_preview.png",
             "github": "https://github.com/seyuboglu/weakly-supervised-petct",
             "manuscript": "https://www.nature.com/articles/s41467-021-22018-1",
