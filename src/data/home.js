@@ -39,7 +39,7 @@ export const DATA = {
                 {
                     "name": "ICML (Efficient Systems for Foundation Models Workshop)",
                     "year": "2024",
-                    "notes": ["Oral Presentation"]
+                    "notes": ["Best Paper Award"]
                 }
             ],
             "image": "res/domino_preview.png",
