@@ -2,13 +2,53 @@
 export const DATA = {
     "research": [
         {
+            "title": "Minions: Cost-efficient collaboration between on-device and cloud language models",
+            "authors": [
+                "Avanika Narayan*", "Dan Biderman*", "Sabri Eyuboglu*", "Avner May", "Scott Linderman", "James Zou", "Christopher Ré"
+            ],
+            "venues": [
+                {
+                    "name": "Preprint",
+                    "year": "",
+                    "notes": [""]
+                },
+            ],
+            "image": "res/domino_preview.png",
+            "github": "https://github.com/HazyResearch/minions",
+            "manuscript": "https://arxiv.org/abs/2502.15964",
+            "description": "We shift a substantial portion of LLM workloads to consumer devices by having small on-device models collaborate with frontier models in the cloud. By only reading long contexts locally, we reduce cloud costs with minimal or no quality degradation.",
+            "links": {
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2025-02-24-minions",
+            }
+        },
+        {
+            "title": "Adaptive Rank Allocation: Speeding up modern transformers with RaNA adapters",
+            "authors": [
+                "Roberto Garcia", "Jerry Liu", "Daniel Sorvisto", "Sabri Eyuboglu"],
+            "venues": [
+                {
+                    "name": "ICLR",
+                    "year": "2025",
+                    "notes": [""]
+                },
+            ],
+            "image": "res/domino_preview.png",
+            "github": "https://github.com/HazyResearch",
+            "manuscript": "https://openreview.net/forum?id=uAtDga3q0r",
+            "description": "One popular way to speedup LLMs is by dynamically dropping neurons from MLPs at test time. However, due to superposition, sparsity in neurons may be hard to find. Instead, we learn to drop ranks from the SVD of any linear projetion, which provides larger speedups at the same accuracy.",
+            "links": {
+                // "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-03-03-based",
+                // "🎤 ICML Talk": "https://www.youtube.com/watch?v=KCIcBnR-67s"
+            }
+        },
+        {
             "title": "Towards smaller language models via layer looping",
             "authors": [
-                "Sabri Eyuboglu*", "Dylan Zinsley", "Jon Saad-Falcon", "Simran Arora", "Atri Rudra", "James Zou", "Christopher Ré"],
+                "Sabri Eyuboglu", "Dylan Zinsley", "Jon Saad-Falcon", "Simran Arora", "Atri Rudra", "James Zou", "Christopher Ré"],
             "venues": [
                 {
                     "name": "Working Paper",
-                    "year": "2024",
+                    "year": "",
                     "notes": [""]
                 },
                 {

@@ -45,7 +45,7 @@ export default class ConceptCard extends React.Component {
       }
       venues_elements.push(
         <div className="card-body-venue">
-          <i>{venue.name}</i>, {venue.year}  {note_tags} <br />
+          <i>{venue.name}</i> {venue.year != "" ? ", " + venue.year : ""}  {note_tags} <br />
         </div>
       )
 
@@ -66,7 +66,7 @@ export default class ConceptCard extends React.Component {
           </a>
           <div className="card-body-authors">
             {}
-            {meIdx != 0 ? authors.slice(0, meIdx).join(", ") + "," : ""} <b>{authors[meIdx]}</b>, {authors.slice(meIdx + 1).join(", ")}
+            {meIdx != 0 ? authors.slice(0, meIdx).join(", ") + "," : ""} <b>{authors[meIdx]}</b>{meIdx != authors.length - 1 ? "," : "" } {authors.slice(meIdx + 1).join(", ")}
           </div>
           {venues_elements}
           <div className="card-body-links">
