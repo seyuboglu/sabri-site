@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b30875fe4b87ed8c0fa0146712ed0d59",
+    "revision": "3ad561e79af3c5c3623a6753d43059c7",
     "url": "/index.html"
   },
   {
-    "revision": "582aad8f88e1cf560b55",
+    "revision": "4a247a05a98a3d47509c",
     "url": "/static/css/main.7210f912.chunk.css"
   },
   {
-    "revision": "cdd93302dd5558eed3c1",
-    "url": "/static/js/2.c76c7587.chunk.js"
+    "revision": "df9d157bacbc9aff52e3",
+    "url": "/static/js/2.f2dbf111.chunk.js"
   },
   {
     "revision": "507c4436aa55e48136618e82a79cbf78",
-    "url": "/static/js/2.c76c7587.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f2dbf111.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "582aad8f88e1cf560b55",
-    "url": "/static/js/main.8cf19a65.chunk.js"
+    "revision": "4a247a05a98a3d47509c",
+    "url": "/static/js/main.5bd824bf.chunk.js"
   },
   {
     "revision": "605192d867235f25fd55",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "45d407745ca61cad02d04b137721d8d8",
     "url": "/static/media/meerkat_banner_small.45d40774.png"
+  },
+  {
+    "revision": "52a63c9e2888784155b43f3d223be5e8",
+    "url": "/static/media/minions_banner_small.52a63c9e.png"
   },
   {
     "revision": "3210a78103eb8ee7e232525ecd1ccb2d",
