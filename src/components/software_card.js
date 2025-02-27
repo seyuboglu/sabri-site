@@ -35,11 +35,10 @@ export default class SoftwareCard extends ConceptCard {
 
     return (
       <div className="concept-card">
-       
+        <a href={website}>
+          <img className="banner-image" src={require("../data/" + banner)} />
+        </a>
         <div className="card-body">
-          <a href={website}>
-            <img className="banner-image" src={require("../data/" + banner)} />
-          </a>
           <div className="card-body-links">
             {link_buttons}
           </div>

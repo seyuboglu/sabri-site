@@ -345,5 +345,19 @@ export const DATA = {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2025-02-24-minions",
             }
         },
+        {
+            "title": "Based",
+            "banner": "software/based/based_banner.png",
+            "description": "Training and evaluation for training simple, linear attention variants.",
+            "github": "https://github.com/HazyResearch/minions",
+            "docs": "http://cs106r.com/",
+            "pypi": "minions",
+            "install": "http://meerkat.wiki/docs/start/install.html",
+            "links": {
+                "💻 GitHub":"https://github.com/HazyResearch/based", 
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-03-03-based",
+            }
+        },
+        
     ]
 }

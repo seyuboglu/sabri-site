@@ -352,12 +352,81 @@ a {
     color: #42516e;
 }
 
-/* .horizontal-section {
+/* Uncommented and updated for two-column software cards layout */
+.horizontal-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
-} */
+    grid-gap: 20px;
+    margin-right: 5%;
+}
 
+/* Add specific styling for software cards in the grid */
+.horizontal-section .concept-card {
+    flex-direction: row;
+    margin: 5px 0;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.horizontal-section .card-body {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-section .banner-image {
+    width: auto;
+    max-height: 100px;
+    max-width: 250px;
+    padding-right: 10px;
+    object-fit: contain;
+    object-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    align-self: center;
+}
+
+.horizontal-section .card-body-links {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.horizontal-section .card-body-abstract {
+    padding-top: 5px;
+}
+
+.horizontal-section a {
+    display: inline-block;
+}
+
+/* Add responsive behavior for smaller screens */
+@media screen and (max-width: 768px) {
+    .horizontal-section {
+        grid-template-columns: 1fr;
+    }
+    
+    .horizontal-section .concept-card {
+        flex-direction: column;
+    }
+    
+    .horizontal-section .banner-image {
+        width: auto;
+        max-width: 50%;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    
+    .horizontal-section .card-body {
+        width: 100%;
+        padding-left: 0;
+    }
+}
 
 .notes-wrapper {
     padding: 100px;
@@ -463,6 +532,15 @@ a {
     }
 
     .concept-card {
+        margin-left: 5%;
+    }
+    
+    /* Ensure consistent margins for software cards */
+    .horizontal-section {
+        margin-left: 0;
+    }
+    
+    .horizontal-section .concept-card {
         margin-left: 5%;
     }
 
