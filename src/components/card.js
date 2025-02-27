@@ -38,7 +38,7 @@ export default class ConceptCard extends React.Component {
       let note_tags = []
       for (let i=0; i<venue.notes.length; i++){
         note_tags.push(
-          <span  className='note-tag'>
+          <span className='note-tag'>
             {venue.notes[i]}
           </span>
         ) 
@@ -48,16 +48,12 @@ export default class ConceptCard extends React.Component {
           <i>{venue.name}</i> {venue.year != "" ? ", " + venue.year : ""}  {note_tags} <br />
         </div>
       )
-
     }
     
     var meIdx = authors.findIndex(a => a.includes("Sabri Eyuboglu"))
 
     return (
       <div className="concept-card">
-        {/* <div className="card-preview">
-          {<img className="card-preview-image" src={"https://raw.githubusercontent.com/seyuboglu/sabri-site/master/" + image}/>}
-        </div> */}
         <div className="card-body">
           <a href={manuscript}>
             <div className="card-body-title">
@@ -65,7 +61,6 @@ export default class ConceptCard extends React.Component {
             </div>
           </a>
           <div className="card-body-authors">
-            {}
             {meIdx != 0 ? authors.slice(0, meIdx).join(", ") + "," : ""} <b>{authors[meIdx]}</b>{meIdx != authors.length - 1 ? "," : "" } {authors.slice(meIdx + 1).join(", ")}
           </div>
           {venues_elements}

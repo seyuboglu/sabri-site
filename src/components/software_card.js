@@ -35,10 +35,10 @@ export default class SoftwareCard extends ConceptCard {
 
     return (
       <div className="concept-card">
-        <a href={website}>
-          <img className="banner-image" src={require("../data/" + banner)} />
-        </a>
         <div className="card-body">
+          <div className="software-card-body-title">
+            {title}
+          </div>
           <div className="card-body-links">
             {link_buttons}
           </div>
@@ -48,8 +48,10 @@ export default class SoftwareCard extends ConceptCard {
           {/* <a href={github}>
             <div className="command-line-button">pip install {pypi}</div>
           </a> */}
-
         </div>
+        <a href={website} className="banner-image-container">
+          <img className="banner-image" src={require("../data/" + banner)} />
+        </a>
       </div>
     );
   }

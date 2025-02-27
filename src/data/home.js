@@ -306,7 +306,7 @@ export const DATA = {
     ],
     "software": [
         {
-            "title": "Meerkat",
+            "title": "meerkat",
             "banner": "software/meerkat/meerkat_banner_small.png",
             "description": "Meerkat is an open-source Python library that helps users visualize, explore, and annotate any dataset.",
             "github": "https://github.com/HazyResearch/meerkat/",
@@ -320,7 +320,7 @@ export const DATA = {
             }
         },
         {
-            "title": "Zoology",
+            "title": "zoology",
             "banner": "software/zoology/zoology_banner_small.png",
             "description": "Zoology provides a simple playground for understanding and testing language models on synthetic tasks.",
             "github": "https://github.com/HazyResearch/zoology",
@@ -333,7 +333,7 @@ export const DATA = {
             }
         },
         {
-            "title": "Minions",
+            "title": "minions",
             "banner": "software/minions/minions_banner_small.png",
             "description": "Minions provides communication protocols for on-device and cloud language models to collaborate.",
             "github": "https://github.com/HazyResearch/minions",
@@ -346,7 +346,7 @@ export const DATA = {
             }
         },
         {
-            "title": "Based",
+            "title": "based",
             "banner": "software/based/based_banner.png",
             "description": "Training and evaluation for training simple, linear attention variants.",
             "github": "https://github.com/HazyResearch/minions",

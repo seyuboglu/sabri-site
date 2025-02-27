@@ -193,21 +193,31 @@ a {
     flex-direction: row-reverse;
     margin-right: 5%;
     margin-top:15px;
-    box-shadow: 0px 0px 3px 0.2px #798397;
-    border-radius: 3px;
-    border-width: 1px;
+    box-shadow: 0.5px 0.5px 2px 0.2px #798397;
+    border-radius: 4px;
+    border-width: 0px;
     border-style: none;
     border-color: #b3b3b3;
     padding: 1.2%;
     background-color: white;
+
 }
 
 .concept-card:first-of-type {
     margin-top:5px;
 }
 
+.banner-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
 .banner-image {
-    /* height:50px; */
+    max-height: 100px;
+    max-width: 250px;
+    object-fit: contain;
 }
 
 .card-preview {
@@ -250,6 +260,14 @@ a {
     font-weight: 600;
     color: #666666;
     transition: all 0.2s ease-in-out;
+
+}
+.software-card-body-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #666666;
+    transition: all 0.2s ease-in-out;
+    font-family: monospace;
 
 }
 .card-body-title:hover{
@@ -375,18 +393,17 @@ a {
     flex-direction: column;
 }
 
-.horizontal-section .banner-image {
-    width: auto;
-    max-height: 100px;
-    max-width: 250px;
-    padding-right: 10px;
-    object-fit: contain;
-    object-position: left;
+.horizontal-section .banner-image-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-right: auto;
-    align-self: center;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.horizontal-section .banner-image {
+    max-height: 100px;
+    max-width: 250px;
+    object-fit: contain;
 }
 
 .horizontal-section .card-body-links {
