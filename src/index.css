@@ -29,13 +29,13 @@ a {
 }
 
 .navbar {
-    flex-basis: 400px;
+    flex-basis: 500px; /* Increased from 400px */
     position: sticky;
     top: 50px;
     padding-left: 75px;
     padding-right: 25px;
-    max-width:320px;
-    min-width: 320px;
+    max-width: 400px; /* Increased from 320px */
+    min-width: 360px; /* Increased from 320px */
     overflow: scroll;
     height: 90vh;
 }
@@ -46,7 +46,7 @@ a {
     border-radius: 6px;
     display: inline-block;
     box-shadow: 0px 0px 3px 0.2px #798397;
-    max-width:200px;
+    max-width: 250px;
 }
 
 .navbar-name {
@@ -637,4 +637,3 @@ a {
         padding: 0px;
     }
 }
-

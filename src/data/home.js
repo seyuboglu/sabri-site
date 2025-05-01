@@ -8,8 +8,8 @@ export const DATA = {
             ],
             "venues": [
                 {
-                    "name": "Preprint",
-                    "year": "",
+                    "name": "ICML",
+                    "year": "2025",
                     "notes": [""]
                 },
             ],
@@ -46,11 +46,6 @@ export const DATA = {
             "authors": [
                 "Sabri Eyuboglu", "Dylan Zinsley", "Jon Saad-Falcon", "Simran Arora", "Atri Rudra", "James Zou", "Christopher Ré"],
             "venues": [
-                {
-                    "name": "Working Paper",
-                    "year": "",
-                    "notes": [""]
-                },
                 {
                     "name": "ICML (Efficient Systems for Foundation Models Workshop)",
                     "year": "2024",
