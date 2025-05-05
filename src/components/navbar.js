@@ -102,7 +102,10 @@ export default class NavBar extends Component {
                             I was a machine learning researcher at <a href="https://flatiron.com/">Flatiron Health</a> for a year. 
                             Before that, I completed my undergrad and master's at Stanford, where I worked with Jure Leskovec's
                             <a href="https://cs.stanford.edu/~jure/"> SNAP Group</a> and the <a href="https://aimi.stanford.edu/">AIMI Center</a>. 
-                            I'm grateful to my many mentors along the way who helped me navigate my early days in research including (but not limited to).
+                            I'm grateful to my many mentors along the way who helped me navigate my early days in research.
+                        </p>
+                        <p>
+                            <b>Notes.</b> I serve as an advisor to <a href="https://cartesia.ai">Cartesia</a>, a startup led by labmates that is applying <a href="https://cartesia.ai/research">some of our research</a> to the problem of delivering real-time AI. 
                         </p>
                     </div>
                 </div>
