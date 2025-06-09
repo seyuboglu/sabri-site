@@ -18,7 +18,7 @@ export const DATA = {
             "manuscript": "https://arxiv.org/abs/2506.06266",
             "description": "When we put lots of text (e.g. a whole code repo) into a language model’s context, generation cost soars because of the KV cache’s size. What if we trained a smaller KV cache for our documents offline? Using a test-time training recipe called self-study, we show that this simple idea can improve throughput by 26x while maintaining quality.",
             "links": {
-                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2025-02-24-minions",
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2025-06-08-cartridges",
             }
         },
         {
