@@ -2,6 +2,26 @@
 export const DATA = {
     "research": [
         {
+            "title": "Cartridges: Lightweight and general-purpose long context representations via self-study",
+            "authors": [
+                "Sabri Eyuboglu*", "Ryan Ehrlich*", "Simran Arora*", "Neel Guha", "Dylan Zinsley", "Emily Liu", "Will Tennien", "Atri Rudra", "James Zou", "Azalia Mirhoseini", "Christopher Ré"
+            ],
+            "venues": [
+                {
+                    "name": "Preprint",
+                    "year": "2025",
+                    "notes": [""]
+                },
+            ],
+            "image": "res/domino_preview.png",
+            "github": "https://github.com/HazyResearch/cartridges",
+            "manuscript": "https://arxiv.org/abs/2506.06266",
+            "description": "When we put lots of text (e.g. a whole code repo) into a language model’s context, generation cost soars because of the KV cache’s size. What if we trained a smaller KV cache for our documents offline? Using a test-time training recipe called self-study, we show that this simple idea can improve throughput by 26x while maintaining quality.",
+            "links": {
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2025-02-24-minions",
+            }
+        },
+        {
             "title": "Minions: Cost-efficient collaboration between on-device and cloud language models",
             "authors": [
                 "Avanika Narayan*", "Dan Biderman*", "Sabri Eyuboglu*", "Avner May", "Scott Linderman", "James Zou", "Christopher Ré"
