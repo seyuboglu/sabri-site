@@ -127,20 +127,24 @@ export const DATA = {
             }
         },
         {
-            "title": "Model ChangeLists: Characterizing changes to machine learning APIs",
-            "authors": ["Sabri Eyuboglu", "Karan Goel", "Arjun Desai", "Lingjiao Chen", "Mathew Monfort", "Christopher Ré", "James Zou"],
+            "title": "Monarch Mixer: A simple sub-quadratic GEMM-based architecture",
+            "authors": [
+                "Daniel Y. Fu", "Simran Arora*", "Jessica Grogan*", "Isys Johnson*", "Sabri Eyuboglu*", "Armin W. Thomas*", "Benjamin Spector", "Michael Poli", "Atri Rudra", "Christopher Ré"   
+            ],
             "venues": [
                 {
-                    "name": "FAccT",
-                    "year": "2024",
-                    "notes": ["Oral Presentation"]
+                    "name": "NeurIPS",
+                    "year": "2023",
+                    "notes": ["Oral Presentation"], 
                 }
             ],
             "image": "res/domino_preview.png",
-            "github": "https://github.com/HazyResearch/meerkat",
-            "manuscript": "",
-            "description": "We explore how slice discovery techniques like Domino can be used to create a \"ChangeList\" comparing two machine learning models (e.g. before and after an update).",
-            "links": {}
+            "github": "https://github.com/HazyResearch/evaporate",
+            "manuscript": "https://arxiv.org/abs/2304.09433",
+            "description": "We swap out the attention and MLPs in a Transformer with fast, structured matrices that can be computed in sub-quadratic time.",
+            "links": {
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-04-12-batch",
+            }
         },
         {
             "title": "Language models enable simple systems for generating structured views of heterogeneous data lakes",
@@ -160,26 +164,22 @@ export const DATA = {
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-04-12-batch",
             }
-        },
+        },    
         {
-            "title": "Monarch Mixer: A simple sub-quadratic GEMM-based architecture",
-            "authors": [
-                "Daniel Y. Fu", "Simran Arora*", "Jessica Grogan*", "Isys Johnson*", "Sabri Eyuboglu*", "Armin W. Thomas*", "Benjamin Spector", "Michael Poli", "Atri Rudra", "Christopher Ré"   
-            ],
+            "title": "Model ChangeLists: Characterizing changes to machine learning APIs",
+            "authors": ["Sabri Eyuboglu", "Karan Goel", "Arjun Desai", "Lingjiao Chen", "Mathew Monfort", "Christopher Ré", "James Zou"],
             "venues": [
                 {
-                    "name": "NeurIPS",
-                    "year": "2023",
-                    "notes": ["Oral Presentation"], 
+                    "name": "FAccT",
+                    "year": "2024",
+                    "notes": ["Oral Presentation"]
                 }
             ],
             "image": "res/domino_preview.png",
-            "github": "https://github.com/HazyResearch/evaporate",
-            "manuscript": "https://arxiv.org/abs/2304.09433",
-            "description": "We swap out the attention and MLPs in a Transformer with fast, structured matrices that can be computed in sub-quadratic time.",
-            "links": {
-                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-04-12-batch",
-            }
+            "github": "https://github.com/HazyResearch/meerkat",
+            "manuscript": "",
+            "description": "We explore how slice discovery techniques like Domino can be used to create a \"ChangeList\" comparing two machine learning models (e.g. before and after an update).",
+            "links": {}
         },
         {
             "title": "Domino: Discovering systematic errors with cross-modal embeddings ",
@@ -324,7 +324,7 @@ export const DATA = {
             "title": "meerkat",
             "banner": "software/meerkat/meerkat_banner_small.png",
             "description": "Meerkat is an open-source Python library that helps users visualize, explore, and annotate any dataset.",
-            "github": "https://github.com/HazyResearch/meerkat/",
+            "github": "https://github.com/HazyResearch/meerkat",
             "docs": "http://cs106r.com/",
             "pypi": "meerkat-ml",
             "install": "http://meerkat.wiki/docs/start/install.html",
@@ -356,7 +356,7 @@ export const DATA = {
             "pypi": "minions",
             "install": "http://meerkat.wiki/docs/start/install.html",
             "links": {
-                "💻 GitHub":"https://github.com/HazyResearch/", 
+                "💻 GitHub":"https://github.com/HazyResearch/minions", 
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2025-02-24-minions",
             }
         },
@@ -364,13 +364,26 @@ export const DATA = {
             "title": "based",
             "banner": "software/based/based_banner.png",
             "description": "Training and evaluation for training simple, linear attention variants.",
-            "github": "https://github.com/HazyResearch/minions",
+            "github": "https://github.com/HazyResearch/based",
             "docs": "http://cs106r.com/",
             "pypi": "minions",
             "install": "http://meerkat.wiki/docs/start/install.html",
             "links": {
                 "💻 GitHub":"https://github.com/HazyResearch/based", 
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-03-03-based",
+            }
+        },
+        {
+            "title": "cartridges",
+            "banner": "software/cartridges/cartridges_banner.png",
+            "description": "Store huge contexts in tiny KV caches with a synthetic data recipe called self-study.",
+            "github": "https://github.com/HazyResearch/cartridges",
+            "docs": "http://cs106r.com/",
+            "pypi": "minions",
+            "install": "http://meerkat.wiki/docs/start/install.html",
+            "links": {
+                "💻 GitHub":"https://github.com/HazyResearch/cartridges", 
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2025-06-08-cartridges",
             }
         },
         

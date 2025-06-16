@@ -45,7 +45,7 @@ export default class ConceptCard extends React.Component {
       }
       venues_elements.push(
         <div className="card-body-venue">
-          <i>{venue.name}</i> {venue.year != "" ? ", " + venue.year : ""}  {note_tags} <br />
+          <i>{venue.name}</i>{venue.year != "" ? ", " + venue.year : ""}  {note_tags} <br />
         </div>
       )
     }

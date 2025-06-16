@@ -5,6 +5,25 @@ import ReadMore from './read_more';
 import ConceptCard from './card'
 
 export default class SoftwareCard extends ConceptCard {
+  constructor(props) {
+    super(props);
+    this.state = {
+      stars: null
+    };
+  }
+
+  componentDidMount() {
+    if (this.props.github) {
+      const repo = this.props.github.split('github.com/')[1];
+      fetch(`https://api.github.com/repos/${repo}`)
+        .then(response => response.json())
+        .then(data => {
+          this.setState({stars: data.stargazers_count});
+        })
+        .catch(error => console.error('Error fetching stars:', error));
+    }
+  }
+
   render() {
     let {
       title,
@@ -28,6 +47,16 @@ export default class SoftwareCard extends ConceptCard {
         <a href={value}>
           <div class="text-button"> 
             {key}
+          </div>
+        </a>
+      )
+    }
+
+    if (this.state.stars !== null) {
+      link_buttons.push(
+        <a href={`${github}/stargazers`}>
+          <div class="text-button">
+            ⭐ <span class="stargazers-count">{this.state.stars}</span>
           </div>
         </a>
       )
