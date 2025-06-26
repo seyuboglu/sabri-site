@@ -2,7 +2,7 @@
 export const DATA = {
     "research": [
         {
-            "title": "Cartridges: Lightweight and general-purpose long context representations via self-study",
+            "title": "Cartridges: Lightweight and general-purpose languge model memory via self-study",
             "authors": [
                 "Sabri Eyuboglu*", "Ryan Ehrlich*", "Simran Arora*", "Neel Guha", "Dylan Zinsley", "Emily Liu", "Will Tennien", "Atri Rudra", "James Zou", "Azalia Mirhoseini", "Christopher Ré"
             ],
