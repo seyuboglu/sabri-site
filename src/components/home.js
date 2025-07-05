@@ -11,29 +11,43 @@ import { DATA } from '../data/home'
 export default class HomePage extends Component {
     constructor() {
         super();
-        this.state = { data: DATA };
+        this.state = { 
+            data: DATA,
+            showAllPapers: false
+        };
+    }
+
+    togglePapersView = () => {
+        this.setState(prevState => ({
+            showAllPapers: !prevState.showAllPapers
+        }));
     }
 
     render() {
-        const { data } = this.state;
+        const { data, showAllPapers } = this.state;
         let researchCards = []
         let teachingCards = []
         let projectsCards = []
         let softwareCards = []
         console.log(data)
         if (data != null) {
-            // research 
-            for (let i = 0; i < data["research"].length; i++) {
+            // research - filter based on pinned status and showAllPapers state
+            const papersToShow = showAllPapers 
+                ? data["research"] 
+                : data["research"].filter(paper => paper.pinned === true);
+            
+            for (let i = 0; i < papersToShow.length; i++) {
                 researchCards.push(
                     <ConceptCard
-                        title={data["research"][i]['title']}
-                        authors={data["research"][i]['authors']}
-                        venues={data["research"][i]['venues']}
-                        image={data["research"][i]['image']}
-                        description={data["research"][i]['description']}
-                        github={data["research"][i]['github']}
-                        manuscript={data["research"][i]['manuscript']}
-                        links={data["research"][i]['links']}
+                        key={i}
+                        title={papersToShow[i]['title']}
+                        authors={papersToShow[i]['authors']}
+                        venues={papersToShow[i]['venues']}
+                        image={papersToShow[i]['image']}
+                        description={papersToShow[i]['description']}
+                        github={papersToShow[i]['github']}
+                        manuscript={papersToShow[i]['manuscript']}
+                        links={papersToShow[i]['links']}
                     />
                 )
             }
@@ -78,16 +92,42 @@ export default class HomePage extends Component {
             <div id="home-page">
                 <Header />
                 <div className="concept-cards">
+       
+                    <div id="research-heading" className="section-heading research-heading"> Research </div>
+                    <div className="research-controls">
+                        <div className="papers-top-toggle-container">
+                            <button 
+                                className={`papers-top-toggle-button ${!showAllPapers ? 'active' : ''}`}
+                                onClick={this.togglePapersView}
+                            >
+                                Highlights
+                            </button>
+                            <button 
+                                className={`papers-top-toggle-button ${showAllPapers ? 'active' : ''}`}
+                                onClick={this.togglePapersView}
+                            >
+                                All
+                            </button>
+                        </div>
+                        <em id="google-scholar" className='google-scholar'> For a full list of publications, please see <a href="https://scholar.google.com/citations?user=ya1egC8AAAAJ&hl=en&authuser=1&oi=ao">Google Scholar</a>. </em>
+                    </div>
+                    <div id="research-cards-wrapper">
+                        {researchCards}
+                    </div>
+                    <div className="papers-toggle-container">
+                        <button 
+                            className="papers-toggle-button"
+                            onClick={this.togglePapersView}
+                        >
+                            {showAllPapers ? '▲ Show highlights' : '▼ Show all'}
+                        </button>
+                    </div>
+
                     <div id="software-heading" className="section-heading"> Software </div>
                     <div id="software-cards-wrapper" className="horizontal-section">
                         {softwareCards}
                     </div>
 
-                    <div id="research-heading" className="section-heading research-heading"> Research </div>
-                    <em id="google-scholar" className='google-scholar'> For a full list of publications, please see <a href="https://scholar.google.com/citations?user=ya1egC8AAAAJ&hl=en&authuser=1&oi=ao">Google Scholar</a>. </em>
-                    <div id="research-cards-wrapper">
-                        {researchCards}
-                    </div>
 
 
                     {/* <div id="teaching-heading" className="section-heading"> Teaching </div>

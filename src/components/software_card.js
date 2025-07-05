@@ -45,22 +45,22 @@ export default class SoftwareCard extends ConceptCard {
     for (const [key, value] of Object.entries(links)){
       link_buttons.push(
         <a href={value}>
-          <div class="text-button"> 
+          <div className="text-button"> 
             {key}
           </div>
         </a>
       )
     }
 
-    if (this.state.stars !== null) {
-      link_buttons.push(
-        <a href={`${github}/stargazers`}>
-          <div class="text-button">
-            ⭐ <span class="stargazers-count">{this.state.stars}</span>
-          </div>
-        </a>
-      )
-    }
+    // if (this.state.stars !== null) {
+    //   link_buttons.push(
+    //     <a href={`${github}/stargazers`}>
+    //       <div className="text-button">
+    //         ⭐ <span className="stargazers-count">{this.state.stars}</span>
+    //       </div>
+    //     </a>
+    //   )
+    // }
 
     return (
       <div className="concept-card">

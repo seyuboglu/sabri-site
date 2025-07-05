@@ -19,7 +19,8 @@ export const DATA = {
             "description": "When we put lots of text (e.g. a whole code repo) into a language model’s context, generation cost soars because of the KV cache’s size. What if we trained a smaller KV cache for our documents offline? Using a test-time training recipe called self-study, we show that this simple idea can improve throughput by 26x while maintaining quality.",
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2025-06-08-cartridges",
-            }
+            },
+            "pinned": true
         },
         {
             "title": "Minions: Cost-efficient collaboration between on-device and cloud language models",
@@ -39,7 +40,8 @@ export const DATA = {
             "description": "We shift a substantial portion of LLM workloads to consumer devices by having small on-device models collaborate with frontier models in the cloud. By only reading long contexts locally, we reduce cloud costs with minimal or no quality degradation.",
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2025-02-24-minions",
-            }
+            },
+            "pinned": true
         },
         {
             "title": "Adaptive Rank Allocation: Speeding up modern transformers with RaNA adapters",
@@ -59,7 +61,8 @@ export const DATA = {
             "links": {
                 // "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-03-03-based",
                 // "🎤 ICML Talk": "https://www.youtube.com/watch?v=KCIcBnR-67s"
-            }
+            },
+            "pinned": false
         },
         {
             "title": "Towards smaller language models via layer looping",
@@ -79,7 +82,8 @@ export const DATA = {
             "links": {
                 // "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-03-03-based",
                 // "🎤 ICML Talk": "https://www.youtube.com/watch?v=KCIcBnR-67s"
-            }
+            },
+            "pinned": false
         },
         {
             "title": "Simple linear attention models balance the recall-throughput tradeoff",
@@ -104,7 +108,8 @@ export const DATA = {
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-03-03-based",
                 "🎤 ICML Talk": "https://www.youtube.com/watch?v=KCIcBnR-67s"
-            }
+            },
+            "pinned": true
         },
         {
             "title": "Zoology: Measuring and improving recall in efficient language models",
@@ -124,7 +129,8 @@ export const DATA = {
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-12-11-zoology1-analysis",
                 "🎤 ICLR Talk": "https://iclr.cc/virtual/2024/poster/18860"
-            }
+            },
+            "pinned": true
         },
         {
             "title": "Monarch Mixer: A simple sub-quadratic GEMM-based architecture",
@@ -144,7 +150,8 @@ export const DATA = {
             "description": "We swap out the attention and MLPs in a Transformer with fast, structured matrices that can be computed in sub-quadratic time.",
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-04-12-batch",
-            }
+            },
+            "pinned": false
         },
         {
             "title": "Language models enable simple systems for generating structured views of heterogeneous data lakes",
@@ -163,7 +170,8 @@ export const DATA = {
             "description": "Using LLMs to process unstructured data is expensive. We show how they can be used to generate and evalute code snippets that do the processing at a fraction of the cost.",
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2023-04-12-batch",
-            }
+            },
+            "pinned": false
         },    
         {
             "title": "Model ChangeLists: Characterizing changes to machine learning APIs",
@@ -179,7 +187,8 @@ export const DATA = {
             "github": "https://github.com/HazyResearch/meerkat",
             "manuscript": "",
             "description": "We explore how slice discovery techniques like Domino can be used to create a \"ChangeList\" comparing two machine learning models (e.g. before and after an update).",
-            "links": {}
+            "links": {},
+            "pinned": false
         },
         {
             "title": "Domino: Discovering systematic errors with cross-modal embeddings ",
@@ -196,12 +205,13 @@ export const DATA = {
             "manuscript": "https://arxiv.org/abs/2203.14960",
             "description": "We show how you can use multi-modal foundation models to discover the systematic errors made by machine learning models.",
             "links": {
-                "📘 Docs": "https://domino-slice.readthedocs.io/en/latest/",
-                "🧩 Demo": "https://hazyresearch.stanford.edu/blog/2022-04-02-domino",
+                // "📘 Docs": "https://domino-slice.readthedocs.io/en/latest/",
+                // "🧩 Demo": "https://hazyresearch.stanford.edu/blog/2022-04-02-domino",
                 "🌍 Blog post": "https://ai.stanford.edu/blog/domino/",
-                "📒 Google Colab": "https://colab.research.google.com/github/HazyResearch/domino/blob/main/examples/01_intro.ipynb",
+                // "📒 Google Colab": "https://colab.research.google.com/github/HazyResearch/domino/blob/main/examples/01_intro.ipynb",
                 "🎤 ICLR talk": "https://iclr.cc/virtual/2022/oral/6149"
-            }
+            },
+            "pinned": true
         },
         {
             "title": "DCBench: A benchmark for data-centric AI systems",
@@ -255,7 +265,8 @@ export const DATA = {
             "links": {
                 "🎤 PSB talk": "https://youtu.be/WAE3spTP9PI",
                 "🛝 Slides": "https://drive.google.com/file/d/1268p4qqwSP48MlQGtemnsenkz4iRYz18/view?usp=sharing"
-            }
+            },
+            "pinned": false
         },
         {
             "title": "Multi-task weak supervision enables anatomically-resolved abnormality detection in whole-body FDG-PET/CT",
@@ -272,8 +283,10 @@ export const DATA = {
             "manuscript": "https://www.nature.com/articles/s41467-021-22018-1",
             "description": "We train language models to read complicated radiology reports and use them to train multi-task models that can detect fine-grained abnormalities in large scans.",
             "links": {
-            }
+            },
+            "pinned": false
         },
+
     
     ],
     "teaching": [
@@ -384,6 +397,19 @@ export const DATA = {
             "links": {
                 "💻 GitHub":"https://github.com/HazyResearch/cartridges", 
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2025-06-08-cartridges",
+            }
+        },
+        {
+            "title": "tokasaurus",
+            "banner": "software/tokasaurus/toka-banner.png",
+            "description": "An LLM inference engine optimized for throughput-intensive workloads.",
+            "github": "https://github.com/ScalingIntelligence/tokasaurus",
+            "docs": "http://cs106r.com/",
+            "pypi": "minions",
+            "install": "http://meerkat.wiki/docs/start/install.html",
+            "links": {
+                "💻 GitHub":"https://github.com/ScalingIntelligence/tokasaurus", 
+                "🌍 Blog post": "https://scalingintelligence.stanford.edu/blogs/tokasaurus/",
             }
         },
         
