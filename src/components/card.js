@@ -6,6 +6,7 @@ import ReadMore from './read_more';
 export default class ConceptCard extends React.Component {
   render() {
     let {
+      id,
       title,
       authors,
       venues,
@@ -13,7 +14,8 @@ export default class ConceptCard extends React.Component {
       description,
       github,
       manuscript,
-      links
+      links,
+      highlighted
     } = this.props
 
     if (! github){
@@ -53,7 +55,7 @@ export default class ConceptCard extends React.Component {
     var meIdx = authors.findIndex(a => a.includes("Sabri Eyuboglu"))
 
     return (
-      <div className="concept-card">
+      <div className={`concept-card ${highlighted ? 'highlighted' : ''}`} id={`card-${id}`}>
         <div className="card-body">
           <a href={manuscript}>
             <div className="card-body-title">

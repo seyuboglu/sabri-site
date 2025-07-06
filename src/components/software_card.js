@@ -26,6 +26,7 @@ export default class SoftwareCard extends ConceptCard {
 
   render() {
     let {
+      id,
       title,
       banner, 
       description,
@@ -33,7 +34,8 @@ export default class SoftwareCard extends ConceptCard {
       docs,
       pypi,
       website,
-      links
+      links,
+      highlighted
     } = this.props
 
     if (! github){
@@ -63,7 +65,7 @@ export default class SoftwareCard extends ConceptCard {
     // }
 
     return (
-      <div className="concept-card">
+      <div className={`concept-card ${highlighted ? 'highlighted' : ''}`} id={`card-${id}`}>
         <div className="card-body">
           <div className="software-card-body-title">
             {title}

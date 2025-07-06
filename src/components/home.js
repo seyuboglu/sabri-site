@@ -13,7 +13,8 @@ export default class HomePage extends Component {
         super();
         this.state = { 
             data: DATA,
-            showAllPapers: false
+            showAllPapers: false,
+            highlightedCard: null
         };
     }
 
@@ -23,8 +24,17 @@ export default class HomePage extends Component {
         }));
     }
 
+    setHighlightedCard = (cardId) => {
+        this.setState({ highlightedCard: cardId });
+    }
+
+    clearHighlightedCard = () => {
+        this.setState({ highlightedCard: null });
+    }
+
+
     render() {
-        const { data, showAllPapers } = this.state;
+        const { data, showAllPapers, highlightedCard } = this.state;
         let researchCards = []
         let teachingCards = []
         let projectsCards = []
@@ -40,6 +50,7 @@ export default class HomePage extends Component {
                 researchCards.push(
                     <ConceptCard
                         key={i}
+                        id={papersToShow[i]['id']}
                         title={papersToShow[i]['title']}
                         authors={papersToShow[i]['authors']}
                         venues={papersToShow[i]['venues']}
@@ -48,6 +59,7 @@ export default class HomePage extends Component {
                         github={papersToShow[i]['github']}
                         manuscript={papersToShow[i]['manuscript']}
                         links={papersToShow[i]['links']}
+                        highlighted={highlightedCard === papersToShow[i]['id']}
                     />
                 )
             }
@@ -71,6 +83,8 @@ export default class HomePage extends Component {
             for (let i = 0; i < data["software"].length; i++) {
                 softwareCards.push(
                     <SoftwareCard
+                        key={i}
+                        id={data["software"][i]['id']}
                         title={data["software"][i]['title']}
                         banner={data["software"][i]['banner']}
                         description={data["software"][i]['description']}
@@ -79,6 +93,7 @@ export default class HomePage extends Component {
                         pypi={data["software"][i]['pypi']}
                         docs={data["software"][i]['docs']}
                         links={data["software"][i]['links']}
+                        highlighted={highlightedCard === data["software"][i]['id']}
                     />
                 )
             }
@@ -90,7 +105,13 @@ export default class HomePage extends Component {
 
         return (
             <div id="home-page">
-                <Header />
+                <Header 
+                    setHighlightedCard={this.setHighlightedCard}
+                    clearHighlightedCard={this.clearHighlightedCard}
+                    showAllPapers={showAllPapers}
+                    togglePapersView={this.togglePapersView}
+                    researchData={data.research}
+                />
                 <div className="concept-cards">
        
                     <div id="research-heading" className="section-heading research-heading"> Research </div>
@@ -100,7 +121,7 @@ export default class HomePage extends Component {
                                 className={`papers-top-toggle-button ${!showAllPapers ? 'active' : ''}`}
                                 onClick={this.togglePapersView}
                             >
-                                Highlights
+                                Selected
                             </button>
                             <button 
                                 className={`papers-top-toggle-button ${showAllPapers ? 'active' : ''}`}
@@ -109,7 +130,7 @@ export default class HomePage extends Component {
                                 All
                             </button>
                         </div>
-                        <em id="google-scholar" className='google-scholar'> For a full list of publications, please see <a href="https://scholar.google.com/citations?user=ya1egC8AAAAJ&hl=en&authuser=1&oi=ao">Google Scholar</a>. </em>
+                        <em id="google-scholar" className='google-scholar'> For the most up-to-date list of publications, please see <a href="https://scholar.google.com/citations?user=ya1egC8AAAAJ&hl=en&authuser=1&oi=ao">Google Scholar</a>. </em>
                     </div>
                     <div id="research-cards-wrapper">
                         {researchCards}
@@ -119,7 +140,7 @@ export default class HomePage extends Component {
                             className="papers-toggle-button"
                             onClick={this.togglePapersView}
                         >
-                            {showAllPapers ? '▲ Show highlights' : '▼ Show all'}
+                            {showAllPapers ? '▲ Show selected' : '▼ Show all'}
                         </button>
                     </div>
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import Citation, { resetCitationCounter } from './Citation'
 
 export default class NavBar extends Component {
     constructor() {
@@ -8,8 +9,11 @@ export default class NavBar extends Component {
     }
 
     componentDidMount() {
+        // Reset citation counter when component mounts
+        resetCitationCounter();
         window.addEventListener('scroll', this.listenToScroll)
     }
+
 
     componentWillUnmount() {
         window.removeEventListener('scroll', this.listenToScroll)
@@ -88,17 +92,18 @@ export default class NavBar extends Component {
                         </p>
                         <p>
                             Answering this question is critical for realizing more personalized, sustainable, accessible, and effective AI.   
-                            In an effort to answer it, I spend a lot of time trying to understand the internals of how language models work. 
-                            I do this by exploring the swaths of data on which they are trained and formulating simple synthetic tasks [<a href="https://arxiv.org/abs/2312.04927">1</a>,<a href="https://arxiv.org/abs/2402.18668">2</a>,<a href="https://openreview.net/pdf?id=2N3CtUdoB0">3</a>].
-                            Informed by this understanding, I spend (probably too much) time designing new architectures (<i>e.g.</i> Based) and training them from scratch [<a href="https://arxiv.org/abs/2402.18668">4</a>,<a href="https://arxiv.org/abs/2310.12109">5</a>].  
-                            I also have spent time developing LLM-systems that can efficiently process large amounts of information by combining multiple LLMs and LLM-generated code [<a href="https://arxiv.org/abs/2502.15964">6</a>,<a href="https://arxiv.org/abs/2304.09433">7</a>].
+                            In an effort to answer it, I've spent a lot of time trying to understand the internals of how language models work. 
+                            I do this by exploring the swaths of data on which they are trained and formulating simple synthetic tasks [<Citation cardId="zoology" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />,<Citation cardId="based" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />,<Citation cardId="layer-looping" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />].
+                            Informed by this understanding, I spend (probably too much) time designing new architectures (<i>e.g.</i> Based) and training them from scratch [<Citation cardId="based" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />,<Citation cardId="monarch-mixer" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />].  
+                            Most recently, I've shown how we can store memories in far more space-efficiently using test-time training [<Citation cardId="cartridges" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />].
+                            I also have spent time developing LLM-systems that can efficiently process large amounts of information by combining multiple LLMs and LLM-generated code [<Citation cardId="minions" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />,<Citation cardId="evaporate" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />].
                         </p>
                         <p>
-                            <b>Background.</b> In the early days of my PhD, I had a lot of fun developing techniques (<i>e.g.</i> Domino [<a href="https://arxiv.org/abs/2304.09433">8</a>], Mocha [<a href="https://facctconference.org/static/papers24/facct24-162.pdf">9</a>]) and tools (Meerkat [<a href="https://github.com/HazyResearch/meerkat">10</a>]) to help deep learning practitioners identify subtle failure modes of their models. 
+                            <b>Background.</b> In the early days of my PhD, I had a lot of fun developing techniques (<i>e.g.</i> Domino [<Citation cardId="domino" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />], Mocha [<Citation cardId="model-changelists" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />]) and tools (Meerkat [<Citation cardId="meerkat" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />]) to help deep learning practitioners identify subtle failure modes of their models. 
                             The big idea in this line of work was to use "foundation models" (e.g. CLIP, GPT-3), which were brand new at the time, to help analyze and wrangle unstructured validation data.
                         </p>
                         <p>
-                            Prior to my PhD, my research focused on applying machine learning in safety-critical settings like medicine and the sciences [<a href="https://www.nature.com/articles/s41467-021-22018-1">11</a>, <a href="https://cs.stanford.edu/people/sabrieyuboglu/psb-mi.pdf">12</a>]. 
+                            Prior to my PhD, my research focused on applying machine learning in safety-critical settings like medicine and the sciences [<Citation cardId="pet-ct" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />, <Citation cardId="mutual-interactors" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />]. 
                             I was a machine learning researcher at <a href="https://flatiron.com/">Flatiron Health</a> for a year. 
                             Before that, I completed my undergrad and master's at Stanford, where I worked with Jure Leskovec's
                             <a href="https://cs.stanford.edu/~jure/"> SNAP Group</a> and the <a href="https://aimi.stanford.edu/">AIMI Center</a>. 

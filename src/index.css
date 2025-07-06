@@ -200,7 +200,37 @@ a {
     border-color: #b3b3b3;
     padding: 0.6% 1.0%;
     background-color: white;
+    transition: all 0.3s ease-in-out;
+}
 
+.concept-card.highlighted {
+    box-shadow: 0px 0px 8px 3px #66c2a5;
+    transform: scale(1.02);
+    background-color: #f8fffe;
+}
+
+.citation-link {
+    color: #333996;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.citation-link:hover {
+    color: #66c2a5;
+    text-decoration: underline;
+}
+
+.citation-hidden {
+    color: #999;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.citation-hidden:hover {
+    color: #66c2a5;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .concept-card:first-of-type {

@@ -2,6 +2,7 @@
 export const DATA = {
     "research": [
         {
+            "id": "cartridges",
             "title": "Cartridges: Lightweight and general-purpose languge model memory via self-study",
             "authors": [
                 "Sabri Eyuboglu*", "Ryan Ehrlich*", "Simran Arora*", "Neel Guha", "Dylan Zinsley", "Emily Liu", "Will Tennien", "Atri Rudra", "James Zou", "Azalia Mirhoseini", "Christopher Ré"
@@ -23,6 +24,7 @@ export const DATA = {
             "pinned": true
         },
         {
+            "id": "minions",
             "title": "Minions: Cost-efficient collaboration between on-device and cloud language models",
             "authors": [
                 "Avanika Narayan*", "Dan Biderman*", "Sabri Eyuboglu*", "Avner May", "Scott Linderman", "James Zou", "Christopher Ré"
@@ -44,6 +46,7 @@ export const DATA = {
             "pinned": true
         },
         {
+            "id": "rana",
             "title": "Adaptive Rank Allocation: Speeding up modern transformers with RaNA adapters",
             "authors": [
                 "Roberto Garcia", "Jerry Liu", "Daniel Sorvisto", "Sabri Eyuboglu"],
@@ -57,14 +60,13 @@ export const DATA = {
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch",
             "manuscript": "https://openreview.net/forum?id=uAtDga3q0r",
-            "description": "One popular way to speedup LLMs is by dynamically dropping neurons from MLPs at test time. However, due to superposition, sparsity in neurons may be hard to find. Instead, we learn to drop ranks from the SVD of any linear projetion, which provides larger speedups at the same accuracy.",
+            "description": "One way to speedup LLMs is by dynamically dropping neurons from MLPs at test time. However, due to superposition, sparsity in neurons may be hard to find. Instead, we learn to drop ranks from the SVD of any linear projetion, which provides larger speedups at the same accuracy.",
             "links": {
-                // "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-03-03-based",
-                // "🎤 ICML Talk": "https://www.youtube.com/watch?v=KCIcBnR-67s"
             },
             "pinned": false
         },
         {
+            "id": "layer-looping",
             "title": "Towards smaller language models via layer looping",
             "authors": [
                 "Sabri Eyuboglu", "Dylan Zinsley", "Jon Saad-Falcon", "Simran Arora", "Atri Rudra", "James Zou", "Christopher Ré"],
@@ -80,12 +82,29 @@ export const DATA = {
             "manuscript": "https://openreview.net/pdf?id=2N3CtUdoB0",
             "description": "Can a Transformer act as an efficient data structure? We show that Transformers cannot efficiently answer complex queries over the factual knowledge in their parameters. However, two simple modifications, looped + conditional computation, improve space + time complexity!",
             "links": {
-                // "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-03-03-based",
-                // "🎤 ICML Talk": "https://www.youtube.com/watch?v=KCIcBnR-67s"
             },
             "pinned": false
         },
         {
+            "id": "jrt",
+            "title": "Just read twice: closing the recall gap for recurrent language models",
+            "authors": ["Simran Arora", "Aman Timalsina", "Aaryan Singhal", "Benjamin Spector", "Sabri Eyuboglu", "Xinyi Zhao", "Ashish Rao", "Atri Rudra", "Christopher Ré"],
+            "manuscript": "https://arxiv.org/abs/2407.05483",
+            "github": "https://github.com/HazyResearch/prefix-linear-attention",
+            "description": "We show that using a bidirectional encoder and a recurrent decoder (e.g. linear attention) can close some of the recall gap we identified in prior work (Zoology and Based). ",
+            "venues": [
+                {
+                    "name": "ICML (Efficient Systems for Foundation Models Workshop)",
+                    "year": "2024",
+                    "notes": []
+                }
+            ],
+            "links": {
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2024-07-01-jrt",
+            }
+        },
+        {
+            "id": "based",
             "title": "Simple linear attention models balance the recall-throughput tradeoff",
             "authors": [
                 "Sabri Eyuboglu*", "Simran Arora*", "Michael Zhang*", "Aman Timalsina", "Silas Alberti", "Dylan Zinsley", "James Zou", "Atri Rudra", "Christopher Ré"],
@@ -112,6 +131,7 @@ export const DATA = {
             "pinned": true
         },
         {
+            "id": "zoology",
             "title": "Zoology: Measuring and improving recall in efficient language models",
             "authors": [
                 "Simran Arora*", "Sabri Eyuboglu*", "Aman Timalsina", "Isys Johnson", "Michael Poli", "James Zou", "Atri Rudra", "Christopher Ré"],
@@ -133,6 +153,7 @@ export const DATA = {
             "pinned": true
         },
         {
+            "id": "monarch-mixer",
             "title": "Monarch Mixer: A simple sub-quadratic GEMM-based architecture",
             "authors": [
                 "Daniel Y. Fu", "Simran Arora*", "Jessica Grogan*", "Isys Johnson*", "Sabri Eyuboglu*", "Armin W. Thomas*", "Benjamin Spector", "Michael Poli", "Atri Rudra", "Christopher Ré"   
@@ -154,6 +175,7 @@ export const DATA = {
             "pinned": false
         },
         {
+            "id": "evaporate",
             "title": "Language models enable simple systems for generating structured views of heterogeneous data lakes",
             "authors": [
                 "Simran Arora", "Brandon Yang*", "Sabri Eyuboglu*", "Avanika Narayan", "Andrew Hojel", "Immanuel Trummer", "Christopher Ré"],
@@ -174,6 +196,7 @@ export const DATA = {
             "pinned": false
         },    
         {
+            "id": "model-changelists",
             "title": "Model ChangeLists: Characterizing changes to machine learning APIs",
             "authors": ["Sabri Eyuboglu", "Karan Goel", "Arjun Desai", "Lingjiao Chen", "Mathew Monfort", "Christopher Ré", "James Zou"],
             "venues": [
@@ -191,6 +214,25 @@ export const DATA = {
             "pinned": false
         },
         {
+            "id": "hapi",
+            "title": "Hapi: A large-scale longitudinal dataset of commercial ml api predictions",
+            "authors": ["Lingjiao Chen", "Zhihua Jin", "Sabri Eyuboglu", "Christopher Ré", "Matei Zaharia", "James Y. Zou"],
+            "venues": [
+                {
+                    "name": "NeurIPS",
+                    "year": "2022",
+                    "notes": ["Datasets and Benchmarks"]
+                }
+            ],
+            "image": "res/domino_preview.png",
+            "github": "https://github.com/lchen001/HAPI",
+            "manuscript": "https://arxiv.org/abs/2209.08443",
+            "description": "We collect predictions from ML-as-a-Service APIs over time and explore how they change.",
+            "links": {},
+            "pinned": false
+        },
+        {
+            "id": "domino",
             "title": "Domino: Discovering systematic errors with cross-modal embeddings ",
             "authors": ["Sabri Eyuboglu*", "Maya Varma*", "Khaled Saab*", "Jean-Benoit Delbrouck", "Christopher Lee-Messer", "Jared Dunnmon", "James Zou", "Christopher Ré"],
             "venues": [
@@ -214,6 +256,7 @@ export const DATA = {
             "pinned": true
         },
         {
+            "id": "dcbench",
             "title": "DCBench: A benchmark for data-centric AI systems",
             "authors": ["Sabri Eyuboglu*", "Bojan Karlaš*", "Christopher Ré", "Ce Zhang", "James Zou"],
             "venues": [
@@ -249,6 +292,7 @@ export const DATA = {
 
         // },
         {
+            "id": "mutual-interactors",
             "title": "Mutual interactors as a principle for the discovery of phenotypes in molecular networks",
             "authors": ["Sabri Eyuboglu*", "Marinka Zitnik*", "Jure Leskovec"],
             "venues": [
@@ -269,6 +313,7 @@ export const DATA = {
             "pinned": false
         },
         {
+            "id": "pet-ct",
             "title": "Multi-task weak supervision enables anatomically-resolved abnormality detection in whole-body FDG-PET/CT",
             "authors": ["Sabri Eyuboglu*", "Geoffrey Angus*", "Bhavik Patel", "Anuj Pareek", "Guido Davidzon", "Jin Long", "Jared Dunnmon**", "Matthew Lungren**"],
             "venues": [
@@ -334,6 +379,7 @@ export const DATA = {
     ],
     "software": [
         {
+            "id": "meerkat",
             "title": "meerkat",
             "banner": "software/meerkat/meerkat_banner_small.png",
             "description": "Meerkat is an open-source Python library that helps users visualize, explore, and annotate any dataset.",
@@ -348,6 +394,7 @@ export const DATA = {
             }
         },
         {
+            "id": "zoology-software",
             "title": "zoology",
             "banner": "software/zoology/zoology_banner_small.png",
             "description": "Zoology provides a simple playground for understanding and testing language models on synthetic tasks.",
@@ -361,6 +408,7 @@ export const DATA = {
             }
         },
         {
+            "id": "minions-software",
             "title": "minions",
             "banner": "software/minions/minions_banner_small.png",
             "description": "Minions provides communication protocols for on-device and cloud language models to collaborate.",
@@ -374,6 +422,7 @@ export const DATA = {
             }
         },
         {
+            "id": "based-software",
             "title": "based",
             "banner": "software/based/based_banner.png",
             "description": "Training and evaluation for training simple, linear attention variants.",
@@ -387,6 +436,7 @@ export const DATA = {
             }
         },
         {
+            "id": "cartridges-software",
             "title": "cartridges",
             "banner": "software/cartridges/cartridges_banner.png",
             "description": "Store huge contexts in tiny KV caches with a synthetic data recipe called self-study.",
@@ -400,6 +450,7 @@ export const DATA = {
             }
         },
         {
+            "id": "tokasaurus",
             "title": "tokasaurus",
             "banner": "software/tokasaurus/toka-banner.png",
             "description": "An LLM inference engine optimized for throughput-intensive workloads.",
