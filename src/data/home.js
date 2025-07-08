@@ -13,6 +13,11 @@ export const DATA = {
                     "year": "2025",
                     "notes": [""]
                 },
+                {
+                    "name": "ICML (Efficient Systems for Foundation Models Workshop)",
+                    "year": "2025",
+                    "notes": ["Oral Presentation"]
+                }
             ],
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch/cartridges",
@@ -453,7 +458,7 @@ export const DATA = {
             "id": "tokasaurus",
             "title": "tokasaurus",
             "banner": "software/tokasaurus/toka-banner.png",
-            "description": "An LLM inference engine optimized for throughput-intensive workloads.",
+            "description": "An LLM inference engine optimized for throughput-critical workloads (e.g. offline self-study in Cartridges).",
             "github": "https://github.com/ScalingIntelligence/tokasaurus",
             "docs": "http://cs106r.com/",
             "pypi": "minions",
