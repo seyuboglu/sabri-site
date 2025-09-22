@@ -25,6 +25,7 @@ export const DATA = {
             "description": "When we put lots of text (e.g. a whole code repo) into a language model’s context, generation cost soars because of the KV cache’s size. What if we trained a smaller KV cache for our documents offline? Using a test-time training recipe called self-study, we show that this simple idea can improve throughput by 26x while maintaining quality.",
             "links": {
                 "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2025-06-08-cartridges",
+                "🎤 ASAP Seminar": "https://youtu.be/MlFu6v3qolg?si=GDsFx1P4WVM5x4qW"
             },
             "pinned": true
         },
@@ -65,7 +66,7 @@ export const DATA = {
             "image": "res/domino_preview.png",
             "github": "https://github.com/HazyResearch",
             "manuscript": "https://openreview.net/forum?id=uAtDga3q0r",
-            "description": "One way to speedup LLMs is by dynamically dropping neurons from MLPs at test time. However, due to superposition, sparsity in neurons may be hard to find. Instead, we learn to drop ranks from the SVD of any linear projetion, which provides larger speedups at the same accuracy.",
+            "description": "One way to speedup LLMs is by dynamically dropping neurons from MLPs at test time. However, due to superposition, sparsity in neurons may be hard to find. Instead, we learn to drop ranks from the SVD of any linear projection, which provides larger speedups at the same accuracy.",
             "links": {
             },
             "pinned": false
