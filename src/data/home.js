@@ -9,8 +9,8 @@ export const DATA = {
             ],
             "venues": [
                 {
-                    "name": "Preprint",
-                    "year": "2025",
+                    "name": "ICLR",
+                    "year": "2026",
                     "notes": [""]
                 },
                 {
