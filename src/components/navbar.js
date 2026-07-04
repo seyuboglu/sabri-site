@@ -80,12 +80,12 @@ export default class NavBar extends Component {
                 <div className="navbar-about">
                     <div className="text-section">
                         <p>
-                            <b>About.</b> I'm a CS PhD Student in the <a href="http://ml.stanford.edu">Stanford Machine Learning Group</a> advised
+                            <b>About.</b> I'm co-founder and CTO of <a href="https://engram.com">Engram</a>. 
+                            Prior to that, I completed my PhD in the <a href="http://ml.stanford.edu">Stanford Machine Learning Group</a> advised
                             by <a href="https://cs.stanford.edu/people/chrismre/">Chris Ré</a> and <a href="https://www.james-zou.com/">James Zou</a>. 
-                            I am supported by the <a href="https://www.nsfgrfp.org/"> National Science Foundation GRFP </a>.
                         </p>
                         <p>
-                            <b>Research Interests.</b> I'm currently working on improving LLM <i>memory</i>, the ability of a model to store and recall large amounts of user-provided information. 
+                            <b>Research Interests.</b> My <a href="https://purl.stanford.edu/ps366qr9397">PhD research</a> focused on improving LLM <i>memory</i>, the ability of a model to store and recall large amounts of user-provided information. 
                             In particular, I'm interested in the tradeoff between cost (<i>e.g.</i> memory consumption, decoding latency and throughput) and quality. 
                              <i> How should we balance this tradeoff as we scale up the amount of information we want to remember?</i> 
                             
@@ -103,7 +103,7 @@ export default class NavBar extends Component {
                             The big idea in this line of work was to use "foundation models" (e.g. CLIP, GPT-3), which were brand new at the time, to help analyze and wrangle unstructured validation data.
                         </p>
                         <p>
-                            Prior to my PhD, my research focused on applying machine learning in safety-critical settings like medicine and the sciences [<Citation cardId="pet-ct" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />, <Citation cardId="mutual-interactors" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />]. 
+                            Prior to my PhD, my research focused on applying machine learning to medicine and the sciences [<Citation cardId="pet-ct" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />, <Citation cardId="mutual-interactors" onHover={this.props.setHighlightedCard} onLeave={this.props.clearHighlightedCard} showAllPapers={this.props.showAllPapers} togglePapersView={this.props.togglePapersView} researchData={this.props.researchData} />]. 
                             I was a machine learning researcher at <a href="https://flatiron.com/">Flatiron Health</a> for a year. 
                             Before that, I completed my undergrad and master's at Stanford, where I worked with Jure Leskovec's
                             <a href="https://cs.stanford.edu/~jure/"> SNAP Group</a> and the <a href="https://aimi.stanford.edu/">AIMI Center</a>. 
