@@ -2,6 +2,27 @@
 export const DATA = {
     "research": [
         {
+            "id": "mlps-are-hebbians",
+            "title": "MLPs are Hebbians: Constructing Efficient Fact-Storing MLPs for Transformers",
+            "authors": [
+                "Roberto Garcia*", "Jerry Liu*", "Ronny Junkins*", "Sabri Eyuboglu", "Atri Rudra", "Christopher Ré"
+            ],
+            "venues": [
+                {
+                    "name": "COLM",
+                    "year": "2026",
+                    "notes": []
+                }
+            ],
+            "github": "https://github.com/HazyResearch/hebbian-mlps",
+            "manuscript": "https://arxiv.org/abs/2607.10034",
+            "description": "Can we build factual knowledge into a Transformer without training? We construct MLPs as Hebbian memories that store facts at an information-theoretically optimal rate under isotropic embeddings. These MLPs work inside Transformer blocks and enable fact editing by swapping in a new MLP, without retraining.",
+            "links": {
+                "🌍 Blog post": "https://hazyresearch.stanford.edu/blog/2026-07-22-mlps-are-hebbians"
+            },
+            "pinned": false
+        },
+        {
             "id": "cartridges",
             "title": "Cartridges: Lightweight and general-purpose languge model memory via self-study",
             "authors": [
@@ -89,7 +110,7 @@ export const DATA = {
             "description": "Can a Transformer act as an efficient data structure? We show that Transformers cannot efficiently answer complex queries over the factual knowledge in their parameters. However, two simple modifications, looped + conditional computation, improve space + time complexity!",
             "links": {
             },
-            "pinned": false
+            "pinned": true
         },
         {
             "id": "jrt",

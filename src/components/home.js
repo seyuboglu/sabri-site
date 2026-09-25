@@ -4,7 +4,6 @@ import ConceptCard from './card'
 import TeachingCard from './teaching_card'
 import SoftwareCard from './software_card'
 import Header from './header'
-import Footer from './footer'
 import { DATA } from '../data/home'
 
 
@@ -155,7 +154,6 @@ export default class HomePage extends Component {
                     <div id="teaching-cards-wrapper">
                         {teachingCards}
                     </div> */}
-
 
                 </div>
             </div>
